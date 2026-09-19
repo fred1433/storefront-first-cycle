@@ -1,0 +1,44 @@
+You are reviewing draft copy for one product page. Work only from the material quoted below. Do not use outside knowledge of the product, the brand, the market or the publisher, and do not assume the draft is correct.
+
+Product: Grade 1 Bundle
+Page read: https://mrswordsmith.com/products/grade-1-bundle
+Market observed: United States storefront, read on 2026-09-19.
+
+MATERIAL OBSERVED ON THAT PAGE
+
+Description text: Get ready for school with our entire range of printable worksheets for Grade 1
+
+Description bullet points:
+  (none on this page)
+
+Badges shown under the product title:
+  - Digital Product
+  - Bundles
+
+Items listed on the page as included:
+  - Foolproof Sight Words
+  - Foolproof Phonics Part 2
+  - Spelling Mixed Practice Grade 1
+  - Spelling Targeted Practice Grade 1
+  - Gargantuan Grade 1 Workbook
+
+Attribute table:
+  (none on this page)
+
+DRAFT LINES
+
+1. id "grade1-format": "A digital bundle of five printable sets for Grade 1."
+2. id "grade1-contents": "Includes Foolproof Sight Words, Foolproof Phonics Part 2 and the Gargantuan Grade 1 Workbook."
+3. id "grade1-spelling": "Spelling practice comes in a mixed set and a targeted set."
+
+For every draft line, decide whether the material above supports it exactly as written. Check each of these:
+- identity and scope: a property of one included item presented as true of the whole set
+- strength: a possibility presented as a guarantee, or a claim strengthened beyond its source
+- decomposition: a line making several promises where the material supports only some of them
+- conditions and context: an age, a school stage, a language, a quantity or a pack content dropped, widened or altered
+- contradictions and unknowns: two passages that disagree, or a detail filled in by likelihood
+
+For each line return: its id, the exact supporting passage copied from the material (or null if none supports it), one verdict from "Supported as written", "Revise", "Unsupported", "Conflicting sources", a one sentence reason, and the wording you would require instead (or null).
+
+
+Return one JSON object with keys "lines" and "questions". Return JSON only.

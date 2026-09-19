@@ -1,0 +1,29 @@
+{
+  "draft": "card-game-bundle",
+  "read_at": "2026-09-19T13:26:30.029Z",
+  "seconds": 22,
+  "lines": [
+    {
+      "id": "cardgame-contents",
+      "supporting_passage": "Items listed on the page as included:\n  - Storyteller’s Card Game\n  - Blah Blah Blah Phonics Card Game",
+      "verdict": "Supported as written",
+      "reason": "The page lists both named card games as included in the bundle.",
+      "requested_change": null
+    },
+    {
+      "id": "cardgame-audience",
+      "supporting_passage": "Badges shown under the product title:\n  - Ages 3-12\n  - Bundles\n  - Kindergarten - 7th Grade",
+      "verdict": "Supported as written",
+      "reason": "The draft preserves both the age range and the school-stage range shown for the bundle.",
+      "requested_change": null
+    },
+    {
+      "id": "cardgame-practice",
+      "supporting_passage": "Accelerate phonics skills or develop challenging vocabulary and storytelling ability (while having fun!) with both of our card games.",
+      "verdict": "Revise",
+      "reason": "The draft converts the source’s alternative learning aims joined by “or” into an unqualified combined claim joined by “and.”",
+      "requested_change": "Practises phonics skills or challenging vocabulary and storytelling."
+    }
+  ],
+  "questions": []
+}

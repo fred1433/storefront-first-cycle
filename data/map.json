@@ -1,0 +1,666 @@
+{
+  "market": {
+    "label": "United States",
+    "code": "US",
+    "origin": "https://mrswordsmith.com",
+    "note": "Default market of the primary domain. Recorded from the content-language response header of each page read."
+  },
+  "read_on": "2026-09-19",
+  "counts": {
+    "proposal": 9,
+    "to_confirm": 2,
+    "no_change": 3
+  },
+  "items": [
+    {
+      "handle": "readiculous-readers-complete-bundle-stages-1-2-3",
+      "url": "https://mrswordsmith.com/products/readiculous-readers-complete-bundle-stages-1-2-3",
+      "title": "Readiculous Readers: Complete Bundle (Stages 1, 2 & 3)",
+      "market": "US",
+      "read_at": "2026-09-19T12:59:07.050Z",
+      "status": "proposal",
+      "rule": "block-absent-and-attributes-present",
+      "reason": "The block is absent and the page carries attributes a line can cite.",
+      "observations": {
+        "served_product_page": true,
+        "http_status": 200,
+        "rechecks": [],
+        "canonical_handle": "readiculous-readers-complete-bundle-stages-1-2-3",
+        "canonical_is_self": true,
+        "block_present": false,
+        "block_lines": [],
+        "panels": [
+          "Product Description",
+          "Shipping & Returns"
+        ],
+        "badges": [
+          {
+            "text": "Ages 4-7",
+            "kind": "age-range"
+          },
+          {
+            "text": "Bundles",
+            "kind": "topic"
+          },
+          {
+            "text": "Kindergarten - 7th Grade",
+            "kind": "other"
+          }
+        ],
+        "contents": [
+          "Readiculous Readers: Stage 1",
+          "Readiculous Readers: Stage 2",
+          "Readiculous Readers: Stage 3"
+        ],
+        "description_paragraphs": [
+          "Give your child every laugh-out-loud lesson they need to become a confident, independent reader. The Complete Readiculous Readers Bundle brings together all three stages of our laughter-led, science-backed decodable readers into one unmissable collection — taking children from first sounds to fluent, joke-cracking storytelling, all fully aligned to Systematic Synthetic Phonics teaching used in schools across the UK and US.",
+          "Learning Goals",
+          "What's Inside",
+          "How It Works",
+          "Why It Works",
+          "Specifications",
+          "Who It's For",
+          "Learning to read takes repetition — so we've made ridiculously fun the whole way through."
+        ],
+        "description_bullets": [
+          "Master phonics from first sounds right through to advanced spelling patterns, in one seamless set.",
+          "Build the decoding skills and confidence needed for the tests your child faces in school (e.g. Year 1 Phonics Screening Check).",
+          "Progress systematically from vowel digraphs and consonant blends (Stage 1), through common digraphs and early trigraphs (Stage 2), to split digraphs and advanced spelling patterns (Stage 3).",
+          "Reinforce every sound learned along the way through carefully sequenced repetition.",
+          "Turn \"I can't read that\" into \"let me at it\" with stories kids actually want to finish.",
+          "All 3 stages of Readiculous Readers — 36 expertly sequenced, fully decodable paperback books in total.",
+          "Stage 1 (12 books): introduces vowel digraphs and consonant blends.",
+          "Stage 2 (12 books): builds fluency with common digraphs (qu, th, sh, ch, igh, oa, ee) and early trigraphs (ear, air).",
+          "Stage 3 (12 books): tackles advanced spelling patterns (ay, ie, wh) and split digraphs (a-e, i-e).",
+          "Hilarious stories starring Mrs Wordsmith's much-loved cast of characters throughout.",
+          "One complete phonics journey, so there's no guessing what to buy next.",
+          "Each stage introduces new phonics patterns in context, through fully decodable words and sentences.",
+          "Previously taught sounds are revisited and reinforced throughout, so nothing is forgotten.",
+          "Stories grow gradually longer and richer across all three stages, building comprehension alongside decoding.",
+          "Children move from sounding out single words to reading whole, funny stories independently — at their own pace.",
+          "Systematic Synthetic Phonics: aligned with the Science of Reading and the phonics approach used across UK primary schools, so learning at home matches learning at school.",
+          "Built for the Phonics Screening Check: the sounds and patterns taught across all three stages map onto what children need for the Year 1 statutory check.",
+          "Confidence Building: children decode increasingly complex words independently, boosting self-esteem with every page turn.",
+          "Engaging Storytelling: funny, surprising plots (and Mrs Wordsmith's famously ridiculous characters) keep children turning pages long after bedtime should have started.",
+          "Expertly Crafted: developed with education experts to match your child's needs.",
+          "Format: 3 sets of 12 paperback readers (36 books total)",
+          "Age range: 4–7 years (Reception to Year 2)",
+          "Curriculum alignment: Systematic Synthetic Phonics",
+          "Dimensions: each box measures 14.5cm x 17.5cm",
+          "Parents wanting one complete phonics library that grows with their child.",
+          "Teachers and TAs looking for decodable readers to use across a full phonics programme.",
+          "Home educators after a structured, ready-made reading curriculum.",
+          "Grandparents and gift-givers after one big, brilliant present."
+        ],
+        "specifics": []
+      }
+    },
+    {
+      "handle": "mrs-wordsmith-gift-card",
+      "url": "https://mrswordsmith.com/products/mrs-wordsmith-gift-card",
+      "title": "Mrs Wordsmith Gift Card",
+      "market": "US",
+      "read_at": "2026-09-19T12:59:10.748Z",
+      "status": "to_confirm",
+      "rule": "no-attribute-to-cite",
+      "reason": "The page carries description prose but no attribute a line could cite: no age or format badge, no listed contents, no attribute table.",
+      "observations": {
+        "served_product_page": true,
+        "http_status": 200,
+        "rechecks": [],
+        "canonical_handle": "mrs-wordsmith-gift-card",
+        "canonical_is_self": true,
+        "block_present": false,
+        "block_lines": [],
+        "panels": [
+          "Product Description"
+        ],
+        "badges": [],
+        "contents": [],
+        "description_paragraphs": [
+          "The smartest way to gift education. Mrs Wordsmith Gift Cards let families choose from engaging resources designed to boost literacy every day.",
+          "Whether it is encouraging a love of reading, expanding vocabulary or supporting homework, gift cards help children choose the tools that make education exciting. Perfect for birthdays, holidays or any moment worth celebrating, they open the door to progress, confidence and curiosity.",
+          "Mrs Wordsmith Gift Cards make education feel like play while building skills that last a lifetime."
+        ],
+        "description_bullets": [],
+        "specifics": []
+      }
+    },
+    {
+      "handle": "fabulous-kids-t-shirt",
+      "url": "https://mrswordsmith.com/products/fabulous-kids-t-shirt",
+      "title": "Fabulous kids t-shirt",
+      "market": "US",
+      "read_at": "2026-09-19T12:59:14.072Z",
+      "status": "no_change",
+      "rule": "block-already-present",
+      "reason": "The block is already on the page, with 3 lines.",
+      "observations": {
+        "served_product_page": true,
+        "http_status": 200,
+        "rechecks": [],
+        "canonical_handle": "fabulous-kids-t-shirt",
+        "canonical_is_self": true,
+        "block_present": true,
+        "block_lines": [
+          "100% organic ring-spun combed cotton",
+          "Medium fit",
+          "Self fabric neck tape (inside, back of the neck)"
+        ],
+        "panels": [
+          "Product Description",
+          "Shipping & Returns"
+        ],
+        "badges": [],
+        "contents": [],
+        "description_paragraphs": [
+          "Every trendsetter needs the perfect t-shirt! Our resident fashionista, Oz, thought you might like this one… a spectacular print of our leading lady, this tee is the ultimate accessory for any fabulous fashionista.",
+          "• Fabric weight: 4.57 oz/yd² (155 g/m²) • Single jersey • Set-in sleeves • 1×1 rib at collar • Narrow double-needle topstitch on the sleeves and bottom hems"
+        ],
+        "description_bullets": [],
+        "specifics": []
+      }
+    },
+    {
+      "handle": "fabulous-t-shirt",
+      "url": "https://mrswordsmith.com/products/fabulous-t-shirt",
+      "title": "Fabulous Unisex Adult t-shirt",
+      "market": "US",
+      "read_at": "2026-09-19T12:59:17.407Z",
+      "status": "no_change",
+      "rule": "block-already-present",
+      "reason": "The block is already on the page, with 3 lines.",
+      "observations": {
+        "served_product_page": true,
+        "http_status": 200,
+        "rechecks": [],
+        "canonical_handle": "fabulous-t-shirt",
+        "canonical_is_self": true,
+        "block_present": true,
+        "block_lines": [
+          "100% combed and ring-spun cotton",
+          "Regular fit",
+          "Pre-shrunk fabric"
+        ],
+        "panels": [
+          "Product Description",
+          "Shipping & Returns"
+        ],
+        "badges": [],
+        "contents": [],
+        "description_paragraphs": [
+          "Every trendsetter needs the perfect t-shirt! Our resident fashionista, Oz, thought you might like this one… a spectacular print of our leading lady, this tee is the ultimate accessory for any fabulous fashionista. • Fabric weight: 4.2 oz./yd.² (142 g/m²) • Heather colors contain polyester • Side-seamed construction • Shoulder-to-shoulder taping • Single jersey"
+        ],
+        "description_bullets": [],
+        "specifics": []
+      }
+    },
+    {
+      "handle": "storytellers-master-bundle",
+      "url": "https://mrswordsmith.com/products/storytellers-master-bundle",
+      "title": "Storyteller’s Master Bundle",
+      "market": "US",
+      "read_at": "2026-09-19T12:59:21.378Z",
+      "status": "to_confirm",
+      "rule": "page-not-served",
+      "reason": "The request for this product did not return a product page in the observed market.",
+      "observations": {
+        "served_product_page": false,
+        "http_status": 200,
+        "rechecks": [
+          {
+            "read_at": "2026-09-19T13:03:25.601Z",
+            "status": 302,
+            "location": "https://mrswordsmith.com/",
+            "content_language": null
+          },
+          {
+            "read_at": "2026-09-19T13:03:29.941Z",
+            "status": 302,
+            "location": "https://mrswordsmith.com/",
+            "content_language": null
+          }
+        ],
+        "canonical_handle": null,
+        "canonical_is_self": false,
+        "block_present": false,
+        "block_lines": [],
+        "panels": [],
+        "badges": [],
+        "contents": [],
+        "description_paragraphs": [],
+        "description_bullets": [],
+        "specifics": []
+      }
+    },
+    {
+      "handle": "how-to-write-a-story-bundle",
+      "url": "https://mrswordsmith.com/products/how-to-write-a-story-bundle",
+      "title": "How to Write a Story Bundle",
+      "market": "US",
+      "read_at": "2026-09-19T12:59:25.264Z",
+      "status": "no_change",
+      "rule": "block-already-present",
+      "reason": "The block is already on the page, with 3 lines.",
+      "observations": {
+        "served_product_page": true,
+        "http_status": 200,
+        "rechecks": [],
+        "canonical_handle": "how-to-write-a-story-bundle",
+        "canonical_is_self": true,
+        "block_present": true,
+        "block_lines": [
+          "Story Shapes section explains how to create Story Graphs – an illustrated planning framework to help kids structure their stories",
+          "Easy-to-follow mark schemes for kids to practise assessing their own work",
+          "Instant download available after purchase"
+        ],
+        "panels": [
+          "Product Description",
+          "Instructions",
+          "Shipping & Returns"
+        ],
+        "badges": [
+          {
+            "text": "Digital Product",
+            "kind": "pdf"
+          },
+          {
+            "text": "Ages 10-12",
+            "kind": "age-range"
+          },
+          {
+            "text": "Bundles",
+            "kind": "topic"
+          }
+        ],
+        "contents": [],
+        "description_paragraphs": [
+          "Discover 33 more story kits, complete with illustrations, writing prompts, targeted questions for story planning, and curated vocabulary lists. This is writing, made easy! Whatever sparks your imagination, whether it's dystopian science fiction or reimagined fairy tales or eerie detective mysteries or intrepid space missions, you'll find inspiration here.",
+          "For ages 8-10 & 10-12"
+        ],
+        "description_bullets": [],
+        "specifics": []
+      }
+    },
+    {
+      "handle": "grade-1-bundle",
+      "url": "https://mrswordsmith.com/products/grade-1-bundle",
+      "title": "Grade 1 Bundle",
+      "market": "US",
+      "read_at": "2026-09-19T12:59:30.051Z",
+      "status": "proposal",
+      "rule": "block-absent-and-attributes-present",
+      "reason": "The block is absent and the page carries attributes a line can cite.",
+      "observations": {
+        "served_product_page": true,
+        "http_status": 200,
+        "rechecks": [],
+        "canonical_handle": "grade-1-bundle",
+        "canonical_is_self": true,
+        "block_present": false,
+        "block_lines": [],
+        "panels": [
+          "Product Description",
+          "Shipping & Returns"
+        ],
+        "badges": [
+          {
+            "text": "Digital Product",
+            "kind": "pdf"
+          },
+          {
+            "text": "Bundles",
+            "kind": "topic"
+          }
+        ],
+        "contents": [
+          "Foolproof Sight Words",
+          "Foolproof Phonics Part 2",
+          "Spelling Mixed Practice Grade 1",
+          "Spelling Targeted Practice Grade 1",
+          "Gargantuan Grade 1 Workbook"
+        ],
+        "description_paragraphs": [
+          "Get ready for school with our entire range of printable worksheets for Grade 1"
+        ],
+        "description_bullets": [],
+        "specifics": []
+      }
+    },
+    {
+      "handle": "grade-5-6-bundle-1",
+      "url": "https://mrswordsmith.com/products/grade-5-6-bundle-1",
+      "title": "Grade 5-6 Bundle",
+      "market": "US",
+      "read_at": "2026-09-19T12:59:32.898Z",
+      "status": "proposal",
+      "rule": "block-absent-and-attributes-present",
+      "reason": "The block is absent and the page carries attributes a line can cite.",
+      "observations": {
+        "served_product_page": true,
+        "http_status": 200,
+        "rechecks": [],
+        "canonical_handle": "grade-5-6-bundle-1",
+        "canonical_is_self": true,
+        "block_present": false,
+        "block_lines": [],
+        "panels": [
+          "Product Description",
+          "Shipping & Returns"
+        ],
+        "badges": [
+          {
+            "text": "Digital Product",
+            "kind": "pdf"
+          },
+          {
+            "text": "Ages 10-12",
+            "kind": "age-range"
+          },
+          {
+            "text": "Bundles",
+            "kind": "topic"
+          },
+          {
+            "text": "5th Grade - 6th Grade",
+            "kind": "other"
+          }
+        ],
+        "contents": [
+          "How to Write a Story Ages 8-10",
+          "Spelling Grade 4-5 Mixed Practice",
+          "Spelling Grade 4-5 Targeted Practice"
+        ],
+        "description_paragraphs": [
+          "Get ready for school with our entire range of printable worksheets for Grade 5-6"
+        ],
+        "description_bullets": [],
+        "specifics": []
+      }
+    },
+    {
+      "handle": "epic-reader-master-bundle-1",
+      "url": "https://mrswordsmith.com/products/epic-reader-master-bundle-1",
+      "title": "Epic Reader Master Bundle",
+      "market": "US",
+      "read_at": "2026-09-19T12:59:37.333Z",
+      "status": "proposal",
+      "rule": "block-absent-and-attributes-present",
+      "reason": "The block is absent and the page carries attributes a line can cite.",
+      "observations": {
+        "served_product_page": true,
+        "http_status": 200,
+        "rechecks": [],
+        "canonical_handle": "epic-reader-master-bundle",
+        "canonical_is_self": false,
+        "block_present": false,
+        "block_lines": [],
+        "panels": [
+          "Product Description",
+          "Shipping & Returns"
+        ],
+        "badges": [
+          {
+            "text": "Ages 5-8",
+            "kind": "age-range"
+          },
+          {
+            "text": "Bundles",
+            "kind": "topic"
+          },
+          {
+            "text": "Kindergarten - 2nd Grade",
+            "kind": "other"
+          }
+        ],
+        "contents": [
+          "My Epic Life Word Book",
+          "My Epic Life Daily Word Workout",
+          "See It! Stick It! Volumes 1 & 2",
+          "See it! Stick it! - Volumes 3 & 4",
+          "Blah Blah Blah Phonics Card Game"
+        ],
+        "description_paragraphs": [
+          "Develop phonics skills, reading fluency, and early vocabulary with our full, epic range of books and games for ages 5-8."
+        ],
+        "description_bullets": [],
+        "specifics": []
+      }
+    },
+    {
+      "handle": "epic-reader-starter-bundle",
+      "url": "https://mrswordsmith.com/products/epic-reader-starter-bundle",
+      "title": "EPIC Reader Starter Bundle",
+      "market": "US",
+      "read_at": "2026-09-19T12:59:40.960Z",
+      "status": "proposal",
+      "rule": "block-absent-and-attributes-present",
+      "reason": "The block is absent and the page carries attributes a line can cite.",
+      "observations": {
+        "served_product_page": true,
+        "http_status": 200,
+        "rechecks": [],
+        "canonical_handle": "epic-reader-starter",
+        "canonical_is_self": false,
+        "block_present": false,
+        "block_lines": [],
+        "panels": [
+          "Product Description",
+          "Shipping & Returns"
+        ],
+        "badges": [
+          {
+            "text": "Ages 5-8",
+            "kind": "age-range"
+          },
+          {
+            "text": "Bundles",
+            "kind": "topic"
+          },
+          {
+            "text": "Kindergarten - 2nd Grade",
+            "kind": "other"
+          }
+        ],
+        "contents": [
+          "See It! Stick It! Volumes 1 & 2",
+          "See it! Stick it! - Volumes 3 & 4",
+          "Blah Blah Blah Phonics Card Game"
+        ],
+        "description_paragraphs": [
+          "The epic way to accelerate phonics skills and learn sight words - four volumes of our sticker books, and our bestselling phonics card game!"
+        ],
+        "description_bullets": [],
+        "specifics": []
+      }
+    },
+    {
+      "handle": "family-game-bundle",
+      "url": "https://mrswordsmith.com/products/family-game-bundle",
+      "title": "Family Game Bundle",
+      "market": "US",
+      "read_at": "2026-09-19T12:59:44.049Z",
+      "status": "proposal",
+      "rule": "block-absent-and-attributes-present",
+      "reason": "The block is absent and the page carries attributes a line can cite.",
+      "observations": {
+        "served_product_page": true,
+        "http_status": 200,
+        "rechecks": [],
+        "canonical_handle": "card-game-bundle",
+        "canonical_is_self": false,
+        "block_present": false,
+        "block_lines": [],
+        "panels": [
+          "Product Description",
+          "Shipping & Returns"
+        ],
+        "badges": [
+          {
+            "text": "Ages 3-12",
+            "kind": "age-range"
+          },
+          {
+            "text": "Bundles",
+            "kind": "topic"
+          },
+          {
+            "text": "Kindergarten - 7th Grade",
+            "kind": "other"
+          }
+        ],
+        "contents": [
+          "Storyteller’s Card Game",
+          "Blah Blah Blah Phonics Card Game"
+        ],
+        "description_paragraphs": [
+          "Accelerate phonics skills or develop challenging vocabulary and storytelling ability (while having fun!) with both of our card games."
+        ],
+        "description_bullets": [],
+        "specifics": []
+      }
+    },
+    {
+      "handle": "card-game-bundle",
+      "url": "https://mrswordsmith.com/products/card-game-bundle",
+      "title": "Family Game Bundle",
+      "market": "US",
+      "read_at": "2026-09-19T12:59:47.412Z",
+      "status": "proposal",
+      "rule": "block-absent-and-attributes-present",
+      "reason": "The block is absent and the page carries attributes a line can cite.",
+      "observations": {
+        "served_product_page": true,
+        "http_status": 200,
+        "rechecks": [],
+        "canonical_handle": "card-game-bundle",
+        "canonical_is_self": true,
+        "block_present": false,
+        "block_lines": [],
+        "panels": [
+          "Product Description",
+          "Shipping & Returns"
+        ],
+        "badges": [
+          {
+            "text": "Ages 3-12",
+            "kind": "age-range"
+          },
+          {
+            "text": "Bundles",
+            "kind": "topic"
+          },
+          {
+            "text": "Kindergarten - 7th Grade",
+            "kind": "other"
+          }
+        ],
+        "contents": [
+          "Storyteller’s Card Game",
+          "Blah Blah Blah Phonics Card Game"
+        ],
+        "description_paragraphs": [
+          "Accelerate phonics skills or develop challenging vocabulary and storytelling ability (while having fun!) with both of our card games."
+        ],
+        "description_bullets": [],
+        "specifics": []
+      }
+    },
+    {
+      "handle": "epic-reader-starter",
+      "url": "https://mrswordsmith.com/products/epic-reader-starter",
+      "title": "EPIC Reader Starter Bundle",
+      "market": "US",
+      "read_at": "2026-09-19T12:59:51.164Z",
+      "status": "proposal",
+      "rule": "block-absent-and-attributes-present",
+      "reason": "The block is absent and the page carries attributes a line can cite.",
+      "observations": {
+        "served_product_page": true,
+        "http_status": 200,
+        "rechecks": [],
+        "canonical_handle": "epic-reader-starter",
+        "canonical_is_self": true,
+        "block_present": false,
+        "block_lines": [],
+        "panels": [
+          "Product Description",
+          "Shipping & Returns"
+        ],
+        "badges": [
+          {
+            "text": "Ages 5-8",
+            "kind": "age-range"
+          },
+          {
+            "text": "Bundles",
+            "kind": "topic"
+          },
+          {
+            "text": "Kindergarten - 2nd Grade",
+            "kind": "other"
+          }
+        ],
+        "contents": [
+          "See It! Stick It! Volumes 1 & 2",
+          "See it! Stick it! - Volumes 3 & 4",
+          "Blah Blah Blah Phonics Card Game"
+        ],
+        "description_paragraphs": [
+          "The epic way to accelerate phonics skills and learn sight words - four volumes of our sticker books, and our bestselling phonics card game!"
+        ],
+        "description_bullets": [],
+        "specifics": []
+      }
+    },
+    {
+      "handle": "epic-reader-master-bundle",
+      "url": "https://mrswordsmith.com/products/epic-reader-master-bundle",
+      "title": "Epic Reader Master Bundle",
+      "market": "US",
+      "read_at": "2026-09-19T12:59:54.567Z",
+      "status": "proposal",
+      "rule": "block-absent-and-attributes-present",
+      "reason": "The block is absent and the page carries attributes a line can cite.",
+      "observations": {
+        "served_product_page": true,
+        "http_status": 200,
+        "rechecks": [],
+        "canonical_handle": "epic-reader-master-bundle",
+        "canonical_is_self": true,
+        "block_present": false,
+        "block_lines": [],
+        "panels": [
+          "Product Description",
+          "Shipping & Returns"
+        ],
+        "badges": [
+          {
+            "text": "Ages 5-8",
+            "kind": "age-range"
+          },
+          {
+            "text": "Bundles",
+            "kind": "topic"
+          },
+          {
+            "text": "Kindergarten - 2nd Grade",
+            "kind": "other"
+          }
+        ],
+        "contents": [
+          "My Epic Life Word Book",
+          "My Epic Life Daily Word Workout",
+          "See It! Stick It! Volumes 1 & 2",
+          "See it! Stick it! - Volumes 3 & 4",
+          "Blah Blah Blah Phonics Card Game"
+        ],
+        "description_paragraphs": [
+          "Develop phonics skills, reading fluency, and early vocabulary with our full, epic range of books and games for ages 5-8."
+        ],
+        "description_bullets": [],
+        "specifics": []
+      }
+    }
+  ]
+}

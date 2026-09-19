@@ -1,0 +1,69 @@
+{
+  "handle": "storytellers-bundle",
+  "url": "https://mrswordsmith.com/products/storytellers-bundle",
+  "role": "reference",
+  "market": "US",
+  "fetched_at": "2026-09-19T13:00:09.261Z",
+  "http_status": 200,
+  "final_url": "https://mrswordsmith.com/products/storytellers-bundle",
+  "content_language": "en-US",
+  "reachable": true,
+  "title": "Vocabulary books bundle for ages 7 - 11 | Mrs Wordsmith",
+  "canonical": "https://mrswordsmith.com/products/storytellers-bundle",
+  "meta_description": "Let your child’s storytelling skills soar with Storyteller’s Starter Bundle! Storyteller’s Word a Day and Storyteller’s Illustrated Dictionary. Ages 7, 8 ,9 ,10 ,11.",
+  "heading": "Storyteller’s Starter Bundle",
+  "highlights": {
+    "present": true,
+    "count": 4,
+    "messages": [
+      "Bundle contains two of our bestselling products from the Storyteller's range",
+      "Storyteller's Word a Day and Storyteller's Illustrated Dictionary are perfect for kids aged 8-12",
+      "Winners of a Tillywig Toy Award, Parent's Choice Award, and Mom's Choice Award",
+      "Includes over a thousand words between both products"
+    ]
+  },
+  "description": {
+    "present": true,
+    "html": "<p> </p>\n<p><span style=\"font-weight: 400;\">Boost kids’ creative writing skills, reading confidence, and build vocabulary with our two multi-award-winning books for ages 8-12.</span></p>\n<p><br></p>",
+    "text": "Boost kids’ creative writing skills, reading confidence, and build vocabulary with our two multi-award-winning books for ages 8-12.",
+    "bullets": [],
+    "paragraphs": [
+      "Boost kids’ creative writing skills, reading confidence, and build vocabulary with our two multi-award-winning books for ages 8-12."
+    ]
+  },
+  "specifics": [],
+  "panels": [
+    "Product Description",
+    "Shipping & Returns"
+  ],
+  "badges": [
+    {
+      "text": "Ages 8-12",
+      "kind": "age-range"
+    },
+    {
+      "text": "Bundles",
+      "kind": "topic"
+    },
+    {
+      "text": "3rd Grade - 6th Grade",
+      "kind": "other"
+    }
+  ],
+  "bundle_components": [
+    "Storyteller's Illustrated Dictionary",
+    "Storyteller’s Word a Day (US Edition)"
+  ],
+  "is_404": false,
+  "served_product_page": true,
+  "canonical_handle": "storytellers-bundle",
+  "canonical_is_self": true,
+  "raw_sha256": "8c41d8cd5a5f09601e195f985c8837c06fd850cc245299d9b5b3fd3e11c96b39",
+  "feed": {
+    "title": "Storyteller’s Starter Bundle",
+    "product_type": "Bundles",
+    "image_count": 7,
+    "variant_count": 1,
+    "carries_selection_tag": false
+  }
+}

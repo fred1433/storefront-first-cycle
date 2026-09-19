@@ -1,0 +1,28 @@
+{
+  "draft": "grade-5-6-bundle-1",
+  "read_at": "2026-09-19T13:25:28.180Z",
+  "seconds": 20,
+  "lines": [
+    {
+      "id": "grade56-format",
+      "supporting_passage": "Digital Product\nGet ready for school with our entire range of printable worksheets for Grade 5-6\nHow to Write a Story Ages 8-10\nSpelling Grade 4-5 Mixed Practice\nSpelling Grade 4-5 Targeted Practice",
+      "verdict": "Supported as written",
+      "reason": "The digital badge, printable-worksheets description and three listed items support the format and quantity.",
+      "requested_change": null
+    },
+    {
+      "id": "grade56-contents",
+      "supporting_passage": "How to Write a Story Ages 8-10\nSpelling Grade 4-5 Mixed Practice\nSpelling Grade 4-5 Targeted Practice",
+      "verdict": "Revise",
+      "reason": "The line identifies the activities but drops the included items’ age and grade qualifiers, which differ from the bundle’s labels.",
+      "requested_change": "Includes How to Write a Story Ages 8-10, Spelling Grade 4-5 Mixed Practice and Spelling Grade 4-5 Targeted Practice."
+    }
+  ],
+  "questions": [
+    {
+      "id": "grade56-school-year",
+      "answer": "conflict",
+      "reason": "The bundle’s badges and description specify ages 10–12 and Grades 5–6, while the listed contents specify ages 8–10 and Grades 4–5; the page does not explain these differing audience labels."
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "handle": "mrs-wordsmith-gift-card",
+  "url": "https://mrswordsmith.com/products/mrs-wordsmith-gift-card",
+  "role": "batch",
+  "market": "US",
+  "fetched_at": "2026-09-19T12:59:10.748Z",
+  "http_status": 200,
+  "final_url": "https://mrswordsmith.com/products/mrs-wordsmith-gift-card",
+  "content_language": "en-US",
+  "reachable": true,
+  "title": "Gift Mrs Wordsmith Gift Card - Perfect for Any Occasion",
+  "canonical": "https://mrswordsmith.com/products/mrs-wordsmith-gift-card",
+  "meta_description": "Discover the Mrs Wordsmith gift card, perfect for inspiring young readers and writers. Encourage creativity with this thoughtful gift!",
+  "heading": "Mrs Wordsmith Gift Card",
+  "highlights": {
+    "present": false,
+    "count": 0,
+    "messages": []
+  },
+  "description": {
+    "present": true,
+    "html": "<div class=\"ql-block\" data-block-id=\"block-aa6ea112-09dd-4c99-83b1-754553ef3f78\">The smartest way to gift education. Mrs Wordsmith Gift Cards let families choose from engaging resources designed to boost literacy every day.</div>\n<div class=\"ql-block\" data-block-id=\"block-2be2a8be-32c2-4417-af6d-0f79480c8989\">Whether it is encouraging a love of reading, expanding vocabulary or supporting homework, gift cards help children choose the tools that make education exciting. Perfect for birthdays, holidays or any moment worth celebrating, they open the door to progress, confidence and curiosity.</div>\n<div class=\"ql-block\" data-block-id=\"block-67f44357-788f-40d8-be2f-a4b1a15a3501\">Mrs Wordsmith Gift Cards make education feel like play while building skills that last a lifetime.</div>",
+    "text": "The smartest way to gift education. Mrs Wordsmith Gift Cards let families choose from engaging resources designed to boost literacy every day. Whether it is encouraging a love of reading, expanding vocabulary or supporting homework, gift cards help children choose the tools that make education exciting. Perfect for birthdays, holidays or any moment worth celebrating, they open the door to progress, confidence and curiosity. Mrs Wordsmith Gift Cards make education feel like play while building skills that last a lifetime.",
+    "bullets": [],
+    "paragraphs": [
+      "The smartest way to gift education. Mrs Wordsmith Gift Cards let families choose from engaging resources designed to boost literacy every day.",
+      "Whether it is encouraging a love of reading, expanding vocabulary or supporting homework, gift cards help children choose the tools that make education exciting. Perfect for birthdays, holidays or any moment worth celebrating, they open the door to progress, confidence and curiosity.",
+      "Mrs Wordsmith Gift Cards make education feel like play while building skills that last a lifetime."
+    ]
+  },
+  "specifics": [],
+  "panels": [
+    "Product Description"
+  ],
+  "badges": [],
+  "bundle_components": [],
+  "is_404": false,
+  "served_product_page": true,
+  "canonical_handle": "mrs-wordsmith-gift-card",
+  "canonical_is_self": true,
+  "raw_sha256": "db5185c9639a578a7afc50d232237460720905e2d25fa048b43ba953d0658fd2",
+  "feed": {
+    "title": "Mrs Wordsmith Gift Card",
+    "product_type": "Gift Card",
+    "image_count": 4,
+    "variant_count": 4,
+    "carries_selection_tag": true
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "lines": [
+    {
+      "id": "epicmaster-contents",
+      "supporting_passage": "- My Epic Life Word Book\n- My Epic Life Daily Word Workout\n- See It! Stick It! Volumes 1 & 2\n- See it! Stick it! - Volumes 3 & 4\n- Blah Blah Blah Phonics Card Game",
+      "verdict": "Supported as written",
+      "reason": "The line accurately summarizes all five listed inclusions without changing their scope or quantities.",
+      "requested_change": null
+    },
+    {
+      "id": "epicmaster-audience",
+      "supporting_passage": "- Ages 5-8\n- Bundles\n- Kindergarten - 2nd Grade",
+      "verdict": "Supported as written",
+      "reason": "The age range and school stages match the product badges exactly.",
+      "requested_change": null
+    },
+    {
+      "id": "epicmaster-practice",
+      "supporting_passage": "Develop phonics skills, reading fluency, and early vocabulary with our full, epic range of books and games for ages 5-8.",
+      "verdict": "Supported as written",
+      "reason": "The description attributes all three learning areas to the bundle, and “covers” does not strengthen that claim into a guaranteed outcome.",
+      "requested_change": null
+    }
+  ],
+  "questions": []
+}

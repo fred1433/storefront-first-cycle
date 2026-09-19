@@ -1,0 +1,29 @@
+{
+  "draft": "epic-reader-starter",
+  "read_at": "2026-09-19T13:26:07.936Z",
+  "seconds": 22,
+  "lines": [
+    {
+      "id": "epicstarter-contents",
+      "supporting_passage": "The epic way to accelerate phonics skills and learn sight words - four volumes of our sticker books, and our bestselling phonics card game!",
+      "verdict": "Supported as written",
+      "reason": "The description explicitly supports both the four sticker-book volumes and the included phonics card game.",
+      "requested_change": null
+    },
+    {
+      "id": "epicstarter-audience",
+      "supporting_passage": "  - Ages 5-8\n  - Bundles\n  - Kindergarten - 2nd Grade",
+      "verdict": "Supported as written",
+      "reason": "The draft preserves the age range and school stages shown in the product badges.",
+      "requested_change": null
+    },
+    {
+      "id": "epicstarter-practice",
+      "supporting_passage": "The epic way to accelerate phonics skills and learn sight words - four volumes of our sticker books, and our bestselling phonics card game!",
+      "verdict": "Supported as written",
+      "reason": "The draft paraphrases the bundle-level claims about developing phonics skills and learning sight words without strengthening them.",
+      "requested_change": null
+    }
+  ],
+  "questions": []
+}

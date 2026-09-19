@@ -1,0 +1,42 @@
+You are reviewing draft copy for one product page. Work only from the material quoted below. Do not use outside knowledge of the product, the brand, the market or the publisher, and do not assume the draft is correct.
+
+Product: Family Game Bundle
+Page read: https://mrswordsmith.com/products/card-game-bundle
+Market observed: United States storefront, read on 2026-09-19.
+
+MATERIAL OBSERVED ON THAT PAGE
+
+Description text: Accelerate phonics skills or develop challenging vocabulary and storytelling ability (while having fun!) with both of our card games.
+
+Description bullet points:
+  (none on this page)
+
+Badges shown under the product title:
+  - Ages 3-12
+  - Bundles
+  - Kindergarten - 7th Grade
+
+Items listed on the page as included:
+  - Storyteller’s Card Game
+  - Blah Blah Blah Phonics Card Game
+
+Attribute table:
+  (none on this page)
+
+DRAFT LINES
+
+1. id "cardgame-contents": "Both card games in one bundle: Storyteller’s Card Game and Blah Blah Blah Phonics Card Game."
+2. id "cardgame-audience": "For ages 3 to 12, Kindergarten to 7th Grade."
+3. id "cardgame-practice": "Practises phonics skills, vocabulary and storytelling."
+
+For every draft line, decide whether the material above supports it exactly as written. Check each of these:
+- identity and scope: a property of one included item presented as true of the whole set
+- strength: a possibility presented as a guarantee, or a claim strengthened beyond its source
+- decomposition: a line making several promises where the material supports only some of them
+- conditions and context: an age, a school stage, a language, a quantity or a pack content dropped, widened or altered
+- contradictions and unknowns: two passages that disagree, or a detail filled in by likelihood
+
+For each line return: its id, the exact supporting passage copied from the material (or null if none supports it), one verdict from "Supported as written", "Revise", "Unsupported", "Conflicting sources", a one sentence reason, and the wording you would require instead (or null).
+
+
+Return one JSON object with keys "lines" and "questions". Return JSON only.

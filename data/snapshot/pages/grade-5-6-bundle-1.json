@@ -1,0 +1,69 @@
+{
+  "handle": "grade-5-6-bundle-1",
+  "url": "https://mrswordsmith.com/products/grade-5-6-bundle-1",
+  "role": "batch",
+  "market": "US",
+  "fetched_at": "2026-09-19T12:59:32.898Z",
+  "http_status": 200,
+  "final_url": "https://mrswordsmith.com/products/grade-5-6-bundle-1",
+  "content_language": "en-US",
+  "reachable": true,
+  "title": "Grade 5-6 Bundle: Essential Resources for Learning Success",
+  "canonical": "https://mrswordsmith.com/products/grade-5-6-bundle-1",
+  "meta_description": "Explore our Grade 5-6 Bundle, designed to enhance learning with engaging materials, fostering academic growth while excluded from traditional limits.",
+  "heading": "Grade 5-6 Bundle",
+  "highlights": {
+    "present": false,
+    "count": 0,
+    "messages": []
+  },
+  "description": {
+    "present": true,
+    "html": "<p>Get ready for school with our entire range of printable worksheets for Grade 5-6</p>",
+    "text": "Get ready for school with our entire range of printable worksheets for Grade 5-6",
+    "bullets": [],
+    "paragraphs": [
+      "Get ready for school with our entire range of printable worksheets for Grade 5-6"
+    ]
+  },
+  "specifics": [],
+  "panels": [
+    "Product Description",
+    "Shipping & Returns"
+  ],
+  "badges": [
+    {
+      "text": "Digital Product",
+      "kind": "pdf"
+    },
+    {
+      "text": "Ages 10-12",
+      "kind": "age-range"
+    },
+    {
+      "text": "Bundles",
+      "kind": "topic"
+    },
+    {
+      "text": "5th Grade - 6th Grade",
+      "kind": "other"
+    }
+  ],
+  "bundle_components": [
+    "How to Write a Story Ages 8-10",
+    "Spelling Grade 4-5 Mixed Practice",
+    "Spelling Grade 4-5 Targeted Practice"
+  ],
+  "is_404": false,
+  "served_product_page": true,
+  "canonical_handle": "grade-5-6-bundle-1",
+  "canonical_is_self": true,
+  "raw_sha256": "2f067342398e2b48f344e20888db1fa7f72e1e2b72f1113bb2c7c82f918930de",
+  "feed": {
+    "title": "Grade 5-6 Bundle",
+    "product_type": "Bundles",
+    "image_count": 10,
+    "variant_count": 1,
+    "carries_selection_tag": true
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "handle": "word-a-day-bundle",
+  "url": "https://mrswordsmith.com/products/word-a-day-bundle",
+  "role": "reference",
+  "market": "US",
+  "fetched_at": "2026-09-19T13:00:05.708Z",
+  "http_status": 200,
+  "final_url": "https://mrswordsmith.com/",
+  "content_language": "en-US",
+  "reachable": false,
+  "title": "Mrs Wordsmith | Award-Winning Vocabulary & Reading Games for Kids",
+  "canonical": "https://mrswordsmith.com/",
+  "meta_description": "Game-based books, card games & apps that build vocabulary and reading skills for ages 5–13. Science of Reading-backed. Try free for 7 days.",
+  "heading": null,
+  "highlights": {
+    "present": false,
+    "count": 0,
+    "messages": []
+  },
+  "description": {
+    "present": false,
+    "html": "",
+    "text": "",
+    "bullets": [],
+    "paragraphs": []
+  },
+  "specifics": [],
+  "panels": [],
+  "badges": [],
+  "bundle_components": [],
+  "is_404": false,
+  "served_product_page": false,
+  "canonical_handle": null,
+  "canonical_is_self": false,
+  "raw_sha256": "6d78a79a0023a87e50c173757a1ed357712358059f2d0dcfc84fa50beb7a6acd",
+  "feed": {
+    "title": "Word a Day Bundle",
+    "product_type": "Bundles",
+    "image_count": 7,
+    "variant_count": 1,
+    "carries_selection_tag": false
+  },
+  "rechecks": [
+    {
+      "read_at": "2026-09-19T13:03:34.306Z",
+      "status": 302,
+      "location": "https://mrswordsmith.com/",
+      "content_language": null
+    },
+    {
+      "read_at": "2026-09-19T13:03:38.649Z",
+      "status": 302,
+      "location": "https://mrswordsmith.com/",
+      "content_language": null
+    }
+  ]
+}

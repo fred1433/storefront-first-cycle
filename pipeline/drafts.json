@@ -1,0 +1,213 @@
+{
+  "readiculous-readers-complete-bundle-stages-1-2-3": {
+    "claims": [
+      {
+        "id": "readiculous-contents",
+        "text": "All three stages of Readiculous Readers: 36 decodable paperback books in one set.",
+        "sources": [
+          { "field": "bullet", "quote": "36 expertly sequenced, fully decodable paperback books in total" },
+          { "field": "bullet", "quote": "Format: 3 sets of 12 paperback readers (36 books total)" }
+        ]
+      },
+      {
+        "id": "readiculous-audience",
+        "text": "For ages 4 to 7, with 12 books in each stage.",
+        "sources": [
+          { "field": "badge", "quote": "Ages 4-7" },
+          { "field": "bullet", "quote": "Age range: 4–7 years (Reception to Year 2)" },
+          { "field": "bullet", "quote": "Stage 1 (12 books): introduces vowel digraphs and consonant blends." },
+          { "field": "bullet", "quote": "Format: 3 sets of 12 paperback readers (36 books total)" }
+        ]
+      },
+      {
+        "id": "readiculous-method",
+        "text": "Each stage introduces new phonics patterns in context, and earlier sounds are revisited.",
+        "sources": [
+          {
+            "field": "bullet",
+            "quote": "Each stage introduces new phonics patterns in context, through fully decodable words and sentences."
+          },
+          {
+            "field": "bullet",
+            "quote": "Previously taught sounds are revisited and reinforced throughout, so nothing is forgotten."
+          }
+        ]
+      },
+      {
+        "id": "readiculous-school-stage",
+        "blocked": true,
+        "intended": "A line naming the school stage this set covers.",
+        "reason": "The page gives two different answers. The badge row shows an age range of 4-7 next to a grade range that runs to 7th Grade, and the specifications name school years of another country. No line about school stage is proposed until the shop confirms which applies in this market.",
+        "sources": [
+          { "field": "badge", "quote": "Ages 4-7" },
+          { "field": "badge", "quote": "Kindergarten - 7th Grade" },
+          { "field": "bullet", "quote": "Age range: 4–7 years (Reception to Year 2)" }
+        ]
+      }
+    ]
+  },
+  "grade-1-bundle": {
+    "claims": [
+      {
+        "id": "grade1-format",
+        "text": "A digital bundle of five printable sets for Grade 1.",
+        "sources": [
+          { "field": "badge", "quote": "Digital Product" },
+          { "field": "badge", "quote": "Bundles" },
+          { "field": "description", "quote": "printable worksheets for Grade 1" },
+          { "field": "contents_count", "quote": "5" }
+        ]
+      },
+      {
+        "id": "grade1-contents",
+        "text": "Includes Foolproof Sight Words, Foolproof Phonics Part 2 and the Gargantuan Grade 1 Workbook.",
+        "sources": [
+          { "field": "contents", "quote": "Foolproof Sight Words" },
+          { "field": "contents", "quote": "Foolproof Phonics Part 2" },
+          { "field": "contents", "quote": "Gargantuan Grade 1 Workbook" }
+        ]
+      },
+      {
+        "id": "grade1-spelling",
+        "text": "Spelling practice comes in a mixed set and a targeted set.",
+        "sources": [
+          { "field": "contents", "quote": "Spelling Mixed Practice Grade 1" },
+          { "field": "contents", "quote": "Spelling Targeted Practice Grade 1" }
+        ]
+      }
+    ]
+  },
+  "grade-5-6-bundle-1": {
+    "claims": [
+      {
+        "id": "grade56-format",
+        "text": "A digital bundle of three printable sets.",
+        "sources": [
+          { "field": "badge", "quote": "Digital Product" },
+          { "field": "badge", "quote": "Bundles" },
+          { "field": "description", "quote": "printable worksheets" },
+          { "field": "contents_count", "quote": "3" }
+        ]
+      },
+      {
+        "id": "grade56-contents",
+        "text": "Includes How to Write a Story and two sets of spelling practice, mixed and targeted.",
+        "sources": [
+          { "field": "contents", "quote": "How to Write a Story Ages 8-10" },
+          { "field": "contents", "quote": "Spelling Grade 4-5 Mixed Practice" },
+          { "field": "contents", "quote": "Spelling Grade 4-5 Targeted Practice" }
+        ]
+      },
+      {
+        "id": "grade56-school-year",
+        "blocked": true,
+        "intended": "A line naming the school year or the age this bundle is for.",
+        "reason": "The page gives two different answers. The badges and the description place the bundle at Grade 5-6 and ages 10-12, while the items listed on the same page are labelled ages 8-10 and Grade 4-5. No line about school year is proposed until the shop confirms which applies.",
+        "sources": [
+          { "field": "badge", "quote": "Ages 10-12" },
+          { "field": "badge", "quote": "5th Grade - 6th Grade" },
+          { "field": "description", "quote": "printable worksheets for Grade 5-6" },
+          { "field": "contents", "quote": "How to Write a Story Ages 8-10" },
+          { "field": "contents", "quote": "Spelling Grade 4-5 Mixed Practice" }
+        ]
+      }
+    ]
+  },
+  "card-game-bundle": {
+    "claims": [
+      {
+        "id": "cardgame-contents",
+        "text": "Both card games in one bundle: Storyteller’s Card Game and Blah Blah Blah Phonics Card Game.",
+        "sources": [
+          { "field": "description", "quote": "with both of our card games" },
+          { "field": "contents", "quote": "Storyteller’s Card Game" },
+          { "field": "contents", "quote": "Blah Blah Blah Phonics Card Game" }
+        ]
+      },
+      {
+        "id": "cardgame-audience",
+        "text": "For ages 3 to 12, Kindergarten to 7th Grade.",
+        "sources": [
+          { "field": "badge", "quote": "Ages 3-12" },
+          { "field": "badge", "quote": "Kindergarten - 7th Grade" }
+        ]
+      },
+      {
+        "id": "cardgame-practice",
+        "text": "Practises phonics skills, vocabulary and storytelling.",
+        "sources": [
+          {
+            "field": "description",
+            "quote": "Accelerate phonics skills or develop challenging vocabulary and storytelling ability"
+          }
+        ]
+      }
+    ]
+  },
+  "family-game-bundle": { "same_as": "card-game-bundle" },
+  "epic-reader-starter": {
+    "claims": [
+      {
+        "id": "epicstarter-contents",
+        "text": "Four volumes of the sticker books plus the phonics card game.",
+        "sources": [
+          {
+            "field": "description",
+            "quote": "four volumes of our sticker books, and our bestselling phonics card game"
+          },
+          { "field": "contents", "quote": "See It! Stick It! Volumes 1 & 2" },
+          { "field": "contents", "quote": "See it! Stick it! - Volumes 3 & 4" },
+          { "field": "contents", "quote": "Blah Blah Blah Phonics Card Game" }
+        ]
+      },
+      {
+        "id": "epicstarter-audience",
+        "text": "For ages 5 to 8, Kindergarten to 2nd Grade.",
+        "sources": [
+          { "field": "badge", "quote": "Ages 5-8" },
+          { "field": "badge", "quote": "Kindergarten - 2nd Grade" }
+        ]
+      },
+      {
+        "id": "epicstarter-practice",
+        "text": "Builds phonics skills and sight word reading.",
+        "sources": [
+          { "field": "description", "quote": "accelerate phonics skills and learn sight words" }
+        ]
+      }
+    ]
+  },
+  "epic-reader-starter-bundle": { "same_as": "epic-reader-starter" },
+  "epic-reader-master-bundle": {
+    "claims": [
+      {
+        "id": "epicmaster-contents",
+        "text": "Includes the My Epic Life books, both See It! Stick It! sets and the phonics card game.",
+        "sources": [
+          { "field": "contents", "quote": "My Epic Life Word Book" },
+          { "field": "contents", "quote": "My Epic Life Daily Word Workout" },
+          { "field": "contents", "quote": "See It! Stick It! Volumes 1 & 2" },
+          { "field": "contents", "quote": "See it! Stick it! - Volumes 3 & 4" },
+          { "field": "contents", "quote": "Blah Blah Blah Phonics Card Game" }
+        ]
+      },
+      {
+        "id": "epicmaster-audience",
+        "text": "For ages 5 to 8, Kindergarten to 2nd Grade.",
+        "sources": [
+          { "field": "badge", "quote": "Ages 5-8" },
+          { "field": "badge", "quote": "Kindergarten - 2nd Grade" },
+          { "field": "description", "quote": "for ages 5-8" }
+        ]
+      },
+      {
+        "id": "epicmaster-practice",
+        "text": "Covers phonics skills, reading fluency and early vocabulary.",
+        "sources": [
+          { "field": "description", "quote": "Develop phonics skills, reading fluency, and early vocabulary" }
+        ]
+      }
+    ]
+  },
+  "epic-reader-master-bundle-1": { "same_as": "epic-reader-master-bundle" }
+}

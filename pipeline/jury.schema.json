@@ -1,0 +1,38 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["lines", "questions"],
+  "properties": {
+    "lines": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "supporting_passage", "verdict", "reason", "requested_change"],
+        "properties": {
+          "id": { "type": "string" },
+          "supporting_passage": { "type": ["string", "null"] },
+          "verdict": {
+            "type": "string",
+            "enum": ["Supported as written", "Revise", "Unsupported", "Conflicting sources"]
+          },
+          "reason": { "type": "string" },
+          "requested_change": { "type": ["string", "null"] }
+        }
+      }
+    },
+    "questions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "answer", "reason"],
+        "properties": {
+          "id": { "type": "string" },
+          "answer": { "type": "string", "enum": ["conflict", "no conflict", "cannot tell"] },
+          "reason": { "type": "string" }
+        }
+      }
+    }
+  }
+}

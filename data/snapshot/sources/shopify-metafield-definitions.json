@@ -1,0 +1,19 @@
+{
+  "id": "shopify-metafield-definitions",
+  "publisher": "Shopify",
+  "title": "Manage metafield definitions",
+  "url": "https://shopify.dev/docs/apps/build/custom-data/metafields/definitions",
+  "published": null,
+  "read_at": "2026-09-19T13:33:03.604Z",
+  "sha256": "d5feab47437bab7f50b62396fa97ed6ece7c34d33c9df28bb7226cc0a266fc22",
+  "quotes": [
+    "Metafield definitions are schemas that specify the structure, type, and rules for metafields."
+  ],
+  "excerpts": [
+    {
+      "quote": "Metafield definitions are schemas that specify the structure, type, and rules for metafields.",
+      "context": " growth Full index Expand On this page Requirements Creating definitions Reading definitions Updating definitions Deleting definitions Access control Standard definitions Error handling Best practices TOML reference TOML limitations Next steps Manage metafield definitions Install AI Toolkit Ask about this page Copy MD Metafield definitions are schemas that specify the structure, type, and rules for metafields. Without definitions, metafields are untyped strings that can&#x27;t be edited in the Shopify admin or validated. This guide shows you how to create, read, update, and delete metafield definitions using TOML configuration or the GraphQL Admin API. Note Not sure how to structure your data? See Data modeling with metafie"
+    }
+  ],
+  "text": " growth Full index Expand On this page Requirements Creating definitions Reading definitions Updating definitions Deleting definitions Access control Standard definitions Error handling Best practices TOML reference TOML limitations Next steps Manage metafield definitions Install AI Toolkit Ask about this page Copy MD Metafield definitions are schemas that specify the structure, type, and rules for metafields. Without definitions, metafields are untyped strings that can&#x27;t be edited in the Shopify admin or validated. This guide shows you how to create, read, update, and delete metafield definitions using TOML configuration or the GraphQL Admin API. Note Not sure how to structure your data? See Data modeling with metafie"
+}

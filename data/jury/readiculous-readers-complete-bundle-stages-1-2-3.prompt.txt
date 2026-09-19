@@ -1,0 +1,76 @@
+You are reviewing draft copy for one product page. Work only from the material quoted below. Do not use outside knowledge of the product, the brand, the market or the publisher, and do not assume the draft is correct.
+
+Product: Readiculous Readers: Complete Bundle (Stages 1, 2 & 3)
+Page read: https://mrswordsmith.com/products/readiculous-readers-complete-bundle-stages-1-2-3
+Market observed: United States storefront, read on 2026-09-19.
+
+MATERIAL OBSERVED ON THAT PAGE
+
+Description text: Give your child every laugh-out-loud lesson they need to become a confident, independent reader. The Complete Readiculous Readers Bundle brings together all three stages of our laughter-led, science-backed decodable readers into one unmissable collection — taking children from first sounds to fluent, joke-cracking storytelling, all fully aligned to Systematic Synthetic Phonics teaching used in schools across the UK and US. Learning Goals Master phonics from first sounds right through to advanced spelling patterns, in one seamless set. Build the decoding skills and confidence needed for the tests your child faces in school (e.g. Year 1 Phonics Screening Check). Progress systematically from vowel digraphs and consonant blends (Stage 1), through common digraphs and early trigraphs (Stage 2), to split digraphs and advanced spelling patterns (Stage 3). Reinforce every sound learned along the way through carefully sequenced repetition. Turn "I can't read that" into "let me at it" with stories kids actually want to finish. What's Inside All 3 stages of Readiculous Readers — 36 expertly sequenced, fully decodable paperback books in total. Stage 1 (12 books): introduces vowel digraphs and consonant blends. Stage 2 (12 books): builds fluency with common digraphs (qu, th, sh, ch, igh, oa, ee) and early trigraphs (ear, air). Stage 3 (12 books): tackles advanced spelling patterns (ay, ie, wh) and split digraphs (a-e, i-e). Hilarious stories starring Mrs Wordsmith's much-loved cast of characters throughout. One complete phonics journey, so there's no guessing what to buy next. How It Works Each stage introduces new phonics patterns in context, through fully decodable words and sentences. Previously taught sounds are revisited and reinforced throughout, so nothing is forgotten. Stories grow gradually longer and richer across all three stages, building comprehension alongside decoding. Children move from sounding out single words to reading whole, funny stories independently — at their own pace. Why It Works Systematic Synthetic Phonics: aligned with the Science of Reading and the phonics approach used across UK primary schools, so learning at home matches learning at school. Built for the Phonics Screening Check: the sounds and patterns taught across all three stages map onto what children need for the Year 1 statutory check. Confidence Building: children decode increasingly complex words independently, boosting self-esteem with every page turn. Engaging Storytelling: funny, surprising plots (and Mrs Wordsmith's famously ridiculous characters) keep children turning pages long after bedtime should have started. Expertly Crafted: developed with education experts to match your child's needs. Specifications Format: 3 sets of 12 paperback readers (36 books total) Age range: 4–7 years (Reception to Year 2) Curriculum alignment: Systematic Synthetic Phonics Dimensions: each box measures 14.5cm x 17.5cm Who It's For Parents wanting one complete phonics library that grows with their child. Teachers and TAs looking for decodable readers to use across a full phonics programme. Home educators after a structured, ready-made reading curriculum. Grandparents and gift-givers after one big, brilliant present. Learning to read takes repetition — so we've made ridiculously fun the whole way through.
+
+Description bullet points:
+  - Master phonics from first sounds right through to advanced spelling patterns, in one seamless set.
+  - Build the decoding skills and confidence needed for the tests your child faces in school (e.g. Year 1 Phonics Screening Check).
+  - Progress systematically from vowel digraphs and consonant blends (Stage 1), through common digraphs and early trigraphs (Stage 2), to split digraphs and advanced spelling patterns (Stage 3).
+  - Reinforce every sound learned along the way through carefully sequenced repetition.
+  - Turn "I can't read that" into "let me at it" with stories kids actually want to finish.
+  - All 3 stages of Readiculous Readers — 36 expertly sequenced, fully decodable paperback books in total.
+  - Stage 1 (12 books): introduces vowel digraphs and consonant blends.
+  - Stage 2 (12 books): builds fluency with common digraphs (qu, th, sh, ch, igh, oa, ee) and early trigraphs (ear, air).
+  - Stage 3 (12 books): tackles advanced spelling patterns (ay, ie, wh) and split digraphs (a-e, i-e).
+  - Hilarious stories starring Mrs Wordsmith's much-loved cast of characters throughout.
+  - One complete phonics journey, so there's no guessing what to buy next.
+  - Each stage introduces new phonics patterns in context, through fully decodable words and sentences.
+  - Previously taught sounds are revisited and reinforced throughout, so nothing is forgotten.
+  - Stories grow gradually longer and richer across all three stages, building comprehension alongside decoding.
+  - Children move from sounding out single words to reading whole, funny stories independently — at their own pace.
+  - Systematic Synthetic Phonics: aligned with the Science of Reading and the phonics approach used across UK primary schools, so learning at home matches learning at school.
+  - Built for the Phonics Screening Check: the sounds and patterns taught across all three stages map onto what children need for the Year 1 statutory check.
+  - Confidence Building: children decode increasingly complex words independently, boosting self-esteem with every page turn.
+  - Engaging Storytelling: funny, surprising plots (and Mrs Wordsmith's famously ridiculous characters) keep children turning pages long after bedtime should have started.
+  - Expertly Crafted: developed with education experts to match your child's needs.
+  - Format: 3 sets of 12 paperback readers (36 books total)
+  - Age range: 4–7 years (Reception to Year 2)
+  - Curriculum alignment: Systematic Synthetic Phonics
+  - Dimensions: each box measures 14.5cm x 17.5cm
+  - Parents wanting one complete phonics library that grows with their child.
+  - Teachers and TAs looking for decodable readers to use across a full phonics programme.
+  - Home educators after a structured, ready-made reading curriculum.
+  - Grandparents and gift-givers after one big, brilliant present.
+
+Badges shown under the product title:
+  - Ages 4-7
+  - Bundles
+  - Kindergarten - 7th Grade
+
+Items listed on the page as included:
+  - Readiculous Readers: Stage 1
+  - Readiculous Readers: Stage 2
+  - Readiculous Readers: Stage 3
+
+Attribute table:
+  (none on this page)
+
+DRAFT LINES
+
+1. id "readiculous-contents": "All three stages of Readiculous Readers: 36 decodable paperback books in one set."
+2. id "readiculous-audience": "For ages 4 to 7, with 12 books in each stage."
+3. id "readiculous-method": "Each stage introduces new phonics patterns in context, and earlier sounds are revisited."
+
+For every draft line, decide whether the material above supports it exactly as written. Check each of these:
+- identity and scope: a property of one included item presented as true of the whole set
+- strength: a possibility presented as a guarantee, or a claim strengthened beyond its source
+- decomposition: a line making several promises where the material supports only some of them
+- conditions and context: an age, a school stage, a language, a quantity or a pack content dropped, widened or altered
+- contradictions and unknowns: two passages that disagree, or a detail filled in by likelihood
+
+For each line return: its id, the exact supporting passage copied from the material (or null if none supports it), one verdict from "Supported as written", "Revise", "Unsupported", "Conflicting sources", a one sentence reason, and the wording you would require instead (or null).
+
+QUESTIONS
+
+id "readiculous-school-stage": do the passages below, taken from this page, agree or disagree about the age or school stage of this product?
+  - badge: Ages 4-7
+  - badge: Kindergarten - 7th Grade
+  - bullet: Age range: 4–7 years (Reception to Year 2)
+
+Return one JSON object with keys "lines" and "questions". Return JSON only.

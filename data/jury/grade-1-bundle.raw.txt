@@ -1,0 +1,26 @@
+{
+  "lines": [
+    {
+      "id": "grade1-format",
+      "supporting_passage": "Description text: Get ready for school with our entire range of printable worksheets for Grade 1\n\nDescription bullet points:\n  (none on this page)\n\nBadges shown under the product title:\n  - Digital Product\n  - Bundles\n\nItems listed on the page as included:\n  - Foolproof Sight Words\n  - Foolproof Phonics Part 2\n  - Spelling Mixed Practice Grade 1\n  - Spelling Targeted Practice Grade 1\n  - Gargantuan Grade 1 Workbook",
+      "verdict": "Supported as written",
+      "reason": "The badges establish a digital bundle, the description establishes printable Grade 1 worksheets, and the included list contains five items.",
+      "requested_change": null
+    },
+    {
+      "id": "grade1-contents",
+      "supporting_passage": "Items listed on the page as included:\n  - Foolproof Sight Words\n  - Foolproof Phonics Part 2\n  - Spelling Mixed Practice Grade 1\n  - Spelling Targeted Practice Grade 1\n  - Gargantuan Grade 1 Workbook",
+      "verdict": "Supported as written",
+      "reason": "All three named items are listed as included, and the draft does not claim they are the only contents.",
+      "requested_change": null
+    },
+    {
+      "id": "grade1-spelling",
+      "supporting_passage": "  - Spelling Mixed Practice Grade 1\n  - Spelling Targeted Practice Grade 1",
+      "verdict": "Supported as written",
+      "reason": "The included items explicitly identify both mixed and targeted spelling practice for Grade 1.",
+      "requested_change": null
+    }
+  ],
+  "questions": []
+}

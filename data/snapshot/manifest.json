@@ -1,0 +1,197 @@
+{
+  "storefront": "https://mrswordsmith.com",
+  "market": {
+    "label": "United States",
+    "code": "US",
+    "origin": "https://mrswordsmith.com",
+    "note": "Default market of the primary domain. Recorded from the content-language response header of each page read."
+  },
+  "user_agent": "TheAIPipe-Research/1.0 (+https://theaipipe.com; contact frederic@theaipipe.com)",
+  "started_at": "2026-09-19T12:58:58.920Z",
+  "requests": [
+    {
+      "url": "https://mrswordsmith.com/robots.txt",
+      "status": 200,
+      "bytes": 3160,
+      "sha256": "b2be7291e56023aae5caca1c1e52d45d4fbd71c1368a98c9db77d4d913c006ac",
+      "read_at": "2026-09-19T12:58:58.921Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products.json?limit=250",
+      "status": 200,
+      "bytes": 1159935,
+      "sha256": "46a7e28489023ea7972bb6f0ad7287a007543ecb0bc11cb503978dfdc5d4a65c",
+      "read_at": "2026-09-19T12:59:03.808Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/readiculous-readers-complete-bundle-stages-1-2-3",
+      "status": 200,
+      "bytes": 629776,
+      "sha256": "c212b4716ac4436166e4fc5c5bfedc7630b2acb1c71b10c7568b6810e82c5f94",
+      "read_at": "2026-09-19T12:59:07.050Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/mrs-wordsmith-gift-card",
+      "status": 200,
+      "bytes": 599894,
+      "sha256": "db5185c9639a578a7afc50d232237460720905e2d25fa048b43ba953d0658fd2",
+      "read_at": "2026-09-19T12:59:10.748Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/fabulous-kids-t-shirt",
+      "status": 200,
+      "bytes": 573514,
+      "sha256": "87c22dd506d8064d11658c2c4772bbe97a7365049783d34b3a3e8b73685a711e",
+      "read_at": "2026-09-19T12:59:14.072Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/fabulous-t-shirt",
+      "status": 200,
+      "bytes": 601359,
+      "sha256": "254e28ecf5e450733b20e56bba98d860ac6272f3517d661fd8a02b87cbd25b5f",
+      "read_at": "2026-09-19T12:59:17.407Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/storytellers-master-bundle",
+      "status": 200,
+      "bytes": 722528,
+      "sha256": "9078fe0742542686c6a1d3e2218a97b63675b4af0f5f1215b626cff131c0e0e9",
+      "read_at": "2026-09-19T12:59:21.378Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/how-to-write-a-story-bundle",
+      "status": 200,
+      "bytes": 663872,
+      "sha256": "490292cfc7d60094e7a34374272b72656185e572f8767466a665c22490631453",
+      "read_at": "2026-09-19T12:59:25.264Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/grade-1-bundle",
+      "status": 200,
+      "bytes": 710922,
+      "sha256": "930ee4df6cfa5e4db884928c906fae628dcd709537da69fdec71295b12ce0f3d",
+      "read_at": "2026-09-19T12:59:30.051Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/grade-5-6-bundle-1",
+      "status": 200,
+      "bytes": 658705,
+      "sha256": "2f067342398e2b48f344e20888db1fa7f72e1e2b72f1113bb2c7c82f918930de",
+      "read_at": "2026-09-19T12:59:32.898Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/epic-reader-master-bundle-1",
+      "status": 200,
+      "bytes": 640506,
+      "sha256": "d752d9755713640e58ece8941c900702521ef435a42d79fada125eab28ff8d11",
+      "read_at": "2026-09-19T12:59:37.333Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/epic-reader-starter-bundle",
+      "status": 200,
+      "bytes": 596391,
+      "sha256": "05cc77cbd9f059476f335bbf26743960393ba37e64fd4e27f710d41ae50027aa",
+      "read_at": "2026-09-19T12:59:40.960Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/family-game-bundle",
+      "status": 200,
+      "bytes": 625615,
+      "sha256": "d9f69c30d7754a0fd5adc2ebb9a56c85060b1659789aed0d5d55ff38dd76fe8a",
+      "read_at": "2026-09-19T12:59:44.049Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/card-game-bundle",
+      "status": 200,
+      "bytes": 624442,
+      "sha256": "21154caad4150981b4dba818e193e07b2ca7e1c4bc803bc4f386415d1864ee8c",
+      "read_at": "2026-09-19T12:59:47.412Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/epic-reader-starter",
+      "status": 200,
+      "bytes": 596391,
+      "sha256": "6c1a2621c9106e442fd47104b9c338d69e67e855aefcecb34daf20251ad3a647",
+      "read_at": "2026-09-19T12:59:51.164Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/epic-reader-master-bundle",
+      "status": 200,
+      "bytes": 640506,
+      "sha256": "187509767932595e91f7df9543eb388cee94855643d5ea417e427715a990e0d0",
+      "read_at": "2026-09-19T12:59:54.567Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/see-it-stick-it",
+      "status": 200,
+      "bytes": 669744,
+      "sha256": "273b45edf4f96d2b4184434d5245296248e4b5dc6ddaa3feb70c00ba6d6258f7",
+      "read_at": "2026-09-19T12:59:58.169Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/see-it-stick-it-volumes-3-4",
+      "status": 200,
+      "bytes": 629121,
+      "sha256": "f632c1dcbdd7b2fbf82d1f39b07fb99bd946386e23f7dabdbc7414819426373b",
+      "read_at": "2026-09-19T13:00:01.417Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/word-a-day-bundle",
+      "status": 200,
+      "bytes": 722528,
+      "sha256": "6d78a79a0023a87e50c173757a1ed357712358059f2d0dcfc84fa50beb7a6acd",
+      "read_at": "2026-09-19T13:00:05.708Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/storytellers-bundle",
+      "status": 200,
+      "bytes": 625965,
+      "sha256": "8c41d8cd5a5f09601e195f985c8837c06fd850cc245299d9b5b3fd3e11c96b39",
+      "read_at": "2026-09-19T13:00:09.261Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/family-master-bundle",
+      "status": 200,
+      "bytes": 647591,
+      "sha256": "6eb267d960c4c2c4e180de3bec4928556db33aff79fbd93d73233e39ba38222d",
+      "read_at": "2026-09-19T13:00:13.573Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/the-summer-writing-workshop",
+      "status": 200,
+      "bytes": 680762,
+      "sha256": "ab78ffab83a6cc0d26619d65abb6635128310c425ce19c58d84ceb92bd20746a",
+      "read_at": "2026-09-19T13:00:17.303Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/the-early-reader-summer-challenge",
+      "status": 200,
+      "bytes": 633847,
+      "sha256": "aae880f4384f736edcb13b5dbd8482ae4a130d5560cf39fe4cfba060cee7e1f6",
+      "read_at": "2026-09-19T13:00:20.511Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/storytellers-card-game-and-how-to-write-a-story",
+      "status": 200,
+      "bytes": 629194,
+      "sha256": "b06702f75c2957a5b0e3eea0b6f5693c8065aab7e322b9ddb09f7b1dfd46c84e",
+      "read_at": "2026-09-19T13:00:24.606Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/word-wizardry-school-writing-bundle-ks1-ks2-us",
+      "status": 200,
+      "bytes": 739180,
+      "sha256": "1a689c6d94d63b5247c933a5139c16efd534d0f8255d8eaac881418a4f70da12",
+      "read_at": "2026-09-19T13:00:28.309Z"
+    },
+    {
+      "url": "https://mrswordsmith.com/products/retail-bundle-america-250-and-how-to-write-a-story-1",
+      "status": 200,
+      "bytes": 650038,
+      "sha256": "198d5aaca41e2f8e172560411bfb9dfccf118c7c9ba83aef896c5a0a209c4023",
+      "read_at": "2026-09-19T13:00:31.853Z"
+    }
+  ],
+  "finished_at": "2026-09-19T13:00:31.886Z",
+  "page_count": 24
+}

@@ -1,0 +1,765 @@
+{
+  "totals": {
+    "pages": 9,
+    "distinct_texts": 6,
+    "claims": 26,
+    "blocked": 2
+  },
+  "proposals": [
+    {
+      "handle": "readiculous-readers-complete-bundle-stages-1-2-3",
+      "title": "Readiculous Readers: Complete Bundle (Stages 1, 2 & 3)",
+      "url": "https://mrswordsmith.com/products/readiculous-readers-complete-bundle-stages-1-2-3",
+      "shared_with": null,
+      "canonical_handle": "readiculous-readers-complete-bundle-stages-1-2-3",
+      "canonical_is_self": true,
+      "claims": [
+        {
+          "id": "readiculous-contents",
+          "product": "readiculous-readers-complete-bundle-stages-1-2-3",
+          "sources": [
+            {
+              "field": "bullet",
+              "quote": "36 expertly sequenced, fully decodable paperback books in total",
+              "context": "All 3 stages of Readiculous Readers — 36 expertly sequenced, fully decodable paperback books in total.",
+              "position": 5
+            },
+            {
+              "field": "bullet",
+              "quote": "Format: 3 sets of 12 paperback readers (36 books total)",
+              "context": "Format: 3 sets of 12 paperback readers (36 books total)",
+              "position": 20
+            }
+          ],
+          "text": "All three stages of Readiculous Readers: 36 decodable paperback books in one set."
+        },
+        {
+          "id": "readiculous-audience",
+          "product": "readiculous-readers-complete-bundle-stages-1-2-3",
+          "sources": [
+            {
+              "field": "badge",
+              "quote": "Ages 4-7",
+              "context": "Ages 4-7",
+              "position": 0
+            },
+            {
+              "field": "bullet",
+              "quote": "Age range: 4–7 years (Reception to Year 2)",
+              "context": "Age range: 4–7 years (Reception to Year 2)",
+              "position": 21
+            },
+            {
+              "field": "bullet",
+              "quote": "Stage 1 (12 books): introduces vowel digraphs and consonant blends.",
+              "context": "Stage 1 (12 books): introduces vowel digraphs and consonant blends.",
+              "position": 6
+            },
+            {
+              "field": "bullet",
+              "quote": "Format: 3 sets of 12 paperback readers (36 books total)",
+              "context": "Format: 3 sets of 12 paperback readers (36 books total)",
+              "position": 20
+            }
+          ],
+          "text": "For ages 4 to 7, with 12 books in each stage."
+        },
+        {
+          "id": "readiculous-method",
+          "product": "readiculous-readers-complete-bundle-stages-1-2-3",
+          "sources": [
+            {
+              "field": "bullet",
+              "quote": "Each stage introduces new phonics patterns in context, through fully decodable words and sentences.",
+              "context": "Each stage introduces new phonics patterns in context, through fully decodable words and sentences.",
+              "position": 11
+            },
+            {
+              "field": "bullet",
+              "quote": "Previously taught sounds are revisited and reinforced throughout, so nothing is forgotten.",
+              "context": "Previously taught sounds are revisited and reinforced throughout, so nothing is forgotten.",
+              "position": 12
+            }
+          ],
+          "text": "Each stage introduces new phonics patterns in context, and earlier sounds are revisited."
+        }
+      ],
+      "blocked": [
+        {
+          "id": "readiculous-school-stage",
+          "product": "readiculous-readers-complete-bundle-stages-1-2-3",
+          "sources": [
+            {
+              "field": "badge",
+              "quote": "Ages 4-7",
+              "context": "Ages 4-7",
+              "position": 0
+            },
+            {
+              "field": "badge",
+              "quote": "Kindergarten - 7th Grade",
+              "context": "Kindergarten - 7th Grade",
+              "position": 2
+            },
+            {
+              "field": "bullet",
+              "quote": "Age range: 4–7 years (Reception to Year 2)",
+              "context": "Age range: 4–7 years (Reception to Year 2)",
+              "position": 21
+            }
+          ],
+          "intended": "A line naming the school stage this set covers.",
+          "reason": "The page gives two different answers. The badge row shows an age range of 4-7 next to a grade range that runs to 7th Grade, and the specifications name school years of another country. No line about school stage is proposed until the shop confirms which applies in this market."
+        }
+      ]
+    },
+    {
+      "handle": "grade-1-bundle",
+      "title": "Grade 1 Bundle",
+      "url": "https://mrswordsmith.com/products/grade-1-bundle",
+      "shared_with": null,
+      "canonical_handle": "grade-1-bundle",
+      "canonical_is_self": true,
+      "claims": [
+        {
+          "id": "grade1-format",
+          "product": "grade-1-bundle",
+          "sources": [
+            {
+              "field": "badge",
+              "quote": "Digital Product",
+              "context": "Digital Product",
+              "position": 0
+            },
+            {
+              "field": "badge",
+              "quote": "Bundles",
+              "context": "Bundles",
+              "position": 1
+            },
+            {
+              "field": "description",
+              "quote": "printable worksheets for Grade 1",
+              "context": "Get ready for school with our entire range of printable worksheets for Grade 1",
+              "position": 0
+            },
+            {
+              "field": "contents_count",
+              "quote": "5",
+              "context": "5",
+              "position": 0
+            }
+          ],
+          "text": "A digital bundle of five printable sets for Grade 1."
+        },
+        {
+          "id": "grade1-contents",
+          "product": "grade-1-bundle",
+          "sources": [
+            {
+              "field": "contents",
+              "quote": "Foolproof Sight Words",
+              "context": "Foolproof Sight Words",
+              "position": 0
+            },
+            {
+              "field": "contents",
+              "quote": "Foolproof Phonics Part 2",
+              "context": "Foolproof Phonics Part 2",
+              "position": 1
+            },
+            {
+              "field": "contents",
+              "quote": "Gargantuan Grade 1 Workbook",
+              "context": "Gargantuan Grade 1 Workbook",
+              "position": 4
+            }
+          ],
+          "text": "Includes Foolproof Sight Words, Foolproof Phonics Part 2 and the Gargantuan Grade 1 Workbook."
+        },
+        {
+          "id": "grade1-spelling",
+          "product": "grade-1-bundle",
+          "sources": [
+            {
+              "field": "contents",
+              "quote": "Spelling Mixed Practice Grade 1",
+              "context": "Spelling Mixed Practice Grade 1",
+              "position": 2
+            },
+            {
+              "field": "contents",
+              "quote": "Spelling Targeted Practice Grade 1",
+              "context": "Spelling Targeted Practice Grade 1",
+              "position": 3
+            }
+          ],
+          "text": "Spelling practice comes in a mixed set and a targeted set."
+        }
+      ],
+      "blocked": []
+    },
+    {
+      "handle": "grade-5-6-bundle-1",
+      "title": "Grade 5-6 Bundle",
+      "url": "https://mrswordsmith.com/products/grade-5-6-bundle-1",
+      "shared_with": null,
+      "canonical_handle": "grade-5-6-bundle-1",
+      "canonical_is_self": true,
+      "claims": [
+        {
+          "id": "grade56-format",
+          "product": "grade-5-6-bundle-1",
+          "sources": [
+            {
+              "field": "badge",
+              "quote": "Digital Product",
+              "context": "Digital Product",
+              "position": 0
+            },
+            {
+              "field": "badge",
+              "quote": "Bundles",
+              "context": "Bundles",
+              "position": 2
+            },
+            {
+              "field": "description",
+              "quote": "printable worksheets",
+              "context": "Get ready for school with our entire range of printable worksheets for Grade 5-6",
+              "position": 0
+            },
+            {
+              "field": "contents_count",
+              "quote": "3",
+              "context": "3",
+              "position": 0
+            }
+          ],
+          "text": "A digital bundle of three printable sets."
+        },
+        {
+          "id": "grade56-contents",
+          "product": "grade-5-6-bundle-1",
+          "sources": [
+            {
+              "field": "contents",
+              "quote": "How to Write a Story Ages 8-10",
+              "context": "How to Write a Story Ages 8-10",
+              "position": 0
+            },
+            {
+              "field": "contents",
+              "quote": "Spelling Grade 4-5 Mixed Practice",
+              "context": "Spelling Grade 4-5 Mixed Practice",
+              "position": 1
+            },
+            {
+              "field": "contents",
+              "quote": "Spelling Grade 4-5 Targeted Practice",
+              "context": "Spelling Grade 4-5 Targeted Practice",
+              "position": 2
+            }
+          ],
+          "text": "Includes How to Write a Story and two sets of spelling practice, mixed and targeted."
+        }
+      ],
+      "blocked": [
+        {
+          "id": "grade56-school-year",
+          "product": "grade-5-6-bundle-1",
+          "sources": [
+            {
+              "field": "badge",
+              "quote": "Ages 10-12",
+              "context": "Ages 10-12",
+              "position": 1
+            },
+            {
+              "field": "badge",
+              "quote": "5th Grade - 6th Grade",
+              "context": "5th Grade - 6th Grade",
+              "position": 3
+            },
+            {
+              "field": "description",
+              "quote": "printable worksheets for Grade 5-6",
+              "context": "Get ready for school with our entire range of printable worksheets for Grade 5-6",
+              "position": 0
+            },
+            {
+              "field": "contents",
+              "quote": "How to Write a Story Ages 8-10",
+              "context": "How to Write a Story Ages 8-10",
+              "position": 0
+            },
+            {
+              "field": "contents",
+              "quote": "Spelling Grade 4-5 Mixed Practice",
+              "context": "Spelling Grade 4-5 Mixed Practice",
+              "position": 1
+            }
+          ],
+          "intended": "A line naming the school year or the age this bundle is for.",
+          "reason": "The page gives two different answers. The badges and the description place the bundle at Grade 5-6 and ages 10-12, while the items listed on the same page are labelled ages 8-10 and Grade 4-5. No line about school year is proposed until the shop confirms which applies."
+        }
+      ]
+    },
+    {
+      "handle": "epic-reader-master-bundle-1",
+      "title": "Epic Reader Master Bundle",
+      "url": "https://mrswordsmith.com/products/epic-reader-master-bundle-1",
+      "shared_with": "epic-reader-master-bundle",
+      "canonical_handle": "epic-reader-master-bundle",
+      "canonical_is_self": false,
+      "claims": [
+        {
+          "id": "epicmaster-contents",
+          "product": "epic-reader-master-bundle-1",
+          "sources": [
+            {
+              "field": "contents",
+              "quote": "My Epic Life Word Book",
+              "context": "My Epic Life Word Book",
+              "position": 0
+            },
+            {
+              "field": "contents",
+              "quote": "My Epic Life Daily Word Workout",
+              "context": "My Epic Life Daily Word Workout",
+              "position": 1
+            },
+            {
+              "field": "contents",
+              "quote": "See It! Stick It! Volumes 1 & 2",
+              "context": "See It! Stick It! Volumes 1 & 2",
+              "position": 2
+            },
+            {
+              "field": "contents",
+              "quote": "See it! Stick it! - Volumes 3 & 4",
+              "context": "See it! Stick it! - Volumes 3 & 4",
+              "position": 3
+            },
+            {
+              "field": "contents",
+              "quote": "Blah Blah Blah Phonics Card Game",
+              "context": "Blah Blah Blah Phonics Card Game",
+              "position": 4
+            }
+          ],
+          "text": "Includes the My Epic Life books, both See It! Stick It! sets and the phonics card game."
+        },
+        {
+          "id": "epicmaster-audience",
+          "product": "epic-reader-master-bundle-1",
+          "sources": [
+            {
+              "field": "badge",
+              "quote": "Ages 5-8",
+              "context": "Ages 5-8",
+              "position": 0
+            },
+            {
+              "field": "badge",
+              "quote": "Kindergarten - 2nd Grade",
+              "context": "Kindergarten - 2nd Grade",
+              "position": 2
+            },
+            {
+              "field": "description",
+              "quote": "for ages 5-8",
+              "context": "Develop phonics skills, reading fluency, and early vocabulary with our full, epic range of books and games for ages 5-8.",
+              "position": 0
+            }
+          ],
+          "text": "For ages 5 to 8, Kindergarten to 2nd Grade."
+        },
+        {
+          "id": "epicmaster-practice",
+          "product": "epic-reader-master-bundle-1",
+          "sources": [
+            {
+              "field": "description",
+              "quote": "Develop phonics skills, reading fluency, and early vocabulary",
+              "context": "Develop phonics skills, reading fluency, and early vocabulary with our full, epic range of books and games for ages 5-8.",
+              "position": 0
+            }
+          ],
+          "text": "Covers phonics skills, reading fluency and early vocabulary."
+        }
+      ],
+      "blocked": []
+    },
+    {
+      "handle": "epic-reader-starter-bundle",
+      "title": "EPIC Reader Starter Bundle",
+      "url": "https://mrswordsmith.com/products/epic-reader-starter-bundle",
+      "shared_with": "epic-reader-starter",
+      "canonical_handle": "epic-reader-starter",
+      "canonical_is_self": false,
+      "claims": [
+        {
+          "id": "epicstarter-contents",
+          "product": "epic-reader-starter-bundle",
+          "sources": [
+            {
+              "field": "description",
+              "quote": "four volumes of our sticker books, and our bestselling phonics card game",
+              "context": "The epic way to accelerate phonics skills and learn sight words - four volumes of our sticker books, and our bestselling phonics card game!",
+              "position": 0
+            },
+            {
+              "field": "contents",
+              "quote": "See It! Stick It! Volumes 1 & 2",
+              "context": "See It! Stick It! Volumes 1 & 2",
+              "position": 0
+            },
+            {
+              "field": "contents",
+              "quote": "See it! Stick it! - Volumes 3 & 4",
+              "context": "See it! Stick it! - Volumes 3 & 4",
+              "position": 1
+            },
+            {
+              "field": "contents",
+              "quote": "Blah Blah Blah Phonics Card Game",
+              "context": "Blah Blah Blah Phonics Card Game",
+              "position": 2
+            }
+          ],
+          "text": "Four volumes of the sticker books plus the phonics card game."
+        },
+        {
+          "id": "epicstarter-audience",
+          "product": "epic-reader-starter-bundle",
+          "sources": [
+            {
+              "field": "badge",
+              "quote": "Ages 5-8",
+              "context": "Ages 5-8",
+              "position": 0
+            },
+            {
+              "field": "badge",
+              "quote": "Kindergarten - 2nd Grade",
+              "context": "Kindergarten - 2nd Grade",
+              "position": 2
+            }
+          ],
+          "text": "For ages 5 to 8, Kindergarten to 2nd Grade."
+        },
+        {
+          "id": "epicstarter-practice",
+          "product": "epic-reader-starter-bundle",
+          "sources": [
+            {
+              "field": "description",
+              "quote": "accelerate phonics skills and learn sight words",
+              "context": "The epic way to accelerate phonics skills and learn sight words - four volumes of our sticker books, and our bestselling phonics card game!",
+              "position": 0
+            }
+          ],
+          "text": "Builds phonics skills and sight word reading."
+        }
+      ],
+      "blocked": []
+    },
+    {
+      "handle": "family-game-bundle",
+      "title": "Family Game Bundle",
+      "url": "https://mrswordsmith.com/products/family-game-bundle",
+      "shared_with": "card-game-bundle",
+      "canonical_handle": "card-game-bundle",
+      "canonical_is_self": false,
+      "claims": [
+        {
+          "id": "cardgame-contents",
+          "product": "family-game-bundle",
+          "sources": [
+            {
+              "field": "description",
+              "quote": "with both of our card games",
+              "context": "Accelerate phonics skills or develop challenging vocabulary and storytelling ability (while having fun!) with both of our card games.",
+              "position": 0
+            },
+            {
+              "field": "contents",
+              "quote": "Storyteller’s Card Game",
+              "context": "Storyteller’s Card Game",
+              "position": 0
+            },
+            {
+              "field": "contents",
+              "quote": "Blah Blah Blah Phonics Card Game",
+              "context": "Blah Blah Blah Phonics Card Game",
+              "position": 1
+            }
+          ],
+          "text": "Both card games in one bundle: Storyteller’s Card Game and Blah Blah Blah Phonics Card Game."
+        },
+        {
+          "id": "cardgame-audience",
+          "product": "family-game-bundle",
+          "sources": [
+            {
+              "field": "badge",
+              "quote": "Ages 3-12",
+              "context": "Ages 3-12",
+              "position": 0
+            },
+            {
+              "field": "badge",
+              "quote": "Kindergarten - 7th Grade",
+              "context": "Kindergarten - 7th Grade",
+              "position": 2
+            }
+          ],
+          "text": "For ages 3 to 12, Kindergarten to 7th Grade."
+        },
+        {
+          "id": "cardgame-practice",
+          "product": "family-game-bundle",
+          "sources": [
+            {
+              "field": "description",
+              "quote": "Accelerate phonics skills or develop challenging vocabulary and storytelling ability",
+              "context": "Accelerate phonics skills or develop challenging vocabulary and storytelling ability (while having fun!) with both of our card games.",
+              "position": 0
+            }
+          ],
+          "text": "Practises phonics skills, vocabulary and storytelling."
+        }
+      ],
+      "blocked": []
+    },
+    {
+      "handle": "card-game-bundle",
+      "title": "Family Game Bundle",
+      "url": "https://mrswordsmith.com/products/card-game-bundle",
+      "shared_with": null,
+      "canonical_handle": "card-game-bundle",
+      "canonical_is_self": true,
+      "claims": [
+        {
+          "id": "cardgame-contents",
+          "product": "card-game-bundle",
+          "sources": [
+            {
+              "field": "description",
+              "quote": "with both of our card games",
+              "context": "Accelerate phonics skills or develop challenging vocabulary and storytelling ability (while having fun!) with both of our card games.",
+              "position": 0
+            },
+            {
+              "field": "contents",
+              "quote": "Storyteller’s Card Game",
+              "context": "Storyteller’s Card Game",
+              "position": 0
+            },
+            {
+              "field": "contents",
+              "quote": "Blah Blah Blah Phonics Card Game",
+              "context": "Blah Blah Blah Phonics Card Game",
+              "position": 1
+            }
+          ],
+          "text": "Both card games in one bundle: Storyteller’s Card Game and Blah Blah Blah Phonics Card Game."
+        },
+        {
+          "id": "cardgame-audience",
+          "product": "card-game-bundle",
+          "sources": [
+            {
+              "field": "badge",
+              "quote": "Ages 3-12",
+              "context": "Ages 3-12",
+              "position": 0
+            },
+            {
+              "field": "badge",
+              "quote": "Kindergarten - 7th Grade",
+              "context": "Kindergarten - 7th Grade",
+              "position": 2
+            }
+          ],
+          "text": "For ages 3 to 12, Kindergarten to 7th Grade."
+        },
+        {
+          "id": "cardgame-practice",
+          "product": "card-game-bundle",
+          "sources": [
+            {
+              "field": "description",
+              "quote": "Accelerate phonics skills or develop challenging vocabulary and storytelling ability",
+              "context": "Accelerate phonics skills or develop challenging vocabulary and storytelling ability (while having fun!) with both of our card games.",
+              "position": 0
+            }
+          ],
+          "text": "Practises phonics skills, vocabulary and storytelling."
+        }
+      ],
+      "blocked": []
+    },
+    {
+      "handle": "epic-reader-starter",
+      "title": "EPIC Reader Starter Bundle",
+      "url": "https://mrswordsmith.com/products/epic-reader-starter",
+      "shared_with": null,
+      "canonical_handle": "epic-reader-starter",
+      "canonical_is_self": true,
+      "claims": [
+        {
+          "id": "epicstarter-contents",
+          "product": "epic-reader-starter",
+          "sources": [
+            {
+              "field": "description",
+              "quote": "four volumes of our sticker books, and our bestselling phonics card game",
+              "context": "The epic way to accelerate phonics skills and learn sight words - four volumes of our sticker books, and our bestselling phonics card game!",
+              "position": 0
+            },
+            {
+              "field": "contents",
+              "quote": "See It! Stick It! Volumes 1 & 2",
+              "context": "See It! Stick It! Volumes 1 & 2",
+              "position": 0
+            },
+            {
+              "field": "contents",
+              "quote": "See it! Stick it! - Volumes 3 & 4",
+              "context": "See it! Stick it! - Volumes 3 & 4",
+              "position": 1
+            },
+            {
+              "field": "contents",
+              "quote": "Blah Blah Blah Phonics Card Game",
+              "context": "Blah Blah Blah Phonics Card Game",
+              "position": 2
+            }
+          ],
+          "text": "Four volumes of the sticker books plus the phonics card game."
+        },
+        {
+          "id": "epicstarter-audience",
+          "product": "epic-reader-starter",
+          "sources": [
+            {
+              "field": "badge",
+              "quote": "Ages 5-8",
+              "context": "Ages 5-8",
+              "position": 0
+            },
+            {
+              "field": "badge",
+              "quote": "Kindergarten - 2nd Grade",
+              "context": "Kindergarten - 2nd Grade",
+              "position": 2
+            }
+          ],
+          "text": "For ages 5 to 8, Kindergarten to 2nd Grade."
+        },
+        {
+          "id": "epicstarter-practice",
+          "product": "epic-reader-starter",
+          "sources": [
+            {
+              "field": "description",
+              "quote": "accelerate phonics skills and learn sight words",
+              "context": "The epic way to accelerate phonics skills and learn sight words - four volumes of our sticker books, and our bestselling phonics card game!",
+              "position": 0
+            }
+          ],
+          "text": "Builds phonics skills and sight word reading."
+        }
+      ],
+      "blocked": []
+    },
+    {
+      "handle": "epic-reader-master-bundle",
+      "title": "Epic Reader Master Bundle",
+      "url": "https://mrswordsmith.com/products/epic-reader-master-bundle",
+      "shared_with": null,
+      "canonical_handle": "epic-reader-master-bundle",
+      "canonical_is_self": true,
+      "claims": [
+        {
+          "id": "epicmaster-contents",
+          "product": "epic-reader-master-bundle",
+          "sources": [
+            {
+              "field": "contents",
+              "quote": "My Epic Life Word Book",
+              "context": "My Epic Life Word Book",
+              "position": 0
+            },
+            {
+              "field": "contents",
+              "quote": "My Epic Life Daily Word Workout",
+              "context": "My Epic Life Daily Word Workout",
+              "position": 1
+            },
+            {
+              "field": "contents",
+              "quote": "See It! Stick It! Volumes 1 & 2",
+              "context": "See It! Stick It! Volumes 1 & 2",
+              "position": 2
+            },
+            {
+              "field": "contents",
+              "quote": "See it! Stick it! - Volumes 3 & 4",
+              "context": "See it! Stick it! - Volumes 3 & 4",
+              "position": 3
+            },
+            {
+              "field": "contents",
+              "quote": "Blah Blah Blah Phonics Card Game",
+              "context": "Blah Blah Blah Phonics Card Game",
+              "position": 4
+            }
+          ],
+          "text": "Includes the My Epic Life books, both See It! Stick It! sets and the phonics card game."
+        },
+        {
+          "id": "epicmaster-audience",
+          "product": "epic-reader-master-bundle",
+          "sources": [
+            {
+              "field": "badge",
+              "quote": "Ages 5-8",
+              "context": "Ages 5-8",
+              "position": 0
+            },
+            {
+              "field": "badge",
+              "quote": "Kindergarten - 2nd Grade",
+              "context": "Kindergarten - 2nd Grade",
+              "position": 2
+            },
+            {
+              "field": "description",
+              "quote": "for ages 5-8",
+              "context": "Develop phonics skills, reading fluency, and early vocabulary with our full, epic range of books and games for ages 5-8.",
+              "position": 0
+            }
+          ],
+          "text": "For ages 5 to 8, Kindergarten to 2nd Grade."
+        },
+        {
+          "id": "epicmaster-practice",
+          "product": "epic-reader-master-bundle",
+          "sources": [
+            {
+              "field": "description",
+              "quote": "Develop phonics skills, reading fluency, and early vocabulary",
+              "context": "Develop phonics skills, reading fluency, and early vocabulary with our full, epic range of books and games for ages 5-8.",
+              "position": 0
+            }
+          ],
+          "text": "Covers phonics skills, reading fluency and early vocabulary."
+        }
+      ],
+      "blocked": []
+    }
+  ]
+}

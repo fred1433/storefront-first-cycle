@@ -1,0 +1,35 @@
+{
+  "draft": "readiculous-readers-complete-bundle-stages-1-2-3",
+  "read_at": "2026-09-19T13:24:43.596Z",
+  "seconds": 25,
+  "lines": [
+    {
+      "id": "readiculous-contents",
+      "supporting_passage": "All 3 stages of Readiculous Readers — 36 expertly sequenced, fully decodable paperback books in total.",
+      "verdict": "Supported as written",
+      "reason": "The passage explicitly supports all three stages, the total of 36 books, their decodability and paperback format.",
+      "requested_change": null
+    },
+    {
+      "id": "readiculous-audience",
+      "supporting_passage": "Format: 3 sets of 12 paperback readers (36 books total) Age range: 4–7 years (Reception to Year 2)",
+      "verdict": "Supported as written",
+      "reason": "The specifications explicitly support ages 4–7 and 12 books per stage; the draft does not repeat the conflicting school-stage labels.",
+      "requested_change": null
+    },
+    {
+      "id": "readiculous-method",
+      "supporting_passage": "Each stage introduces new phonics patterns in context, through fully decodable words and sentences. Previously taught sounds are revisited and reinforced throughout, so nothing is forgotten.",
+      "verdict": "Supported as written",
+      "reason": "Both introducing patterns in context and revisiting previously taught sounds are explicitly stated.",
+      "requested_change": null
+    }
+  ],
+  "questions": [
+    {
+      "id": "readiculous-school-stage",
+      "answer": "conflict",
+      "reason": "The age badge and bullet agree on ages 4–7, but the school-stage badge says Kindergarten through 7th Grade while the bullet specifies Reception through Year 2."
+    }
+  ]
+}

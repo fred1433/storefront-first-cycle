@@ -1,0 +1,51 @@
+You are reviewing draft copy for one product page. Work only from the material quoted below. Do not use outside knowledge of the product, the brand, the market or the publisher, and do not assume the draft is correct.
+
+Product: Grade 5-6 Bundle
+Page read: https://mrswordsmith.com/products/grade-5-6-bundle-1
+Market observed: United States storefront, read on 2026-09-19.
+
+MATERIAL OBSERVED ON THAT PAGE
+
+Description text: Get ready for school with our entire range of printable worksheets for Grade 5-6
+
+Description bullet points:
+  (none on this page)
+
+Badges shown under the product title:
+  - Digital Product
+  - Ages 10-12
+  - Bundles
+  - 5th Grade - 6th Grade
+
+Items listed on the page as included:
+  - How to Write a Story Ages 8-10
+  - Spelling Grade 4-5 Mixed Practice
+  - Spelling Grade 4-5 Targeted Practice
+
+Attribute table:
+  (none on this page)
+
+DRAFT LINES
+
+1. id "grade56-format": "A digital bundle of three printable sets."
+2. id "grade56-contents": "Includes How to Write a Story and two sets of spelling practice, mixed and targeted."
+
+For every draft line, decide whether the material above supports it exactly as written. Check each of these:
+- identity and scope: a property of one included item presented as true of the whole set
+- strength: a possibility presented as a guarantee, or a claim strengthened beyond its source
+- decomposition: a line making several promises where the material supports only some of them
+- conditions and context: an age, a school stage, a language, a quantity or a pack content dropped, widened or altered
+- contradictions and unknowns: two passages that disagree, or a detail filled in by likelihood
+
+For each line return: its id, the exact supporting passage copied from the material (or null if none supports it), one verdict from "Supported as written", "Revise", "Unsupported", "Conflicting sources", a one sentence reason, and the wording you would require instead (or null).
+
+QUESTIONS
+
+id "grade56-school-year": do the passages below, taken from this page, agree or disagree about the age or school stage of this product?
+  - badge: Ages 10-12
+  - badge: 5th Grade - 6th Grade
+  - description: printable worksheets for Grade 5-6
+  - contents: How to Write a Story Ages 8-10
+  - contents: Spelling Grade 4-5 Mixed Practice
+
+Return one JSON object with keys "lines" and "questions". Return JSON only.

@@ -1,0 +1,23 @@
+[
+  {
+    "id": "nng-how-users-read",
+    "publisher": "Nielsen Norman Group",
+    "title": "How Users Read on the Web",
+    "url": "https://www.nngroup.com/articles/how-users-read-on-the-web/",
+    "published": "1997-09-30",
+    "quotes": [
+      "People rarely read Web pages word by word; instead, they scan the page, picking out individual words and sentences.",
+      "Web users are busy: they want to get the straight facts."
+    ]
+  },
+  {
+    "id": "shopify-metafield-definitions",
+    "publisher": "Shopify",
+    "title": "Manage metafield definitions",
+    "url": "https://shopify.dev/docs/apps/build/custom-data/metafields/definitions",
+    "published": null,
+    "quotes": [
+      "Metafield definitions are schemas that specify the structure, type, and rules for metafields."
+    ]
+  }
+]

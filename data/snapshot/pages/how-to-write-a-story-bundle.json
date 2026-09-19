@@ -1,0 +1,67 @@
+{
+  "handle": "how-to-write-a-story-bundle",
+  "url": "https://mrswordsmith.com/products/how-to-write-a-story-bundle",
+  "role": "batch",
+  "market": "US",
+  "fetched_at": "2026-09-19T12:59:25.264Z",
+  "http_status": 200,
+  "final_url": "https://mrswordsmith.com/products/how-to-write-a-story-bundle",
+  "content_language": "en-US",
+  "reachable": true,
+  "title": "Write Compelling Stories with Our Complete Story Bundle",
+  "canonical": "https://mrswordsmith.com/products/how-to-write-a-story-bundle",
+  "meta_description": "Unlock your creativity with the How to Write a Story Bundle. Master storytelling techniques and craft compelling narratives with ease.",
+  "heading": "How to Write a Story Bundle",
+  "highlights": {
+    "present": true,
+    "count": 3,
+    "messages": [
+      "Story Shapes section explains how to create Story Graphs – an illustrated planning framework to help kids structure their stories",
+      "Easy-to-follow mark schemes for kids to practise assessing their own work",
+      "Instant download available after purchase"
+    ]
+  },
+  "description": {
+    "present": true,
+    "html": "<p><span>Discover 33 more story kits, complete with illustrations, writing prompts, targeted questions for story planning, and curated vocabulary lists. This is writing, made easy! Whatever sparks your imagination, whether it's dystopian science fiction or reimagined fairy tales or eerie detective mysteries or intrepid space missions, you'll find inspiration here.</span></p>\n<p><span>For ages 8-10 &amp; 10-12</span></p>",
+    "text": "Discover 33 more story kits, complete with illustrations, writing prompts, targeted questions for story planning, and curated vocabulary lists. This is writing, made easy! Whatever sparks your imagination, whether it's dystopian science fiction or reimagined fairy tales or eerie detective mysteries or intrepid space missions, you'll find inspiration here. For ages 8-10 & 10-12",
+    "bullets": [],
+    "paragraphs": [
+      "Discover 33 more story kits, complete with illustrations, writing prompts, targeted questions for story planning, and curated vocabulary lists. This is writing, made easy! Whatever sparks your imagination, whether it's dystopian science fiction or reimagined fairy tales or eerie detective mysteries or intrepid space missions, you'll find inspiration here.",
+      "For ages 8-10 & 10-12"
+    ]
+  },
+  "specifics": [],
+  "panels": [
+    "Product Description",
+    "Instructions",
+    "Shipping & Returns"
+  ],
+  "badges": [
+    {
+      "text": "Digital Product",
+      "kind": "pdf"
+    },
+    {
+      "text": "Ages 10-12",
+      "kind": "age-range"
+    },
+    {
+      "text": "Bundles",
+      "kind": "topic"
+    }
+  ],
+  "bundle_components": [],
+  "is_404": false,
+  "served_product_page": true,
+  "canonical_handle": "how-to-write-a-story-bundle",
+  "canonical_is_self": true,
+  "raw_sha256": "490292cfc7d60094e7a34374272b72656185e572f8767466a665c22490631453",
+  "feed": {
+    "title": "How to Write a Story Bundle",
+    "product_type": "Bundles",
+    "image_count": 11,
+    "variant_count": 1,
+    "carries_selection_tag": true
+  }
+}

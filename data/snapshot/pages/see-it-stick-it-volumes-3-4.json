@@ -1,0 +1,98 @@
+{
+  "handle": "see-it-stick-it-volumes-3-4",
+  "url": "https://mrswordsmith.com/products/see-it-stick-it-volumes-3-4",
+  "role": "reference",
+  "market": "US",
+  "fetched_at": "2026-09-19T13:00:01.417Z",
+  "http_status": 200,
+  "final_url": "https://mrswordsmith.com/products/see-it-stick-it-volumes-3-4",
+  "content_language": "en-US",
+  "reachable": true,
+  "title": "Sight words sticker books for ages 4 - 6 | Mrs Wordsmith",
+  "canonical": "https://mrswordsmith.com/products/see-it-stick-it-volumes-3-4",
+  "meta_description": "All four volumes of our sight words sticker books for ages 4, 5, 6. The fun and interactive way to learn sight words - with stickers!",
+  "heading": "See it! Stick it! - Volumes 3 & 4",
+  "highlights": {
+    "present": true,
+    "count": 4,
+    "messages": [
+      "A bundle of 4 books, with 400 sight words for ages 5-7",
+      "Accelerates kids' reading with a fun, reusable sticker for every word!",
+      "Words to learn include days of the week, colors, irregular verbs, and common prepositions",
+      "Pronunciation guide included with every word, access unique QR codes with your smartphone"
+    ]
+  },
+  "description": {
+    "present": true,
+    "html": "<ul>\n<li>A bundle of 2 volumes, with 200 sight words for ages 3-7</li>\n<li>Accelerates kids' reading with a fun, reusable sticker for every word!</li>\n<li>Words to learn include days of the week, colors, irregular verbs, and common prepositions</li>\n<li>Pronunciation guide included with every word, access unique QR codes with your smartphone</li>\n</ul>\n<div class=\"ql-block\" data-block-id=\"block-7cf236d2-c71d-4852-8bce-5754a123365a\">\"See what? Stick what?\" We hear you cry, and the answer is... sight words! This two-part series covers 200 essential sight words to boost your reading fluency. Learn to read high-frequency words on topics like days of the week, colors, irregular verbs, and common prepositions. Each word comes with a fun, reusable sticker to help accelerate kids' reading, as well as a pronunciation guide that you can access with your smartphone!</div>\n<div class=\"ql-block\" data-block-id=\"block-7940689e-f31d-4d2a-9003-448d66953138\">Ages 3-7<strong></strong>\n</div>",
+    "text": "A bundle of 2 volumes, with 200 sight words for ages 3-7 Accelerates kids' reading with a fun, reusable sticker for every word! Words to learn include days of the week, colors, irregular verbs, and common prepositions Pronunciation guide included with every word, access unique QR codes with your smartphone \"See what? Stick what?\" We hear you cry, and the answer is... sight words! This two-part series covers 200 essential sight words to boost your reading fluency. Learn to read high-frequency words on topics like days of the week, colors, irregular verbs, and common prepositions. Each word comes with a fun, reusable sticker to help accelerate kids' reading, as well as a pronunciation guide that you can access with your smartphone! Ages 3-7",
+    "bullets": [
+      "A bundle of 2 volumes, with 200 sight words for ages 3-7",
+      "Accelerates kids' reading with a fun, reusable sticker for every word!",
+      "Words to learn include days of the week, colors, irregular verbs, and common prepositions",
+      "Pronunciation guide included with every word, access unique QR codes with your smartphone"
+    ],
+    "paragraphs": [
+      "\"See what? Stick what?\" We hear you cry, and the answer is... sight words! This two-part series covers 200 essential sight words to boost your reading fluency. Learn to read high-frequency words on topics like days of the week, colors, irregular verbs, and common prepositions. Each word comes with a fun, reusable sticker to help accelerate kids' reading, as well as a pronunciation guide that you can access with your smartphone!",
+      "Ages 3-7"
+    ]
+  },
+  "specifics": [
+    {
+      "label": "Paperback",
+      "value": "240 pages (volumes 1-4)"
+    },
+    {
+      "label": "Age range",
+      "value": "5-7"
+    },
+    {
+      "label": "Year of publication",
+      "value": "2019"
+    },
+    {
+      "label": "Product dimensions",
+      "value": "21 x 24.5cm"
+    },
+    {
+      "label": "ISBN",
+      "value": "978-1-9160384-1-7"
+    }
+  ],
+  "panels": [
+    "Product Description",
+    "Product Specific",
+    "Instructions",
+    "Shipping & Returns"
+  ],
+  "badges": [
+    {
+      "text": "Ages 3-7",
+      "kind": "age-range"
+    },
+    {
+      "text": "Bundles",
+      "kind": "topic"
+    },
+    {
+      "text": "Kindergarten - 1st Grade",
+      "kind": "other"
+    }
+  ],
+  "bundle_components": [
+    "See it! Stick it! Volume 3",
+    "See it! Stick it! Volume 4"
+  ],
+  "is_404": false,
+  "served_product_page": true,
+  "canonical_handle": "see-it-stick-it-volumes-3-4",
+  "canonical_is_self": true,
+  "raw_sha256": "f632c1dcbdd7b2fbf82d1f39b07fb99bd946386e23f7dabdbc7414819426373b",
+  "feed": {
+    "title": "See it! Stick it! - Volumes 3 & 4",
+    "product_type": "Bundles",
+    "image_count": 6,
+    "variant_count": 1,
+    "carries_selection_tag": false
+  }
+}

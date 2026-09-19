@@ -1,0 +1,12 @@
+node_modules/
+.next/
+out/
+next-env.d.ts
+.vercel
+.DS_Store
+*.tsbuildinfo
+
+# The full responses stay on the machine that read them. The repository carries the
+# small record each page contributes to the batch, not an archive of the storefront.
+crawl/
+pipeline/tmp/

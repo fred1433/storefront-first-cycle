@@ -1,0 +1,70 @@
+{
+  "handle": "family-master-bundle",
+  "url": "https://mrswordsmith.com/products/family-master-bundle",
+  "role": "reference",
+  "market": "US",
+  "fetched_at": "2026-09-19T13:00:13.573Z",
+  "http_status": 200,
+  "final_url": "https://mrswordsmith.com/products/family-master-bundle",
+  "content_language": "en-US",
+  "reachable": true,
+  "title": "Word books for kids aged 4-11 | Mrs Wordsmith",
+  "canonical": "https://mrswordsmith.com/products/family-master-bundle",
+  "meta_description": "Discover the Family Master Bundle, designed to enrich family life with engaging resources and activities that bring everyone closer together.",
+  "heading": "Family Master Bundle",
+  "highlights": {
+    "present": true,
+    "count": 3,
+    "messages": [
+      "Bundle contains four of our bestselling products for ages 5-12",
+      "The My Epic Life range is aimed at younger readers aged 5-8",
+      "The Storyteller's range is aimed at older readers aged 8-12"
+    ]
+  },
+  "description": {
+    "present": true,
+    "html": "<meta charset=\"utf-8\"><meta charset=\"utf-8\">\n<p><meta charset=\"utf-8\"><span>Improve reading, writing, and build vocabulary with four of our bestselling, most popular releases.</span></p>",
+    "text": "Improve reading, writing, and build vocabulary with four of our bestselling, most popular releases.",
+    "bullets": [],
+    "paragraphs": [
+      "Improve reading, writing, and build vocabulary with four of our bestselling, most popular releases."
+    ]
+  },
+  "specifics": [],
+  "panels": [
+    "Product Description",
+    "Shipping & Returns"
+  ],
+  "badges": [
+    {
+      "text": "Ages 3-12",
+      "kind": "age-range"
+    },
+    {
+      "text": "Bundles",
+      "kind": "topic"
+    },
+    {
+      "text": "Kindergarten - 7th Grade",
+      "kind": "other"
+    }
+  ],
+  "bundle_components": [
+    "Storyteller’s Word a Day (US Edition)",
+    "Storyteller's Illustrated Dictionary",
+    "My Epic Life Word Book",
+    "My Epic Life Daily Word Workout"
+  ],
+  "is_404": false,
+  "served_product_page": true,
+  "canonical_handle": "family-master-bundle",
+  "canonical_is_self": true,
+  "raw_sha256": "6eb267d960c4c2c4e180de3bec4928556db33aff79fbd93d73233e39ba38222d",
+  "feed": {
+    "title": "Family Master Bundle",
+    "product_type": "Bundles",
+    "image_count": 9,
+    "variant_count": 1,
+    "carries_selection_tag": false
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "handle": "the-early-reader-summer-challenge",
+  "url": "https://mrswordsmith.com/products/the-early-reader-summer-challenge",
+  "role": "reference",
+  "market": "US",
+  "fetched_at": "2026-09-19T13:00:20.511Z",
+  "http_status": 200,
+  "final_url": "https://mrswordsmith.com/products/the-early-reader-summer-challenge",
+  "content_language": "en-US",
+  "reachable": true,
+  "title": "The Early Reader Summer Challenge",
+  "canonical": "https://mrswordsmith.com/products/the-early-reader-summer-challenge",
+  "meta_description": null,
+  "heading": "The Early Reader Summer Challenge",
+  "highlights": {
+    "present": true,
+    "count": 3,
+    "messages": [
+      "Confidence Building: Children can decode words independently, boosting self-esteem.",
+      "Curriculum Aligned: Aligned to state phonics programs and the National Curriculum.",
+      "Structured Learning: Divided into eight sections containing 51 phoneme-grapheme correspondences in the order that they are taught in Kindergarten/Reception."
+    ]
+  },
+  "description": {
+    "present": true,
+    "html": "<p dir=\"ltr\"><span>Did you know that reading fluency is one of the fastest skills to fade over the summer? This bundle is packed with hilarious stories your child will actually want to read as well as a fast-paced card game to keep their phonics sharp, and a workbook for those inevitable rainy afternoons. The ultimate toolkit for early reading fluency, designed for ages 4–7, it ensures kids gain the confidence and skill to tackle ever more complex words while laughing along with our outlandish cast of characters.</span></p>",
+    "text": "Did you know that reading fluency is one of the fastest skills to fade over the summer? This bundle is packed with hilarious stories your child will actually want to read as well as a fast-paced card game to keep their phonics sharp, and a workbook for those inevitable rainy afternoons. The ultimate toolkit for early reading fluency, designed for ages 4–7, it ensures kids gain the confidence and skill to tackle ever more complex words while laughing along with our outlandish cast of characters.",
+    "bullets": [],
+    "paragraphs": [
+      "Did you know that reading fluency is one of the fastest skills to fade over the summer? This bundle is packed with hilarious stories your child will actually want to read as well as a fast-paced card game to keep their phonics sharp, and a workbook for those inevitable rainy afternoons. The ultimate toolkit for early reading fluency, designed for ages 4–7, it ensures kids gain the confidence and skill to tackle ever more complex words while laughing along with our outlandish cast of characters."
+    ]
+  },
+  "specifics": [],
+  "panels": [
+    "Product Description",
+    "Shipping & Returns",
+    "FAQ's"
+  ],
+  "badges": [
+    {
+      "text": "Bundles",
+      "kind": "topic"
+    }
+  ],
+  "bundle_components": [
+    "Blah Blah Blah Phonics Card Game",
+    "Get Reading with Phonics",
+    "Readiculous Readers: Stage 1"
+  ],
+  "is_404": false,
+  "served_product_page": true,
+  "canonical_handle": "the-early-reader-summer-challenge",
+  "canonical_is_self": true,
+  "raw_sha256": "aae880f4384f736edcb13b5dbd8482ae4a130d5560cf39fe4cfba060cee7e1f6",
+  "feed": {
+    "title": "The Early Reader Summer Challenge",
+    "product_type": "Bundles",
+    "image_count": 9,
+    "variant_count": 1,
+    "carries_selection_tag": false
+  }
+}

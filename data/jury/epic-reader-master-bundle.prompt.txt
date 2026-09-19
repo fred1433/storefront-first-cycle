@@ -1,0 +1,45 @@
+You are reviewing draft copy for one product page. Work only from the material quoted below. Do not use outside knowledge of the product, the brand, the market or the publisher, and do not assume the draft is correct.
+
+Product: Epic Reader Master Bundle
+Page read: https://mrswordsmith.com/products/epic-reader-master-bundle
+Market observed: United States storefront, read on 2026-09-19.
+
+MATERIAL OBSERVED ON THAT PAGE
+
+Description text: Develop phonics skills, reading fluency, and early vocabulary with our full, epic range of books and games for ages 5-8.
+
+Description bullet points:
+  (none on this page)
+
+Badges shown under the product title:
+  - Ages 5-8
+  - Bundles
+  - Kindergarten - 2nd Grade
+
+Items listed on the page as included:
+  - My Epic Life Word Book
+  - My Epic Life Daily Word Workout
+  - See It! Stick It! Volumes 1 & 2
+  - See it! Stick it! - Volumes 3 & 4
+  - Blah Blah Blah Phonics Card Game
+
+Attribute table:
+  (none on this page)
+
+DRAFT LINES
+
+1. id "epicmaster-contents": "Includes the My Epic Life books, both See It! Stick It! sets and the phonics card game."
+2. id "epicmaster-audience": "For ages 5 to 8, Kindergarten to 2nd Grade."
+3. id "epicmaster-practice": "Covers phonics skills, reading fluency and early vocabulary."
+
+For every draft line, decide whether the material above supports it exactly as written. Check each of these:
+- identity and scope: a property of one included item presented as true of the whole set
+- strength: a possibility presented as a guarantee, or a claim strengthened beyond its source
+- decomposition: a line making several promises where the material supports only some of them
+- conditions and context: an age, a school stage, a language, a quantity or a pack content dropped, widened or altered
+- contradictions and unknowns: two passages that disagree, or a detail filled in by likelihood
+
+For each line return: its id, the exact supporting passage copied from the material (or null if none supports it), one verdict from "Supported as written", "Revise", "Unsupported", "Conflicting sources", a one sentence reason, and the wording you would require instead (or null).
+
+
+Return one JSON object with keys "lines" and "questions". Return JSON only.

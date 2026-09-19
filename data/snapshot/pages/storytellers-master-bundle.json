@@ -1,0 +1,57 @@
+{
+  "handle": "storytellers-master-bundle",
+  "url": "https://mrswordsmith.com/products/storytellers-master-bundle",
+  "role": "batch",
+  "market": "US",
+  "fetched_at": "2026-09-19T12:59:21.378Z",
+  "http_status": 200,
+  "final_url": "https://mrswordsmith.com/",
+  "content_language": "en-US",
+  "reachable": false,
+  "title": "Mrs Wordsmith | Award-Winning Vocabulary & Reading Games for Kids",
+  "canonical": "https://mrswordsmith.com/",
+  "meta_description": "Game-based books, card games & apps that build vocabulary and reading skills for ages 5–13. Science of Reading-backed. Try free for 7 days.",
+  "heading": null,
+  "highlights": {
+    "present": false,
+    "count": 0,
+    "messages": []
+  },
+  "description": {
+    "present": false,
+    "html": "",
+    "text": "",
+    "bullets": [],
+    "paragraphs": []
+  },
+  "specifics": [],
+  "panels": [],
+  "badges": [],
+  "bundle_components": [],
+  "is_404": false,
+  "served_product_page": false,
+  "canonical_handle": null,
+  "canonical_is_self": false,
+  "raw_sha256": "9078fe0742542686c6a1d3e2218a97b63675b4af0f5f1215b626cff131c0e0e9",
+  "feed": {
+    "title": "Storyteller’s Master Bundle",
+    "product_type": "Bundles",
+    "image_count": 9,
+    "variant_count": 1,
+    "carries_selection_tag": true
+  },
+  "rechecks": [
+    {
+      "read_at": "2026-09-19T13:03:25.601Z",
+      "status": 302,
+      "location": "https://mrswordsmith.com/",
+      "content_language": null
+    },
+    {
+      "read_at": "2026-09-19T13:03:29.941Z",
+      "status": 302,
+      "location": "https://mrswordsmith.com/",
+      "content_language": null
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "handle": "card-game-bundle",
+  "url": "https://mrswordsmith.com/products/card-game-bundle",
+  "role": "batch",
+  "market": "US",
+  "fetched_at": "2026-09-19T12:59:47.412Z",
+  "http_status": 200,
+  "final_url": "https://mrswordsmith.com/products/card-game-bundle",
+  "content_language": "en-US",
+  "reachable": true,
+  "title": "Card games bundle for the whole family | Mrs Wordsmith",
+  "canonical": "https://mrswordsmith.com/products/card-game-bundle",
+  "meta_description": "Discover the Family Game Bundle, featuring diverse games that bring everyone together for fun and laughter, creating unforgettable family moments.",
+  "heading": "Family Game Bundle",
+  "highlights": {
+    "present": false,
+    "count": 0,
+    "messages": []
+  },
+  "description": {
+    "present": true,
+    "html": "<meta charset=\"utf-8\"><span data-mce-fragment=\"1\">Accelerate phonics skills or develop challenging vocabulary and storytelling ability (while having fun!) with both of our card games.</span>",
+    "text": "Accelerate phonics skills or develop challenging vocabulary and storytelling ability (while having fun!) with both of our card games.",
+    "bullets": [],
+    "paragraphs": [
+      "Accelerate phonics skills or develop challenging vocabulary and storytelling ability (while having fun!) with both of our card games."
+    ]
+  },
+  "specifics": [],
+  "panels": [
+    "Product Description",
+    "Shipping & Returns"
+  ],
+  "badges": [
+    {
+      "text": "Ages 3-12",
+      "kind": "age-range"
+    },
+    {
+      "text": "Bundles",
+      "kind": "topic"
+    },
+    {
+      "text": "Kindergarten - 7th Grade",
+      "kind": "other"
+    }
+  ],
+  "bundle_components": [
+    "Storyteller’s Card Game",
+    "Blah Blah Blah Phonics Card Game"
+  ],
+  "is_404": false,
+  "served_product_page": true,
+  "canonical_handle": "card-game-bundle",
+  "canonical_is_self": true,
+  "raw_sha256": "21154caad4150981b4dba818e193e07b2ca7e1c4bc803bc4f386415d1864ee8c",
+  "feed": {
+    "title": "Family Game Bundle",
+    "product_type": "Bundles",
+    "image_count": 8,
+    "variant_count": 1,
+    "carries_selection_tag": true
+  }
+}

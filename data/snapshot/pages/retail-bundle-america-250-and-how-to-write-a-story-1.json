@@ -1,0 +1,65 @@
+{
+  "handle": "retail-bundle-america-250-and-how-to-write-a-story-1",
+  "url": "https://mrswordsmith.com/products/retail-bundle-america-250-and-how-to-write-a-story-1",
+  "role": "reference",
+  "market": "US",
+  "fetched_at": "2026-09-19T13:00:31.853Z",
+  "http_status": 200,
+  "final_url": "https://mrswordsmith.com/products/retail-bundle-america-250-and-how-to-write-a-story-1",
+  "content_language": "en-US",
+  "reachable": true,
+  "title": "The Young American Writer's Bundle",
+  "canonical": "https://mrswordsmith.com/products/retail-bundle-america-250-and-how-to-write-a-story-1",
+  "meta_description": null,
+  "heading": "The Young American Writer's Bundle",
+  "highlights": {
+    "present": true,
+    "count": 3,
+    "messages": [
+      "Gives children the vocabulary to celebrate America's 250th anniversary",
+      "Builds storytelling skills: every element of great writing, illustrated and explained.",
+      "Save 25% vs. buying separately"
+    ]
+  },
+  "description": {
+    "present": true,
+    "html": "<p class=\"font-claude-response-body break-words whitespace-normal\" dir=\"ltr\">Discover the words of America's greatest stories — and the tools to write your own. Two Mrs Wordsmith bestsellers, paired for one historic occasion: America's 250th anniversary.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal\" dir=\"ltr\">America has always been a nation of storytellers. From the framers who wrote the Declaration to the novelists who shaped its literary canon, the story of America has always been told in words worth knowing.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal\" dir=\"ltr\"><strong>The Great American Story: 250 Words for 250 Years</strong> hands kids ages 7–12 the vocabulary to join that conversation — 250 words spanning art, activism, democracy, invention, and the American spirit, delivered as instantly downloadable, illustrated PDFs across 10 themed word sets.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal\" dir=\"ltr\"><strong>How to Write a Story</strong> gives them the craft to put those words to work. This illustrated handbook walks children ages 8–12 through 21 story kits — developing a character, building real tension, sticking the ending — turning inspiration into a finished story.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal\" dir=\"ltr\">Together, this bundle gives young writers everything they need: the vocabulary of a 250-year story, and the storytelling skills to write their own chapter in it. Perfect for a school project, a writing competition, or a family activity built around America's anniversary year.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal\" dir=\"ltr\"><strong><br>What's included:</strong></p>\n<ul dir=\"ltr\" class=\"[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3 print:block print:space-y-1\">\n<li class=\"font-claude-response-body whitespace-normal break-words pl-2\">The Great American Story: 250 Words for 250 Years (digital download, ages 7–12)</li>\n<li class=\"font-claude-response-body whitespace-normal break-words pl-2\">How to Write a Story (illustrated book, ages 8–12)</li>\n</ul>",
+    "text": "Discover the words of America's greatest stories — and the tools to write your own. Two Mrs Wordsmith bestsellers, paired for one historic occasion: America's 250th anniversary. America has always been a nation of storytellers. From the framers who wrote the Declaration to the novelists who shaped its literary canon, the story of America has always been told in words worth knowing. The Great American Story: 250 Words for 250 Years hands kids ages 7–12 the vocabulary to join that conversation — 250 words spanning art, activism, democracy, invention, and the American spirit, delivered as instantly downloadable, illustrated PDFs across 10 themed word sets. How to Write a Story gives them the craft to put those words to work. This illustrated handbook walks children ages 8–12 through 21 story kits — developing a character, building real tension, sticking the ending — turning inspiration into a finished story. Together, this bundle gives young writers everything they need: the vocabulary of a 250-year story, and the storytelling skills to write their own chapter in it. Perfect for a school project, a writing competition, or a family activity built around America's anniversary year. What's included: The Great American Story: 250 Words for 250 Years (digital download, ages 7–12) How to Write a Story (illustrated book, ages 8–12)",
+    "bullets": [
+      "The Great American Story: 250 Words for 250 Years (digital download, ages 7–12)",
+      "How to Write a Story (illustrated book, ages 8–12)"
+    ],
+    "paragraphs": [
+      "Discover the words of America's greatest stories — and the tools to write your own. Two Mrs Wordsmith bestsellers, paired for one historic occasion: America's 250th anniversary.",
+      "America has always been a nation of storytellers. From the framers who wrote the Declaration to the novelists who shaped its literary canon, the story of America has always been told in words worth knowing.",
+      "The Great American Story: 250 Words for 250 Years hands kids ages 7–12 the vocabulary to join that conversation — 250 words spanning art, activism, democracy, invention, and the American spirit, delivered as instantly downloadable, illustrated PDFs across 10 themed word sets.",
+      "How to Write a Story gives them the craft to put those words to work. This illustrated handbook walks children ages 8–12 through 21 story kits — developing a character, building real tension, sticking the ending — turning inspiration into a finished story.",
+      "Together, this bundle gives young writers everything they need: the vocabulary of a 250-year story, and the storytelling skills to write their own chapter in it. Perfect for a school project, a writing competition, or a family activity built around America's anniversary year.",
+      "What's included:"
+    ]
+  },
+  "specifics": [],
+  "panels": [
+    "Product Description",
+    "Shipping & Returns"
+  ],
+  "badges": [
+    {
+      "text": "Bundles",
+      "kind": "topic"
+    }
+  ],
+  "bundle_components": [],
+  "is_404": false,
+  "served_product_page": true,
+  "canonical_handle": "retail-bundle-america-250-and-how-to-write-a-story-1",
+  "canonical_is_self": true,
+  "raw_sha256": "198d5aaca41e2f8e172560411bfb9dfccf118c7c9ba83aef896c5a0a209c4023",
+  "feed": {
+    "title": "The Young American Writer's Bundle",
+    "product_type": "Bundles",
+    "image_count": 10,
+    "variant_count": 1,
+    "carries_selection_tag": false
+  }
+}

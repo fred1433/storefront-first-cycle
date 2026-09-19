@@ -1,0 +1,67 @@
+{
+  "handle": "epic-reader-master-bundle",
+  "url": "https://mrswordsmith.com/products/epic-reader-master-bundle",
+  "role": "batch",
+  "market": "US",
+  "fetched_at": "2026-09-19T12:59:54.567Z",
+  "http_status": 200,
+  "final_url": "https://mrswordsmith.com/products/epic-reader-master-bundle",
+  "content_language": "en-US",
+  "reachable": true,
+  "title": "Books and games bundle for ages 4 -7 | Mrs Wordsmith",
+  "canonical": "https://mrswordsmith.com/products/epic-reader-master-bundle",
+  "meta_description": "Unlock your reading potential with the Epic Reader Master Bundle, designed to elevate your skills and exclude the guesswork from learning.",
+  "heading": "Epic Reader Master Bundle",
+  "highlights": {
+    "present": false,
+    "count": 0,
+    "messages": []
+  },
+  "description": {
+    "present": true,
+    "html": "<meta charset=\"utf-8\"> <meta charset=\"utf-8\"><span data-mce-fragment=\"1\">Develop phonics skills, reading fluency, and early vocabulary with our full, epic range of books and games for ages 5-8.</span>\n<p> </p>",
+    "text": "Develop phonics skills, reading fluency, and early vocabulary with our full, epic range of books and games for ages 5-8.",
+    "bullets": [],
+    "paragraphs": [
+      "Develop phonics skills, reading fluency, and early vocabulary with our full, epic range of books and games for ages 5-8."
+    ]
+  },
+  "specifics": [],
+  "panels": [
+    "Product Description",
+    "Shipping & Returns"
+  ],
+  "badges": [
+    {
+      "text": "Ages 5-8",
+      "kind": "age-range"
+    },
+    {
+      "text": "Bundles",
+      "kind": "topic"
+    },
+    {
+      "text": "Kindergarten - 2nd Grade",
+      "kind": "other"
+    }
+  ],
+  "bundle_components": [
+    "My Epic Life Word Book",
+    "My Epic Life Daily Word Workout",
+    "See It! Stick It! Volumes 1 & 2",
+    "See it! Stick it! - Volumes 3 & 4",
+    "Blah Blah Blah Phonics Card Game"
+  ],
+  "is_404": false,
+  "served_product_page": true,
+  "canonical_handle": "epic-reader-master-bundle",
+  "canonical_is_self": true,
+  "raw_sha256": "187509767932595e91f7df9543eb388cee94855643d5ea417e427715a990e0d0",
+  "feed": {
+    "title": "Epic Reader Master Bundle",
+    "product_type": "Bundles",
+    "image_count": 9,
+    "variant_count": 1,
+    "carries_selection_tag": true
+  }
+}

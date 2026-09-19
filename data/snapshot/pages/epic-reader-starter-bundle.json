@@ -1,0 +1,65 @@
+{
+  "handle": "epic-reader-starter-bundle",
+  "url": "https://mrswordsmith.com/products/epic-reader-starter-bundle",
+  "role": "batch",
+  "market": "US",
+  "fetched_at": "2026-09-19T12:59:40.960Z",
+  "http_status": 200,
+  "final_url": "https://mrswordsmith.com/products/epic-reader-starter",
+  "content_language": "en-US",
+  "reachable": true,
+  "title": "Early literacy games and stickers bundle for ages 4-7 | Mrs Wordsmith",
+  "canonical": "https://mrswordsmith.com/products/epic-reader-starter",
+  "meta_description": "Discover the EPIC Reader Starter Bundle, designed to ignite a love for reading in young minds while excluding distractions for focused learning.",
+  "heading": "EPIC Reader Starter Bundle",
+  "highlights": {
+    "present": false,
+    "count": 0,
+    "messages": []
+  },
+  "description": {
+    "present": true,
+    "html": "<p> </p>\n<p><meta charset=\"utf-8\"><span>The epic way to accelerate phonics skills and learn sight words - four volumes of our sticker books, and our bestselling phonics card game!</span></p>",
+    "text": "The epic way to accelerate phonics skills and learn sight words - four volumes of our sticker books, and our bestselling phonics card game!",
+    "bullets": [],
+    "paragraphs": [
+      "The epic way to accelerate phonics skills and learn sight words - four volumes of our sticker books, and our bestselling phonics card game!"
+    ]
+  },
+  "specifics": [],
+  "panels": [
+    "Product Description",
+    "Shipping & Returns"
+  ],
+  "badges": [
+    {
+      "text": "Ages 5-8",
+      "kind": "age-range"
+    },
+    {
+      "text": "Bundles",
+      "kind": "topic"
+    },
+    {
+      "text": "Kindergarten - 2nd Grade",
+      "kind": "other"
+    }
+  ],
+  "bundle_components": [
+    "See It! Stick It! Volumes 1 & 2",
+    "See it! Stick it! - Volumes 3 & 4",
+    "Blah Blah Blah Phonics Card Game"
+  ],
+  "is_404": false,
+  "served_product_page": true,
+  "canonical_handle": "epic-reader-starter",
+  "canonical_is_self": false,
+  "raw_sha256": "05cc77cbd9f059476f335bbf26743960393ba37e64fd4e27f710d41ae50027aa",
+  "feed": {
+    "title": "EPIC Reader Starter Bundle",
+    "product_type": "Bundles",
+    "image_count": 7,
+    "variant_count": 1,
+    "carries_selection_tag": true
+  }
+}

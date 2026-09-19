@@ -1,0 +1,63 @@
+{
+  "handle": "grade-1-bundle",
+  "url": "https://mrswordsmith.com/products/grade-1-bundle",
+  "role": "batch",
+  "market": "US",
+  "fetched_at": "2026-09-19T12:59:30.051Z",
+  "http_status": 200,
+  "final_url": "https://mrswordsmith.com/products/grade-1-bundle",
+  "content_language": "en-US",
+  "reachable": true,
+  "title": "Grade 1 Bundle: Essential Resources Excluded From Others",
+  "canonical": "https://mrswordsmith.com/products/grade-1-bundle",
+  "meta_description": "Explore the Grade 1 Bundle, designed to enrich learning with engaging activities and resources, ensuring a solid foundation for young learners.",
+  "heading": "Grade 1 Bundle",
+  "highlights": {
+    "present": false,
+    "count": 0,
+    "messages": []
+  },
+  "description": {
+    "present": true,
+    "html": "<p><meta charset=\"utf-8\">Get ready for school with our entire range of printable worksheets for Grade 1<br></p>",
+    "text": "Get ready for school with our entire range of printable worksheets for Grade 1",
+    "bullets": [],
+    "paragraphs": [
+      "Get ready for school with our entire range of printable worksheets for Grade 1"
+    ]
+  },
+  "specifics": [],
+  "panels": [
+    "Product Description",
+    "Shipping & Returns"
+  ],
+  "badges": [
+    {
+      "text": "Digital Product",
+      "kind": "pdf"
+    },
+    {
+      "text": "Bundles",
+      "kind": "topic"
+    }
+  ],
+  "bundle_components": [
+    "Foolproof Sight Words",
+    "Foolproof Phonics Part 2",
+    "Spelling Mixed Practice Grade 1",
+    "Spelling Targeted Practice Grade 1",
+    "Gargantuan Grade 1 Workbook"
+  ],
+  "is_404": false,
+  "served_product_page": true,
+  "canonical_handle": "grade-1-bundle",
+  "canonical_is_self": true,
+  "raw_sha256": "930ee4df6cfa5e4db884928c906fae628dcd709537da69fdec71295b12ce0f3d",
+  "feed": {
+    "title": "Grade 1 Bundle",
+    "product_type": "Bundles",
+    "image_count": 16,
+    "variant_count": 1,
+    "carries_selection_tag": true
+  }
+}

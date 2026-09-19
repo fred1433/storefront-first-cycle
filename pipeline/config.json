@@ -1,0 +1,42 @@
+{
+  "market": {
+    "label": "United States",
+    "code": "US",
+    "origin": "https://mrswordsmith.com",
+    "note": "Default market of the primary domain. Recorded from the content-language response header of each page read."
+  },
+  "snapshotDate": "2026-09-19",
+  "selection": {
+    "source": "public product feed (/products.json)",
+    "tag": "Missing USPs",
+    "readOn": "2026-09-19"
+  },
+  "batch": [
+    "readiculous-readers-complete-bundle-stages-1-2-3",
+    "mrs-wordsmith-gift-card",
+    "fabulous-kids-t-shirt",
+    "fabulous-t-shirt",
+    "storytellers-master-bundle",
+    "how-to-write-a-story-bundle",
+    "grade-1-bundle",
+    "grade-5-6-bundle-1",
+    "epic-reader-master-bundle-1",
+    "epic-reader-starter-bundle",
+    "family-game-bundle",
+    "card-game-bundle",
+    "epic-reader-starter",
+    "epic-reader-master-bundle"
+  ],
+  "reference": [
+    "see-it-stick-it",
+    "see-it-stick-it-volumes-3-4",
+    "word-a-day-bundle",
+    "storytellers-bundle",
+    "family-master-bundle",
+    "the-summer-writing-workshop",
+    "the-early-reader-summer-challenge",
+    "storytellers-card-game-and-how-to-write-a-story",
+    "word-wizardry-school-writing-bundle-ks1-ks2-us",
+    "retail-bundle-america-250-and-how-to-write-a-story-1"
+  ]
+}

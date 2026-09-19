@@ -1,0 +1,65 @@
+{
+  "handle": "storytellers-card-game-and-how-to-write-a-story",
+  "url": "https://mrswordsmith.com/products/storytellers-card-game-and-how-to-write-a-story",
+  "role": "reference",
+  "market": "US",
+  "fetched_at": "2026-09-19T13:00:24.606Z",
+  "http_status": 200,
+  "final_url": "https://mrswordsmith.com/products/storytellers-card-game-and-how-to-write-a-story",
+  "content_language": "en-US",
+  "reachable": true,
+  "title": "The Storyteller's Writing Bundle",
+  "canonical": "https://mrswordsmith.com/products/storytellers-card-game-and-how-to-write-a-story",
+  "meta_description": null,
+  "heading": "The Storyteller's Writing Bundle",
+  "highlights": {
+    "present": true,
+    "count": 4,
+    "messages": [
+      "Builds storytelling skills: every element of great writing, illustrated and explained.",
+      "Proven resources used in schools across the UK and US",
+      "Featuring stunning illustrations by Craig Kellman, the artist behind Madagascar and Minions",
+      "Save 25% vs. buying separately"
+    ]
+  },
+  "description": {
+    "present": true,
+    "html": "<p class=\"font-claude-response-body break-words whitespace-normal\" dir=\"ltr\">Turn word-lovers into storytellers, one card and one chapter at a time. This bundle pairs a hilariously competitive vocabulary game with a step-by-step guide to writing a great story — everything a young writer needs to go from idea to finished tale.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal\" dir=\"ltr\"><strong>Storyteller's Card Game</strong> gets the creativity flowing first: 300 illustrated word cards and 200 story prompts that build vocabulary while kids battle it out to tell the best story on the spot. Gather three or more players and let the competitive storytelling begin.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal\" dir=\"ltr\"><strong>How to Write a Story</strong> then gives that creativity structure. This illustrated handbook walks kids through 21 story kits — building a character, creating real tension, and landing the ending — so every idea sparked at the card table can become a finished, well-crafted story.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal\" dir=\"ltr\">Together, they cover both halves of great storytelling: the words to spark an idea, and the craft to see it through. Ideal for ages 7–12, whether it's game night, a rainy afternoon, or practice for a school writing assignment.</p>\n<p class=\"font-claude-response-body break-words whitespace-normal\" dir=\"ltr\"><strong>What's included:</strong></p>\n<ul dir=\"ltr\" class=\"[li_&amp;]:mb-0 [li_&amp;]:mt-1 [li_&amp;]:gap-1 [&amp;:not(:last-child)_ul]:pb-1 [&amp;:not(:last-child)_ol]:pb-1 list-disc flex flex-col gap-1 pl-8 mb-3 print:block print:space-y-1\">\n<li class=\"font-claude-response-body whitespace-normal break-words pl-2\">Storyteller's Card Game (ages 7–11)</li>\n<li class=\"font-claude-response-body whitespace-normal break-words pl-2\">How to Write a Story (illustrated book, ages 8–12)</li>\n</ul>",
+    "text": "Turn word-lovers into storytellers, one card and one chapter at a time. This bundle pairs a hilariously competitive vocabulary game with a step-by-step guide to writing a great story — everything a young writer needs to go from idea to finished tale. Storyteller's Card Game gets the creativity flowing first: 300 illustrated word cards and 200 story prompts that build vocabulary while kids battle it out to tell the best story on the spot. Gather three or more players and let the competitive storytelling begin. How to Write a Story then gives that creativity structure. This illustrated handbook walks kids through 21 story kits — building a character, creating real tension, and landing the ending — so every idea sparked at the card table can become a finished, well-crafted story. Together, they cover both halves of great storytelling: the words to spark an idea, and the craft to see it through. Ideal for ages 7–12, whether it's game night, a rainy afternoon, or practice for a school writing assignment. What's included: Storyteller's Card Game (ages 7–11) How to Write a Story (illustrated book, ages 8–12)",
+    "bullets": [
+      "Storyteller's Card Game (ages 7–11)",
+      "How to Write a Story (illustrated book, ages 8–12)"
+    ],
+    "paragraphs": [
+      "Turn word-lovers into storytellers, one card and one chapter at a time. This bundle pairs a hilariously competitive vocabulary game with a step-by-step guide to writing a great story — everything a young writer needs to go from idea to finished tale.",
+      "Storyteller's Card Game gets the creativity flowing first: 300 illustrated word cards and 200 story prompts that build vocabulary while kids battle it out to tell the best story on the spot. Gather three or more players and let the competitive storytelling begin.",
+      "How to Write a Story then gives that creativity structure. This illustrated handbook walks kids through 21 story kits — building a character, creating real tension, and landing the ending — so every idea sparked at the card table can become a finished, well-crafted story.",
+      "Together, they cover both halves of great storytelling: the words to spark an idea, and the craft to see it through. Ideal for ages 7–12, whether it's game night, a rainy afternoon, or practice for a school writing assignment.",
+      "What's included:"
+    ]
+  },
+  "specifics": [],
+  "panels": [
+    "Product Description",
+    "Shipping & Returns"
+  ],
+  "badges": [
+    {
+      "text": "Bundle",
+      "kind": "topic"
+    }
+  ],
+  "bundle_components": [],
+  "is_404": false,
+  "served_product_page": true,
+  "canonical_handle": "storytellers-card-game-and-how-to-write-a-story",
+  "canonical_is_self": true,
+  "raw_sha256": "b06702f75c2957a5b0e3eea0b6f5693c8065aab7e322b9ddb09f7b1dfd46c84e",
+  "feed": {
+    "title": "The Storyteller's Writing Bundle",
+    "product_type": "Bundle",
+    "image_count": 8,
+    "variant_count": 1,
+    "carries_selection_tag": false
+  }
+}

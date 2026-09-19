@@ -1,0 +1,52 @@
+{
+  "handle": "fabulous-t-shirt",
+  "url": "https://mrswordsmith.com/products/fabulous-t-shirt",
+  "role": "batch",
+  "market": "US",
+  "fetched_at": "2026-09-19T12:59:17.407Z",
+  "http_status": 200,
+  "final_url": "https://mrswordsmith.com/products/fabulous-t-shirt",
+  "content_language": "en-US",
+  "reachable": true,
+  "title": "Fabulous Unisex Adult T-Shirt for Stylish Comfort in AU",
+  "canonical": "https://mrswordsmith.com/products/fabulous-t-shirt",
+  "meta_description": "Discover the fabulous unisex adult t-shirt, designed for comfort and style. Perfect for any occasion, it elevates your wardrobe effortlessly.",
+  "heading": "Fabulous Unisex Adult t-shirt",
+  "highlights": {
+    "present": true,
+    "count": 3,
+    "messages": [
+      "100% combed and ring-spun cotton",
+      "Regular fit",
+      "Pre-shrunk fabric"
+    ]
+  },
+  "description": {
+    "present": true,
+    "html": "<p class=\"p1\" data-mce-fragment=\"1\">Every trendsetter needs the perfect t-shirt! Our resident fashionista, Oz, thought you might like this one… a spectacular print of our leading lady, this tee is the ultimate accessory for any fabulous fashionista.<span class=\"Apple-converted-space\" data-mce-fragment=\"1\">  <br><br><span data-mce-fragment=\"1\">• Fabric weight: 4.2 oz./yd.² (142 g/m²)</span><br data-mce-fragment=\"1\"><span data-mce-fragment=\"1\">• Heather colors contain polyester</span><br data-mce-fragment=\"1\"><span data-mce-fragment=\"1\">• Side-seamed construction</span><br data-mce-fragment=\"1\"><span data-mce-fragment=\"1\">• Shoulder-to-shoulder taping</span><br data-mce-fragment=\"1\"><span data-mce-fragment=\"1\">• Single jersey</span><br></span></p>",
+    "text": "Every trendsetter needs the perfect t-shirt! Our resident fashionista, Oz, thought you might like this one… a spectacular print of our leading lady, this tee is the ultimate accessory for any fabulous fashionista. • Fabric weight: 4.2 oz./yd.² (142 g/m²) • Heather colors contain polyester • Side-seamed construction • Shoulder-to-shoulder taping • Single jersey",
+    "bullets": [],
+    "paragraphs": [
+      "Every trendsetter needs the perfect t-shirt! Our resident fashionista, Oz, thought you might like this one… a spectacular print of our leading lady, this tee is the ultimate accessory for any fabulous fashionista. • Fabric weight: 4.2 oz./yd.² (142 g/m²) • Heather colors contain polyester • Side-seamed construction • Shoulder-to-shoulder taping • Single jersey"
+    ]
+  },
+  "specifics": [],
+  "panels": [
+    "Product Description",
+    "Shipping & Returns"
+  ],
+  "badges": [],
+  "bundle_components": [],
+  "is_404": false,
+  "served_product_page": true,
+  "canonical_handle": "fabulous-t-shirt",
+  "canonical_is_self": true,
+  "raw_sha256": "254e28ecf5e450733b20e56bba98d860ac6272f3517d661fd8a02b87cbd25b5f",
+  "feed": {
+    "title": "Fabulous Unisex Adult t-shirt",
+    "product_type": "Merchandise",
+    "image_count": 4,
+    "variant_count": 9,
+    "carries_selection_tag": true
+  }
+}

@@ -1,0 +1,26 @@
+[
+  {
+    "step": "read",
+    "label": "Reading 14 product pages and 10 comparable pages, one request at a time",
+    "seconds": 93,
+    "display": "2 min"
+  },
+  {
+    "step": "compare",
+    "label": "Comparing each page with the pattern on comparable pages",
+    "seconds": 1,
+    "display": "under 1 s"
+  },
+  {
+    "step": "check",
+    "label": "Checking every line against the passage it rests on",
+    "seconds": 0,
+    "display": "under 1 s"
+  },
+  {
+    "step": "second-reader",
+    "label": "Second reader, across the batch",
+    "seconds": 131,
+    "display": "2 min"
+  }
+]

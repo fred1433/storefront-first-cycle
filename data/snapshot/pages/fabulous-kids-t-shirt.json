@@ -1,0 +1,53 @@
+{
+  "handle": "fabulous-kids-t-shirt",
+  "url": "https://mrswordsmith.com/products/fabulous-kids-t-shirt",
+  "role": "batch",
+  "market": "US",
+  "fetched_at": "2026-09-19T12:59:14.072Z",
+  "http_status": 200,
+  "final_url": "https://mrswordsmith.com/products/fabulous-kids-t-shirt",
+  "content_language": "en-US",
+  "reachable": true,
+  "title": "Fabulous Kids T-Shirt for Fun and Stylish Outfits",
+  "canonical": "https://mrswordsmith.com/products/fabulous-kids-t-shirt",
+  "meta_description": "Discover our fabulous kids t-shirt, designed for comfort and style. Perfect for playtime or everyday wear, it adds fun to any wardrobe.",
+  "heading": "Fabulous kids t-shirt",
+  "highlights": {
+    "present": true,
+    "count": 3,
+    "messages": [
+      "100% organic ring-spun combed cotton",
+      "Medium fit",
+      "Self fabric neck tape (inside, back of the neck)"
+    ]
+  },
+  "description": {
+    "present": true,
+    "html": "<p data-mce-fragment=\"1\" class=\"p1\">Every trendsetter needs the perfect t-shirt! Our resident fashionista, Oz, thought you might like this one… a spectacular print of our leading lady, this tee is the ultimate accessory for any fabulous fashionista.</p>\n<p data-mce-fragment=\"1\" class=\"p1\"><meta charset=\"utf-8\"><span data-mce-fragment=\"1\">• Fabric weight: 4.57 oz/yd² (155 g/m²)</span><br data-mce-fragment=\"1\"><span data-mce-fragment=\"1\">• Single jersey</span><br data-mce-fragment=\"1\"><span data-mce-fragment=\"1\">• Set-in sleeves</span><br data-mce-fragment=\"1\"><span data-mce-fragment=\"1\">• 1×1 rib at collar</span><br data-mce-fragment=\"1\"><span data-mce-fragment=\"1\">• Narrow double-needle topstitch on the sleeves and bottom hems</span><br data-mce-fragment=\"1\"></p>",
+    "text": "Every trendsetter needs the perfect t-shirt! Our resident fashionista, Oz, thought you might like this one… a spectacular print of our leading lady, this tee is the ultimate accessory for any fabulous fashionista. • Fabric weight: 4.57 oz/yd² (155 g/m²) • Single jersey • Set-in sleeves • 1×1 rib at collar • Narrow double-needle topstitch on the sleeves and bottom hems",
+    "bullets": [],
+    "paragraphs": [
+      "Every trendsetter needs the perfect t-shirt! Our resident fashionista, Oz, thought you might like this one… a spectacular print of our leading lady, this tee is the ultimate accessory for any fabulous fashionista.",
+      "• Fabric weight: 4.57 oz/yd² (155 g/m²) • Single jersey • Set-in sleeves • 1×1 rib at collar • Narrow double-needle topstitch on the sleeves and bottom hems"
+    ]
+  },
+  "specifics": [],
+  "panels": [
+    "Product Description",
+    "Shipping & Returns"
+  ],
+  "badges": [],
+  "bundle_components": [],
+  "is_404": false,
+  "served_product_page": true,
+  "canonical_handle": "fabulous-kids-t-shirt",
+  "canonical_is_self": true,
+  "raw_sha256": "87c22dd506d8064d11658c2c4772bbe97a7365049783d34b3a3e8b73685a711e",
+  "feed": {
+    "title": "Fabulous kids t-shirt",
+    "product_type": "Merchandise",
+    "image_count": 3,
+    "variant_count": 5,
+    "carries_selection_tag": true
+  }
+}

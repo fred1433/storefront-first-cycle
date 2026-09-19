@@ -1,0 +1,78 @@
+{
+  "market": {
+    "label": "United States",
+    "code": "US",
+    "origin": "https://mrswordsmith.com",
+    "note": "Default market of the primary domain. Recorded from the content-language response header of each page read."
+  },
+  "read_on": "2026-09-19",
+  "practices": [
+    {
+      "id": "scanning",
+      "statement": "A short block above the description is read by scanning, so each line has to carry one fact on its own.",
+      "source": "nng-how-users-read",
+      "quote": "People rarely read Web pages word by word; instead, they scan the page, picking out individual words and sentences."
+    },
+    {
+      "id": "plain-facts",
+      "statement": "Lines that state a fact are preferred to lines that praise the product.",
+      "source": "nng-how-users-read",
+      "quote": "Web users are busy: they want to get the straight facts."
+    },
+    {
+      "id": "field-identifiers",
+      "statement": "Where this block is stored is a shop setting, not something a page reveals, so the write target has to be confirmed inside the shop before anything is written.",
+      "source": "shopify-metafield-definitions",
+      "quote": "Metafield definitions are schemas that specify the structure, type, and rules for metafields."
+    }
+  ],
+  "observed": {
+    "note": "Measured on comparable product pages of the same storefront in the observed market. A pattern read from the outside is not a rule the shop has stated.",
+    "pages_read": 10,
+    "pages_serving_a_product": 9,
+    "pages_showing_the_block": 9,
+    "lines_per_page": {
+      "min": 3,
+      "median": 4,
+      "max": 5
+    },
+    "characters_per_line": {
+      "min": 30,
+      "median": 70,
+      "max": 156
+    },
+    "words_per_line": {
+      "min": 4,
+      "median": 11,
+      "max": 22
+    },
+    "placement": "Between the add to cart area and the description panel, under the product title.",
+    "recurring_subjects": [
+      "who the product is for, usually an age range",
+      "what the pack contains",
+      "what the child practises"
+    ]
+  },
+  "editorial": [
+    {
+      "id": "three-lines",
+      "statement": "Three lines per page, which is the lower end of what the comparable pages show, so nothing has to be stretched to fill a slot."
+    },
+    {
+      "id": "one-fact-per-line",
+      "statement": "One fact per line: who the product is for, what it contains, what the child practises."
+    },
+    {
+      "id": "no-performance-claims",
+      "statement": "No claim about sales rank, awards or savings, even where a comparable page makes one: those depend on figures that a product page does not carry."
+    },
+    {
+      "id": "stay-in-market",
+      "statement": "No detail that belongs to another market. Where a description explains a product through the school system of another country, that detail is left out rather than translated."
+    },
+    {
+      "id": "no-invented-attributes",
+      "statement": "Nothing is added from what a product of this kind usually has. A line exists only where the page already carries the fact."
+    }
+  ]
+}

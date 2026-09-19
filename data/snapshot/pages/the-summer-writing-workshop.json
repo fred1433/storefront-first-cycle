@@ -1,0 +1,63 @@
+{
+  "handle": "the-summer-writing-workshop",
+  "url": "https://mrswordsmith.com/products/the-summer-writing-workshop",
+  "role": "reference",
+  "market": "US",
+  "fetched_at": "2026-09-19T13:00:17.303Z",
+  "http_status": 200,
+  "final_url": "https://mrswordsmith.com/products/the-summer-writing-workshop",
+  "content_language": "en-US",
+  "reachable": true,
+  "title": "The Summer Writing Workshop",
+  "canonical": "https://mrswordsmith.com/products/the-summer-writing-workshop",
+  "meta_description": null,
+  "heading": "The Summer Writing Workshop",
+  "highlights": {
+    "present": true,
+    "count": 3,
+    "messages": [
+      "Vocabulary Development: Develops word understanding and awareness, with synonyms, word pairs, and more.",
+      "Structured Planning: Story Shapes section explains how to create Story Graphs – an illustrated planning framework to help kids structure their stories.",
+      "Word Awareness: Develops word understanding and awareness, with child-friendly definitions and word pairs to show kids how words are commonly used."
+    ]
+  },
+  "description": {
+    "present": true,
+    "html": "<p dir=\"ltr\"><span>For older kids, the summer slide hits their academic vocabulary and writing skills the hardest. But getting a 9-year-old to sit down and write during the holidays? That’s a challenge. <br><br>Enter the Summer Writing Workshop! We’ve combined our <strong>award-winning games</strong> with our <strong>best-selling vocabulary tools</strong> to make writing creative, competitive, and fun. Designed for ages 7–11, this bundle keeps their vocabulary rich and their writing sharp, providing everything they need to write captivating stories.</span></p>",
+    "text": "For older kids, the summer slide hits their academic vocabulary and writing skills the hardest. But getting a 9-year-old to sit down and write during the holidays? That’s a challenge. Enter the Summer Writing Workshop! We’ve combined our award-winning games with our best-selling vocabulary tools to make writing creative, competitive, and fun. Designed for ages 7–11, this bundle keeps their vocabulary rich and their writing sharp, providing everything they need to write captivating stories.",
+    "bullets": [],
+    "paragraphs": [
+      "For older kids, the summer slide hits their academic vocabulary and writing skills the hardest. But getting a 9-year-old to sit down and write during the holidays? That’s a challenge. Enter the Summer Writing Workshop! We’ve combined our award-winning games with our best-selling vocabulary tools to make writing creative, competitive, and fun. Designed for ages 7–11, this bundle keeps their vocabulary rich and their writing sharp, providing everything they need to write captivating stories."
+    ]
+  },
+  "specifics": [],
+  "panels": [
+    "Product Description",
+    "Shipping & Returns",
+    "FAQ's"
+  ],
+  "badges": [
+    {
+      "text": "Bundles",
+      "kind": "topic"
+    }
+  ],
+  "bundle_components": [
+    "Storyteller's Illustrated Dictionary",
+    "How to Write a Story Ages 8-10",
+    "Vocabularious",
+    "One Year of Word Tag® Gift card"
+  ],
+  "is_404": false,
+  "served_product_page": true,
+  "canonical_handle": "the-summer-writing-workshop",
+  "canonical_is_self": true,
+  "raw_sha256": "ab78ffab83a6cc0d26619d65abb6635128310c425ce19c58d84ceb92bd20746a",
+  "feed": {
+    "title": "The Summer Writing Workshop",
+    "product_type": "Bundles",
+    "image_count": 14,
+    "variant_count": 1,
+    "carries_selection_tag": false
+  }
+}
