@@ -1,7 +1,8 @@
 // What the page and the repository are not allowed to say, and the shape the lines keep.
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { readFile, readdir } from 'node:fs/promises';
+import { execFileSync } from 'node:child_process';
+import { readFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 
@@ -68,13 +69,34 @@ test('the proposed lines stay within the shape the storefront itself shows', () 
   }
 });
 
-test('the repository publishes no note about people and no address check', async () => {
-  const files = await readdir(root);
-  assert.ok(!files.includes('fiche_identite.json'));
-  const text = `${readme}\n${JSON.stringify(batch)}`.toLowerCase();
-  for (const phrase of ['linkedin.com/in/', 'millionverifier', '@mrswordsmith.com', 'companies house']) {
-    assert.ok(!text.includes(phrase), `the repository carries "${phrase}"`);
+// Everything git carries is public, so everything git carries is what is checked, not
+// the two files that happen to be loaded above. The needles are assembled from pieces so
+// that this file is not itself the thing that trips them.
+test('nothing the repository publishes is a note about a person or an address check', async () => {
+  const tracked = execFileSync('git', ['ls-files', '-z'], { cwd: root, encoding: 'utf8' })
+    .split('\0')
+    .filter(Boolean);
+  assert.ok(tracked.length > 30, 'the list of published files could not be read');
+  assert.ok(!tracked.includes('fiche_identite.json'));
+
+  const needles = [
+    ['linkedin', '.com/in/'].join(''),
+    ['million', 'verifier'].join(''),
+    ['@', 'mrswordsmith.com'].join(''),
+    ['companies', ' house'].join(''),
+    ['upwork', '.com'].join(''),
+  ];
+  const binary = /\.(png|jpg|jpeg|gif|webp|ico|woff2?|pdf)$/i;
+  let read = 0;
+  for (const file of tracked) {
+    if (binary.test(file)) continue;
+    const text = (await readFile(join(root, file), 'utf8')).toLowerCase();
+    read += 1;
+    for (const needle of needles) {
+      assert.ok(!text.includes(needle), `${file} carries "${needle}"`);
+    }
   }
+  assert.ok(read > 30, 'too few published files were opened for this to mean anything');
 });
 
 test('the selection is cited once, as the source of the selection', () => {

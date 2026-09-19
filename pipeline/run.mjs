@@ -43,13 +43,14 @@ const proposeSeconds = await runStep('propose.mjs');
 const timings = [
   {
     step: 'read',
-    label: `Reading 14 product pages and ${manifest.page_count - 14} comparable pages, one request at a time`,
+    // The counts are filled in by decide.mjs, from what was actually measured.
+    label: 'Reading {batch_pages} product URLs and {comparable_addresses} comparison URLs, one request at a time',
     seconds: Math.round(crawlSeconds),
     display: display(crawlSeconds),
   },
   {
     step: 'compare',
-    label: 'Comparing each page with the pattern on comparable pages',
+    label: 'Comparing each page with the pattern on the comparison pages',
     seconds: Math.round(extractSeconds + researchSeconds + mapSeconds),
     display: display(extractSeconds + researchSeconds + mapSeconds),
   },

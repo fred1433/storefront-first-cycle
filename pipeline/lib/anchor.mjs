@@ -3,6 +3,11 @@
 
 export const FIELDS = ['badge', 'contents', 'contents_count', 'description', 'bullet', 'specific'];
 
+// A count is a value, not a passage. Looked for the way a passage is looked for, "5" is
+// found inside "15", so a number is only ever matched whole.
+const COUNTED_FIELDS = new Set(['contents_count']);
+const isNumber = (text) => /^\d+(\.\d+)?$/.test(text);
+
 export function fieldValues(page, field) {
   switch (field) {
     case 'badge':
@@ -26,7 +31,10 @@ export function locateSource(page, source) {
   if (!FIELDS.includes(source.field)) throw new Error(`unknown source field: ${source.field}`);
   if (!source.quote) throw new Error('a source without a passage is not a source');
   const values = fieldValues(page, source.field);
-  const index = values.findIndex((value) => typeof value === 'string' && value.includes(source.quote));
+  const whole = COUNTED_FIELDS.has(source.field) || isNumber(source.quote);
+  const index = values.findIndex(
+    (value) => typeof value === 'string' && (whole ? value === source.quote : value.includes(source.quote)),
+  );
   if (index === -1) {
     throw new Error(`passage not found on ${page.handle} in field ${source.field}: "${source.quote}"`);
   }

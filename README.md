@@ -27,17 +27,26 @@ rules give for that page.
 ## What a proposed line is allowed to say
 
 Every line rests on a passage from **that product's own page, in the market that was read**.
-The passage is stored beside the line and shown on the published page. The build fails when a
-quoted passage is no longer in the stored reading, so a line cannot outlive the page it came
-from. Where two passages on one page disagree, no line is written: the disagreement is
-recorded instead, with both passages.
+The passage is stored beside the line and shown on the published page. `npm run build` runs
+`pipeline/verify.mjs` before it builds anything, so a quoted passage that is no longer in the
+stored reading stops the build and nothing is published. Those checks are against the dated
+snapshot, not the current storefront: the affected page would be re-read before any change.
+Where sources conflict about a claim, that claim is withheld, and the other supported lines of
+that page can still be proposed; the conflicting passages are recorded instead.
+
+Counts are matched whole. A source of `5` is not found inside a count of `15`.
 
 A second reader from another model family then sees the page material and the draft lines,
 with no argument for them, and rules on each line: identity and scope, strength, decomposition,
 conditions and context, contradictions and unknowns. Its verdicts are kept word for word in
-`data/jury/`. A line it did not pass as written cannot reach the page until a decision is
-recorded for it in `pipeline/decisions.json`, with the reason. That reason is shown next to
-the line.
+`data/jury/`, next to the prompt that produced them.
+
+A verdict belongs to one wording and to the material it was given, never to a line identifier
+on its own. `pipeline/decide.mjs` seals both from that stored prompt and refuses to carry a
+verdict over when either has moved since. It also refuses a decision without a valid outcome
+and a reason, a revision whose wording is not the one the reader asked for word for word, and
+a question the reader was asked and did not answer. `tests/guardrail.test.mjs` holds those
+cases, written as they were put to this repository from outside.
 
 The published page claims no human reading of the batch. The decision on the wording sits with
 the owner of the storefront.
@@ -50,7 +59,8 @@ They have different requirements and they are not the same operation.
 
 ```bash
 npm install
-npm test
+npm test           # the rules, the passages, the guard rail, the wording
+npm run verify     # every quoted passage, found again in the stored reading
 ```
 
 **Ask the models again.** Needs the `codex` command, signed in to its own subscription. This
@@ -83,9 +93,11 @@ Content prepared for review. Connector mapping not verified.
 Where this block is stored is a setting inside the shop, and a product page does not show it,
 so the write target has to be confirmed by someone with access before any value is sent. No
 import file is offered here: an import can overwrite values that were not meant to change. The
-plan is five steps, in this order: the wording is approved or amended, the field is confirmed
-on one product, that one product is changed, the rendered page is checked against the approved
-wording, and the previous value is kept so the change can be put back.
+plan is five steps, in this order: the wording is approved or amended, the field and market are
+confirmed on one product, the current value is saved and only that field on that product is
+changed, the rendered page is checked against the approved wording, and the previous value is
+restored if that check fails. `data/batch.json` carries `target_field: { status:
+"not_confirmed" }` so the package says this too, and not only the page.
 
 ## Layout
 
@@ -100,7 +112,9 @@ pipeline/     the steps, in the order they run
   propose.mjs     assemble the lines and check every passage they rest on
   jury.mjs        the second reader
   decide.mjs      settle the verdicts and build what the page reads
+  verify.mjs      find every quoted passage again in the stored reading, before the build
   run.mjs         the steps that need no network, with their timings
+  lib/review.mjs  the shape of the prompt, and the seal that binds a verdict to it
 data/
   snapshot/       the reading: one small record per page, plus the request manifest
   research.json   what the lines were shaped by

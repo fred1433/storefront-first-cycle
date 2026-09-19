@@ -1,9 +1,11 @@
 // Put the second reader's verdicts next to the draft lines and settle every disagreement.
 // A line the reader did not pass as written cannot reach the page until a decision is
 // recorded for it in decisions.json, with its reason.
+import { createHash } from 'node:crypto';
 import { readFile, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { answerFor, sealFromPrompt, sealOf, assertSealMatches, validateDecision } from './lib/review.mjs';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const root = join(here, '..');
@@ -13,13 +15,26 @@ const proposals = JSON.parse(await readFile(join(root, 'data', 'proposals.json')
 const research = JSON.parse(await readFile(join(root, 'data', 'research.json'), 'utf8'));
 const decisions = JSON.parse(await readFile(join(here, 'decisions.json'), 'utf8'));
 
+// Every verdict is taken back to the record of what was put to the second reader: the
+// material rebuilt from the stored reading, and each line word for word. A wording that
+// has moved since, or material that is no longer the material read, ends the run here.
 const juryFor = new Map();
 const seen = new Set();
 for (const entry of proposals.proposals) {
   const key = entry.shared_with || entry.handle;
   if (seen.has(key)) continue;
   seen.add(key);
-  juryFor.set(key, JSON.parse(await readFile(join(root, 'data', 'jury', `${key}.json`), 'utf8')));
+  const review = JSON.parse(await readFile(join(root, 'data', 'jury', `${key}.json`), 'utf8'));
+  const reviewed = proposals.proposals.find((candidate) => candidate.handle === key);
+  if (!reviewed) throw new Error(`the batch has verdicts for ${key} and no proposal to attach them to`);
+  const page = JSON.parse(await readFile(join(root, 'data', 'snapshot', 'pages', `${key}.json`), 'utf8'));
+  const prompt = await readFile(join(root, 'data', 'jury', `${key}.prompt.txt`), 'utf8');
+  if (review.prompt_sha256 && review.prompt_sha256 !== createHash('sha256').update(prompt, 'utf8').digest('hex')) {
+    throw new Error(`${key}: the record of what was sent to the second reader has changed since it answered`);
+  }
+  assertSealMatches(key, sealOf(page, reviewed.claims), sealFromPrompt(prompt));
+  for (const claim of reviewed.blocked) answerFor(key, claim, review.questions);
+  juryFor.set(key, review);
 }
 
 const sources = [];
@@ -65,11 +80,7 @@ const items = map.items.map((item) => {
     }
     const passed = verdict.verdict === 'Supported as written' && !verdict.requested_change;
     const decision = decisions[claim.id];
-    if (!passed && !decision) {
-      throw new Error(
-        `the second reader returned "${verdict.verdict}" for ${claim.id} and no decision is recorded in decisions.json`,
-      );
-    }
+    if (!passed) validateDecision(claim.id, decision, verdict);
     if (decision?.final_text?.includes('\u2014')) {
       throw new Error(`the settled wording of ${claim.id} uses a dash this project does not use`);
     }
@@ -83,6 +94,7 @@ const items = map.items.map((item) => {
       drafted_text: claim.text,
       outcome,
       note: decision?.note || null,
+      reserve: claim.reserve || null,
       sources: claim.sources,
       review: {
         verdict: verdict.verdict,
@@ -93,10 +105,14 @@ const items = map.items.map((item) => {
     };
   });
 
-  const blocked = proposal.blocked.map((claim) => {
-    const answer = review.questions.find((question) => question.id === claim.id) || null;
-    return { id: claim.id, intended: claim.intended, reason: claim.reason, sources: claim.sources, second_reader: answer };
-  });
+  const blocked = proposal.blocked.map((claim) => ({
+    id: claim.id,
+    intended: claim.intended,
+    reason: claim.reason,
+    withheld: claim.withheld,
+    sources: claim.sources,
+    second_reader: answerFor(key, claim, review.questions),
+  }));
 
   return { ...base, lines: lines.filter((line) => line.outcome !== 'withdrawn'), withdrawn: lines.filter((line) => line.outcome === 'withdrawn'), blocked };
 });
@@ -125,6 +141,9 @@ const batch = {
   market: config.market,
   read_on: config.snapshotDate,
   selection: config.selection,
+  // Where this block is stored is a setting inside the shop. Nothing read from outside
+  // can confirm it, so the package carries that as a property, not only as a sentence.
+  target_field: { status: 'not_confirmed' },
   counts,
   review: {
     lines_reviewed: Object.values(verdictTally).reduce((sum, count) => sum + count, 0),

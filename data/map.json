@@ -102,8 +102,8 @@
       "market": "US",
       "read_at": "2026-09-19T12:59:10.748Z",
       "status": "to_confirm",
-      "rule": "no-attribute-to-cite",
-      "reason": "The page carries description prose but no attribute a line could cite: no age or format badge, no listed contents, no attribute table.",
+      "rule": "no-structured-attribute-found",
+      "reason": "No separate attributes were found in the extracted badges, lists or tables. No highlights are proposed for this gift-card template. Please confirm whether it should carry a separate highlights block.",
       "observations": {
         "served_product_page": true,
         "http_status": 200,

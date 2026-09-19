@@ -20,6 +20,12 @@
           "sources": [
             {
               "field": "bullet",
+              "quote": "All 3 stages of Readiculous Readers",
+              "context": "All 3 stages of Readiculous Readers — 36 expertly sequenced, fully decodable paperback books in total.",
+              "position": 5
+            },
+            {
+              "field": "bullet",
               "quote": "36 expertly sequenced, fully decodable paperback books in total",
               "context": "All 3 stages of Readiculous Readers — 36 expertly sequenced, fully decodable paperback books in total.",
               "position": 5
@@ -31,7 +37,8 @@
               "position": 20
             }
           ],
-          "text": "All three stages of Readiculous Readers: 36 decodable paperback books in one set."
+          "text": "All three stages of Readiculous Readers: 36 decodable paperback books in one set.",
+          "reserve": null
         },
         {
           "id": "readiculous-audience",
@@ -62,7 +69,8 @@
               "position": 20
             }
           ],
-          "text": "For ages 4 to 7, with 12 books in each stage."
+          "text": "For ages 4 to 7, with 12 books in each stage.",
+          "reserve": null
         },
         {
           "id": "readiculous-method",
@@ -81,7 +89,8 @@
               "position": 12
             }
           ],
-          "text": "Each stage introduces new phonics patterns in context, and earlier sounds are revisited."
+          "text": "Each stage introduces new phonics patterns in context, and earlier sounds are revisited.",
+          "reserve": null
         }
       ],
       "blocked": [
@@ -109,6 +118,7 @@
             }
           ],
           "intended": "A line naming the school stage this set covers.",
+          "withheld": "A line naming the school stage is not proposed: the page shows different indications for it.",
           "reason": "The page gives two different answers. The badge row shows an age range of 4-7 next to a grade range that runs to 7th Grade, and the specifications name school years of another country. No line about school stage is proposed until the shop confirms which applies in this market."
         }
       ]
@@ -150,7 +160,8 @@
               "position": 0
             }
           ],
-          "text": "A digital bundle of five printable sets for Grade 1."
+          "text": "A digital bundle of five printable sets for Grade 1.",
+          "reserve": null
         },
         {
           "id": "grade1-contents",
@@ -175,7 +186,8 @@
               "position": 4
             }
           ],
-          "text": "Includes Foolproof Sight Words, Foolproof Phonics Part 2 and the Gargantuan Grade 1 Workbook."
+          "text": "Includes Foolproof Sight Words, Foolproof Phonics Part 2 and the Gargantuan Grade 1 Workbook.",
+          "reserve": null
         },
         {
           "id": "grade1-spelling",
@@ -194,7 +206,8 @@
               "position": 3
             }
           ],
-          "text": "Spelling practice comes in a mixed set and a targeted set."
+          "text": "Spelling practice comes in a mixed set and a targeted set.",
+          "reserve": null
         }
       ],
       "blocked": []
@@ -236,7 +249,8 @@
               "position": 0
             }
           ],
-          "text": "A digital bundle of three printable sets."
+          "text": "A digital bundle of three printable sets.",
+          "reserve": null
         },
         {
           "id": "grade56-contents",
@@ -261,7 +275,8 @@
               "position": 2
             }
           ],
-          "text": "Includes How to Write a Story and two sets of spelling practice, mixed and targeted."
+          "text": "Includes How to Write a Story and two sets of spelling practice, mixed and targeted.",
+          "reserve": null
         }
       ],
       "blocked": [
@@ -301,6 +316,7 @@
             }
           ],
           "intended": "A line naming the school year or the age this bundle is for.",
+          "withheld": "A line naming the school year or the age is not proposed: the page shows different indications for it.",
           "reason": "The page gives two different answers. The badges and the description place the bundle at Grade 5-6 and ages 10-12, while the items listed on the same page are labelled ages 8-10 and Grade 4-5. No line about school year is proposed until the shop confirms which applies."
         }
       ]
@@ -348,7 +364,8 @@
               "position": 4
             }
           ],
-          "text": "Includes the My Epic Life books, both See It! Stick It! sets and the phonics card game."
+          "text": "Includes the My Epic Life books, both See It! Stick It! sets and the phonics card game.",
+          "reserve": null
         },
         {
           "id": "epicmaster-audience",
@@ -373,7 +390,8 @@
               "position": 0
             }
           ],
-          "text": "For ages 5 to 8, Kindergarten to 2nd Grade."
+          "text": "For ages 5 to 8, Kindergarten to 2nd Grade.",
+          "reserve": null
         },
         {
           "id": "epicmaster-practice",
@@ -386,7 +404,8 @@
               "position": 0
             }
           ],
-          "text": "Covers phonics skills, reading fluency and early vocabulary."
+          "text": "Covers phonics skills, reading fluency and early vocabulary.",
+          "reserve": null
         }
       ],
       "blocked": []
@@ -428,7 +447,8 @@
               "position": 2
             }
           ],
-          "text": "Four volumes of the sticker books plus the phonics card game."
+          "text": "Four volumes of the sticker books plus the phonics card game.",
+          "reserve": null
         },
         {
           "id": "epicstarter-audience",
@@ -447,7 +467,8 @@
               "position": 2
             }
           ],
-          "text": "For ages 5 to 8, Kindergarten to 2nd Grade."
+          "text": "For ages 5 to 8, Kindergarten to 2nd Grade.",
+          "reserve": null
         },
         {
           "id": "epicstarter-practice",
@@ -460,7 +481,8 @@
               "position": 0
             }
           ],
-          "text": "Builds phonics skills and sight word reading."
+          "text": "Builds phonics skills and sight word reading.",
+          "reserve": "Present in the description, not further substantiated."
         }
       ],
       "blocked": []
@@ -496,7 +518,8 @@
               "position": 1
             }
           ],
-          "text": "Both card games in one bundle: Storyteller’s Card Game and Blah Blah Blah Phonics Card Game."
+          "text": "Both card games in one bundle: Storyteller’s Card Game and Blah Blah Blah Phonics Card Game.",
+          "reserve": null
         },
         {
           "id": "cardgame-audience",
@@ -515,7 +538,8 @@
               "position": 2
             }
           ],
-          "text": "For ages 3 to 12, Kindergarten to 7th Grade."
+          "text": "For ages 3 to 12, Kindergarten to 7th Grade.",
+          "reserve": null
         },
         {
           "id": "cardgame-practice",
@@ -528,7 +552,8 @@
               "position": 0
             }
           ],
-          "text": "Practises phonics skills, vocabulary and storytelling."
+          "text": "Practises phonics skills, vocabulary and storytelling.",
+          "reserve": null
         }
       ],
       "blocked": []
@@ -564,7 +589,8 @@
               "position": 1
             }
           ],
-          "text": "Both card games in one bundle: Storyteller’s Card Game and Blah Blah Blah Phonics Card Game."
+          "text": "Both card games in one bundle: Storyteller’s Card Game and Blah Blah Blah Phonics Card Game.",
+          "reserve": null
         },
         {
           "id": "cardgame-audience",
@@ -583,7 +609,8 @@
               "position": 2
             }
           ],
-          "text": "For ages 3 to 12, Kindergarten to 7th Grade."
+          "text": "For ages 3 to 12, Kindergarten to 7th Grade.",
+          "reserve": null
         },
         {
           "id": "cardgame-practice",
@@ -596,7 +623,8 @@
               "position": 0
             }
           ],
-          "text": "Practises phonics skills, vocabulary and storytelling."
+          "text": "Practises phonics skills, vocabulary and storytelling.",
+          "reserve": null
         }
       ],
       "blocked": []
@@ -638,7 +666,8 @@
               "position": 2
             }
           ],
-          "text": "Four volumes of the sticker books plus the phonics card game."
+          "text": "Four volumes of the sticker books plus the phonics card game.",
+          "reserve": null
         },
         {
           "id": "epicstarter-audience",
@@ -657,7 +686,8 @@
               "position": 2
             }
           ],
-          "text": "For ages 5 to 8, Kindergarten to 2nd Grade."
+          "text": "For ages 5 to 8, Kindergarten to 2nd Grade.",
+          "reserve": null
         },
         {
           "id": "epicstarter-practice",
@@ -670,7 +700,8 @@
               "position": 0
             }
           ],
-          "text": "Builds phonics skills and sight word reading."
+          "text": "Builds phonics skills and sight word reading.",
+          "reserve": "Present in the description, not further substantiated."
         }
       ],
       "blocked": []
@@ -718,7 +749,8 @@
               "position": 4
             }
           ],
-          "text": "Includes the My Epic Life books, both See It! Stick It! sets and the phonics card game."
+          "text": "Includes the My Epic Life books, both See It! Stick It! sets and the phonics card game.",
+          "reserve": null
         },
         {
           "id": "epicmaster-audience",
@@ -743,7 +775,8 @@
               "position": 0
             }
           ],
-          "text": "For ages 5 to 8, Kindergarten to 2nd Grade."
+          "text": "For ages 5 to 8, Kindergarten to 2nd Grade.",
+          "reserve": null
         },
         {
           "id": "epicmaster-practice",
@@ -756,7 +789,8 @@
               "position": 0
             }
           ],
-          "text": "Covers phonics skills, reading fluency and early vocabulary."
+          "text": "Covers phonics skills, reading fluency and early vocabulary.",
+          "reserve": null
         }
       ],
       "blocked": []

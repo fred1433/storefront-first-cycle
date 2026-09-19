@@ -18,14 +18,16 @@ export function decideStatus(page) {
       reason: `The block is already on the page, with ${page.highlights.count} lines.`,
     };
   }
-  const citable =
+  // This counts structured fields only. It says nothing about the description, so it
+  // reports what was not found rather than ruling that there is nothing to cite.
+  const structured =
     page.badges.length + page.bundle_components.length + page.description.bullets.length + page.specifics.length;
-  if (citable === 0) {
+  if (structured === 0) {
+    const template = (page.feed?.product_type || 'product').trim().toLowerCase().replace(/\s+/g, '-');
     return {
       status: 'to_confirm',
-      rule: 'no-attribute-to-cite',
-      reason:
-        'The page carries description prose but no attribute a line could cite: no age or format badge, no listed contents, no attribute table.',
+      rule: 'no-structured-attribute-found',
+      reason: `No separate attributes were found in the extracted badges, lists or tables. No highlights are proposed for this ${template} template. Please confirm whether it should carry a separate highlights block.`,
     };
   }
   return {

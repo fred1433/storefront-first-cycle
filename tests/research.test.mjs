@@ -33,6 +33,11 @@ test('the measured pattern matches the comparable pages that were read', async (
   const counts = withBlock.map((entry) => entry.highlights.count);
   assert.equal(observed.lines_per_page.min, Math.min(...counts));
   assert.equal(observed.lines_per_page.max, Math.max(...counts));
+
+  const lengths = withBlock.flatMap((entry) => entry.highlights.messages).map((line) => line.length).sort((a, b) => a - b);
+  const middle = Math.floor(lengths.length / 2);
+  const median = lengths.length % 2 ? lengths[middle] : (lengths[middle - 1] + lengths[middle]) / 2;
+  assert.equal(observed.characters_per_line.median, median, 'the median line length shown is not the median measured');
 });
 
 // How many pages were read is measured once. Every place that states it reads that
@@ -61,7 +66,7 @@ test('how many pages were read is stated from the measure, never typed in', asyn
 
 test('a measured pattern is presented as a reading, not as a rule of the shop', async () => {
   const page = await readFile(join(root, 'app', 'page.tsx'), 'utf8');
-  assert.ok(page.includes('not a rule you'), 'the page presents a measured pattern as a stated rule');
+  assert.ok(page.includes('not a\n                stated internal rule'), 'the page presents a measured pattern as a stated rule');
   assert.ok(batch.research.observed.note.includes('not a rule the shop has stated'));
 });
 

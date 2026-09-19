@@ -11,6 +11,9 @@
     "tag": "Missing USPs",
     "readOn": "2026-09-19"
   },
+  "target_field": {
+    "status": "not_confirmed"
+  },
   "counts": {
     "pages_read": 14,
     "proposal": 9,
@@ -40,9 +43,9 @@
         "id": "cardgame-practice",
         "product": "Family Game Bundle",
         "outcome": "revised",
-        "final_text": "Practises phonics skills, or challenging vocabulary and storytelling.",
+        "final_text": "Practises phonics skills or challenging vocabulary and storytelling.",
         "note": "Changed after review: the description joins the two aims with “or”, so the line keeps that rather than promising both.",
-        "settled_by": "the wording asked for, with a comma added",
+        "settled_by": "the wording asked for",
         "verdict": "Revise"
       }
     ]
@@ -144,13 +147,13 @@
   "timings": [
     {
       "step": "read",
-      "label": "Reading 14 product pages and 10 comparable addresses, one request at a time",
+      "label": "Reading 14 product URLs and 10 comparison URLs, one request at a time",
       "seconds": 93,
       "display": "2 min"
     },
     {
       "step": "compare",
-      "label": "Comparing each page with the pattern on comparable pages",
+      "label": "Comparing each page with the pattern on the comparison pages",
       "seconds": 1,
       "display": "under 1 s"
     },
@@ -186,7 +189,14 @@
           "drafted_text": "All three stages of Readiculous Readers: 36 decodable paperback books in one set.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
+            {
+              "field": "bullet",
+              "quote": "All 3 stages of Readiculous Readers",
+              "context": "All 3 stages of Readiculous Readers — 36 expertly sequenced, fully decodable paperback books in total.",
+              "position": 5
+            },
             {
               "field": "bullet",
               "quote": "36 expertly sequenced, fully decodable paperback books in total",
@@ -213,6 +223,7 @@
           "drafted_text": "For ages 4 to 7, with 12 books in each stage.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
             {
               "field": "badge",
@@ -252,6 +263,7 @@
           "drafted_text": "Each stage introduces new phonics patterns in context, and earlier sounds are revisited.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
             {
               "field": "bullet",
@@ -280,6 +292,7 @@
           "id": "readiculous-school-stage",
           "intended": "A line naming the school stage this set covers.",
           "reason": "The page gives two different answers. The badge row shows an age range of 4-7 next to a grade range that runs to 7th Grade, and the specifications name school years of another country. No line about school stage is proposed until the shop confirms which applies in this market.",
+          "withheld": "A line naming the school stage is not proposed: the page shows different indications for it.",
           "sources": [
             {
               "field": "badge",
@@ -313,8 +326,8 @@
       "title": "Mrs Wordsmith Gift Card",
       "url": "https://mrswordsmith.com/products/mrs-wordsmith-gift-card",
       "status": "to_confirm",
-      "reason": "The page carries description prose but no attribute a line could cite: no age or format badge, no listed contents, no attribute table.",
-      "rule": "no-attribute-to-cite",
+      "reason": "No separate attributes were found in the extracted badges, lists or tables. No highlights are proposed for this gift-card template. Please confirm whether it should carry a separate highlights block.",
+      "rule": "no-structured-attribute-found",
       "shared_with": null,
       "canonical_handle": "mrs-wordsmith-gift-card",
       "current_lines": [],
@@ -421,6 +434,7 @@
           "drafted_text": "A digital bundle of five printable sets for Grade 1.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
             {
               "field": "badge",
@@ -460,6 +474,7 @@
           "drafted_text": "Includes Foolproof Sight Words, Foolproof Phonics Part 2 and the Gargantuan Grade 1 Workbook.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
             {
               "field": "contents",
@@ -493,6 +508,7 @@
           "drafted_text": "Spelling practice comes in a mixed set and a targeted set.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
             {
               "field": "contents",
@@ -536,6 +552,7 @@
           "drafted_text": "A digital bundle of three printable sets.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
             {
               "field": "badge",
@@ -575,6 +592,7 @@
           "drafted_text": "Includes How to Write a Story and two sets of spelling practice, mixed and targeted.",
           "outcome": "revised",
           "note": "Changed after review: the items are named as the page lists them, age and grade labels included.",
+          "reserve": null,
           "sources": [
             {
               "field": "contents",
@@ -609,6 +627,7 @@
           "id": "grade56-school-year",
           "intended": "A line naming the school year or the age this bundle is for.",
           "reason": "The page gives two different answers. The badges and the description place the bundle at Grade 5-6 and ages 10-12, while the items listed on the same page are labelled ages 8-10 and Grade 4-5. No line about school year is proposed until the shop confirms which applies.",
+          "withheld": "A line naming the school year or the age is not proposed: the page shows different indications for it.",
           "sources": [
             {
               "field": "badge",
@@ -667,6 +686,7 @@
           "drafted_text": "Includes the My Epic Life books, both See It! Stick It! sets and the phonics card game.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
             {
               "field": "contents",
@@ -712,6 +732,7 @@
           "drafted_text": "For ages 5 to 8, Kindergarten to 2nd Grade.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
             {
               "field": "badge",
@@ -745,6 +766,7 @@
           "drafted_text": "Covers phonics skills, reading fluency and early vocabulary.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
             {
               "field": "description",
@@ -782,6 +804,7 @@
           "drafted_text": "Four volumes of the sticker books plus the phonics card game.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
             {
               "field": "description",
@@ -821,6 +844,7 @@
           "drafted_text": "For ages 5 to 8, Kindergarten to 2nd Grade.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
             {
               "field": "badge",
@@ -848,6 +872,7 @@
           "drafted_text": "Builds phonics skills and sight word reading.",
           "outcome": "kept",
           "note": null,
+          "reserve": "Present in the description, not further substantiated.",
           "sources": [
             {
               "field": "description",
@@ -885,6 +910,7 @@
           "drafted_text": "Both card games in one bundle: Storyteller’s Card Game and Blah Blah Blah Phonics Card Game.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
             {
               "field": "description",
@@ -918,6 +944,7 @@
           "drafted_text": "For ages 3 to 12, Kindergarten to 7th Grade.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
             {
               "field": "badge",
@@ -941,10 +968,11 @@
         },
         {
           "id": "cardgame-practice",
-          "text": "Practises phonics skills, or challenging vocabulary and storytelling.",
+          "text": "Practises phonics skills or challenging vocabulary and storytelling.",
           "drafted_text": "Practises phonics skills, vocabulary and storytelling.",
           "outcome": "revised",
           "note": "Changed after review: the description joins the two aims with “or”, so the line keeps that rather than promising both.",
+          "reserve": null,
           "sources": [
             {
               "field": "description",
@@ -982,6 +1010,7 @@
           "drafted_text": "Both card games in one bundle: Storyteller’s Card Game and Blah Blah Blah Phonics Card Game.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
             {
               "field": "description",
@@ -1015,6 +1044,7 @@
           "drafted_text": "For ages 3 to 12, Kindergarten to 7th Grade.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
             {
               "field": "badge",
@@ -1038,10 +1068,11 @@
         },
         {
           "id": "cardgame-practice",
-          "text": "Practises phonics skills, or challenging vocabulary and storytelling.",
+          "text": "Practises phonics skills or challenging vocabulary and storytelling.",
           "drafted_text": "Practises phonics skills, vocabulary and storytelling.",
           "outcome": "revised",
           "note": "Changed after review: the description joins the two aims with “or”, so the line keeps that rather than promising both.",
+          "reserve": null,
           "sources": [
             {
               "field": "description",
@@ -1079,6 +1110,7 @@
           "drafted_text": "Four volumes of the sticker books plus the phonics card game.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
             {
               "field": "description",
@@ -1118,6 +1150,7 @@
           "drafted_text": "For ages 5 to 8, Kindergarten to 2nd Grade.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
             {
               "field": "badge",
@@ -1145,6 +1178,7 @@
           "drafted_text": "Builds phonics skills and sight word reading.",
           "outcome": "kept",
           "note": null,
+          "reserve": "Present in the description, not further substantiated.",
           "sources": [
             {
               "field": "description",
@@ -1182,6 +1216,7 @@
           "drafted_text": "Includes the My Epic Life books, both See It! Stick It! sets and the phonics card game.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
             {
               "field": "contents",
@@ -1227,6 +1262,7 @@
           "drafted_text": "For ages 5 to 8, Kindergarten to 2nd Grade.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
             {
               "field": "badge",
@@ -1260,6 +1296,7 @@
           "drafted_text": "Covers phonics skills, reading fluency and early vocabulary.",
           "outcome": "kept",
           "note": null,
+          "reserve": null,
           "sources": [
             {
               "field": "description",

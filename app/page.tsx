@@ -7,6 +7,7 @@ type Line = {
   drafted_text: string;
   outcome: string;
   note: string | null;
+  reserve: string | null;
   sources: Source[];
   review: {
     verdict: string;
@@ -18,6 +19,7 @@ type Line = {
 type Blocked = {
   id: string;
   intended: string;
+  withheld: string;
   reason: string;
   sources: Source[];
   second_reader: { answer: string; reason: string } | null;
@@ -66,8 +68,10 @@ const fieldLabel: Record<string, string> = {
 };
 
 const readOn = '19 September 2026';
+const words = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine', 'ten'];
+const inWords = (count: number) => words[count] ?? String(count);
+const opening = (count: number) => `${inWords(count).charAt(0).toUpperCase()}${inWords(count).slice(1)}`;
 const pathOf = (url: string) => new URL(url).pathname;
-const firstSentence = (text: string) => `${text.split('. ')[0]}.`;
 
 function Marker() {
   return (
@@ -97,6 +101,7 @@ function Evidence({ line }: { line: Line }) {
           </li>
         ))}
       </ul>
+      {line.reserve ? <p className="mt-3 text-[14px] leading-[1.6] text-amber">{line.reserve}</p> : null}
       <p className="mt-4 text-[14px] leading-[1.6] text-muted">
         <span className="text-bronze">Second reader: {line.review.verdict}.</span> {line.review.reason}
         {line.review.requested_change ? ` Wording asked for: “${line.review.requested_change}”.` : ''}
@@ -144,14 +149,14 @@ function ItemCard({ item, twins, open }: { item: Item; twins: Item[]; open: bool
             </div>
             {blocked.map((entry) => (
               <p key={entry.id} className="mt-4 text-[14.5px] leading-[1.6] text-ink-soft">
-                <span className="text-amber">Not proposed. </span>
-                {entry.intended} {firstSentence(entry.reason)}
+                <span className="text-amber">Withheld. </span>
+                {entry.withheld}
               </p>
             ))}
             <details className="mt-4">
               <summary className="flex items-center gap-2.5 text-[14px] text-muted hover:text-ink">
                 <Marker />
-                {blocked.length ? 'Where each line comes from, and why one was not written' : 'Where each line comes from'}
+                {blocked.length ? 'Where each line comes from, and what was withheld' : 'Where each line comes from'}
               </summary>
               <div className="mt-5 border-l border-rule pl-5 sm:pl-6">
                 {lines.map((line) => (
@@ -159,7 +164,7 @@ function ItemCard({ item, twins, open }: { item: Item; twins: Item[]; open: bool
                 ))}
                 {blocked.map((entry) => (
                   <div key={entry.id} className="border-t border-rule-soft py-5">
-                    <p className="text-[15px] leading-[1.6] text-ink">Not proposed: {entry.intended}</p>
+                    <p className="text-[15px] leading-[1.6] text-ink">Withheld: {entry.intended}</p>
                     <p className="mt-2 text-[14px] leading-[1.6] text-ink-soft">{entry.reason}</p>
                     {entry.second_reader ? (
                       <p className="mt-3 text-[14px] leading-[1.6] text-muted">
@@ -188,11 +193,9 @@ function ItemCard({ item, twins, open }: { item: Item; twins: Item[]; open: bool
           </div>
         ) : null}
 
-        {item.status === 'to_confirm' ? (
+        {item.status === 'to_confirm' && item.rechecks.length ? (
           <p className="rounded-xl border border-[#e6dcc2] bg-[#fdfaf2] px-6 py-4 text-[15px] leading-[1.65] text-ink-soft md:px-7">
-            {item.rechecks.length
-              ? `Read ${item.rechecks.length + 1} times on ${readOn}. Each request was sent to the product address and answered with a redirect to the storefront home page.`
-              : 'A line here would restate the description rather than add a fact, so the page is left for you to decide what a reader should see.'}
+            {`Read ${item.rechecks.length + 1} times on ${readOn}. Each request was sent to the product address and answered with a redirect to the storefront home page.`}
           </p>
         ) : null}
 
@@ -201,7 +204,7 @@ function ItemCard({ item, twins, open }: { item: Item; twins: Item[]; open: bool
             <>
               Served at {addresses.length === 2 ? 'two' : addresses.length} addresses,{' '}
               {addresses.length === 2 ? 'both' : 'all'} answered with the same canonical address, so one set of lines
-              stands for {addresses.length === 2 ? 'both' : 'them'}. The page as read:{' '}
+              stands for {addresses.length === 2 ? 'both' : 'them'}. Live product pages:{' '}
               {addresses.map((address, index) => (
                 <span key={address.handle}>
                   {index > 0 ? ', ' : ''}
@@ -213,7 +216,7 @@ function ItemCard({ item, twins, open }: { item: Item; twins: Item[]; open: bool
             </>
           ) : (
             <a className="underline decoration-rule underline-offset-4 hover:text-ink" href={item.url}>
-              The page as read
+              Live product page
             </a>
           )}
         </p>
@@ -230,16 +233,18 @@ export default function Page() {
 
   return (
     <main className="mx-auto w-full max-w-[760px] px-6 sm:px-8">
-      {/* 1. The work and its scope */}
-      <section className="pt-14 pb-14 md:pt-16 md:pb-16">
+      {/* 1. The result, then the batch it comes from */}
+      <section className="pt-14 pb-14 md:pt-16 md:pb-14">
         <p className="text-[12.5px] uppercase tracking-[0.18em] text-bronze">
           Independent sample by The AI Pipe
         </p>
         <h1 className="mt-6 text-[42px] font-semibold leading-[1.04] tracking-[-0.028em] text-ink sm:text-[56px] md:text-[68px]">
           Product highlights for review
         </h1>
-        <p className="mt-8 max-w-[560px] text-[18px] leading-[1.65] text-ink-soft md:text-[19px]">
-          A first proposal batch prepared from your public product pages. Nothing has been changed in your store.
+        <p className="mt-8 max-w-[700px] text-[18px] leading-[1.6] text-ink-soft md:text-[19px]">
+          {counts.pages_read} products checked. {opening(counts.distinct_texts)} proposed blocks cover{' '}
+          {inWords(counts.proposal)} product URLs; {inWords(counts.no_change)} pages already have highlights, and{' '}
+          {inWords(counts.to_confirm)} cases remain to confirm.
         </p>
         <div className="mt-8 flex flex-col gap-y-2 text-[14.5px] text-muted sm:flex-row sm:flex-wrap sm:gap-x-6">
           <span>{batch.market.label} storefront</span>
@@ -247,29 +252,15 @@ export default function Page() {
             /
           </span>
           <span>read on {readOn}</span>
-          <span aria-hidden="true" className="hidden text-rule sm:inline">
-            /
-          </span>
-          <span>{counts.pages_read} product pages</span>
         </div>
-        <p className="mt-6 max-w-[620px] text-[15px] leading-[1.7] text-muted">
-          This is a sample of the recurring work I would operate within your existing setup.
+        <p className="mt-6 max-w-[700px] text-[15px] leading-[1.7] text-muted">
+          Nothing has been changed in your store. This is a sample of the recurring work I would operate within your
+          existing setup.
         </p>
       </section>
 
-      {/* 2. The decision */}
-      <section className="border-t border-rule pt-14 pb-14 md:pt-16 md:pb-16">
-        <h2 className="text-[30px] font-semibold leading-[1.15] tracking-[-0.022em] text-ink md:text-[38px]">
-          The batch
-        </h2>
-        <p className="mt-6 max-w-[700px] text-[16px] leading-[1.7] text-ink-soft">
-          Every page was opened before anything was written. {counts.proposal} came back with a proposal,{' '}
-          {counts.no_change} already carry the block, {counts.to_confirm} need a decision from you. The proposals
-          hold {counts.distinct_texts} sets of wording, because three addresses are served as the same product. The
-          order is a review order, not a ranking.
-        </p>
-
-        <div className="mt-8">
+      <section className="pb-14 md:pb-16">
+        <div>
           {groups.map((group) => {
             const inGroup = items.filter((item) => item.status === group.key);
             // A page served with the canonical address of another page of the batch carries the
@@ -336,10 +327,10 @@ export default function Page() {
             <ol className="mt-5 space-y-2 text-[15.5px] leading-[1.6] text-ink-soft">
               {[
                 'You approve or amend the wording.',
-                'We confirm the field that feeds the block on one product.',
-                'That one product is changed, and nothing else.',
-                'The rendered page is checked against the approved wording.',
-                'The previous value is kept so the change can be put back.',
+                'We confirm the field and market on one product.',
+                'We save the current value, then change only that field on that product.',
+                'We check the rendered page against the approved wording.',
+                'We restore the previous value if the check fails.',
               ].map((step, index) => (
                 <li key={step} className="flex gap-4">
                   <span className="w-4 shrink-0 text-muted">{index + 1}</span>
@@ -356,27 +347,30 @@ export default function Page() {
             </summary>
             <div className="mt-6 space-y-6 border-l border-rule pl-5 sm:pl-6">
               <p className="max-w-[620px] text-[15.5px] leading-[1.7] text-ink-soft">
-                Each line rests on a passage from that product’s own page, quoted above it. The build fails if a
-                quoted passage is no longer in the stored reading, so a line cannot outlive the page it came from.
-                Where two passages on one page disagree, no line is written and the disagreement is shown instead.
+                Each line rests on a passage from that product’s own page, quoted above it. Where sources conflict
+                about a claim, that claim is withheld. Other supported lines can still be proposed.
               </p>
               <p className="max-w-[620px] text-[15.5px] leading-[1.7] text-ink-soft">
-                The shape of the lines follows your own pages. Of the {observed.pages_read} comparable addresses
-                requested, {observed.pages_serving_a_product} served a product page, and{' '}
-                {observed.pages_showing_the_block === observed.pages_serving_a_product
-                  ? `all ${observed.pages_showing_the_block}`
-                  : `${observed.pages_showing_the_block} of them`}{' '}
-                carry the block, with {observed.lines_per_page.min} to {observed.lines_per_page.max} lines of around{' '}
-                {observed.characters_per_line.median} characters. That is a pattern read from outside, not a rule you
-                have stated.
+                The checks verify quoted passages against the dated snapshot, not the current storefront. The
+                affected page would be re-read before any change. Building this page runs those checks first: if a
+                quoted passage is no longer in the stored reading, the build stops and nothing is published.
+              </p>
+              <p className="max-w-[620px] text-[15.5px] leading-[1.7] text-ink-soft">
+                The shape of the lines follows your own pages. {opening(observed.pages_read)} comparison URLs were
+                requested. {opening(observed.pages_serving_a_product)} returned product pages,{' '}
+                {observed.pages_showing_the_block === observed.pages_serving_a_product ? 'all' : 'some'} with{' '}
+                {inWords(observed.lines_per_page.min)} to {inWords(observed.lines_per_page.max)} highlights. Median
+                line length: {observed.characters_per_line.median} characters. This is an observed pattern, not a
+                stated internal rule.
               </p>
               <p className="max-w-[620px] text-[15.5px] leading-[1.7] text-ink-soft">
                 Each line is written to be carried into a task board as it stands: one product, one market, the
                 wording, the passages it rests on, the field still to confirm.
               </p>
               <div>
-                <p className="text-[14px] text-muted">
-                  Time spent by the steps that produced this batch, apart from building this page.
+                <p className="max-w-[620px] text-[14px] leading-[1.7] text-muted">
+                  Recorded timings for the measured steps only. Drafting, decision-making, additional checks and
+                  building this demonstration are not included.
                 </p>
                 <dl className="mt-4 border-t border-rule-soft">
                   {batch.timings.map((entry) => (

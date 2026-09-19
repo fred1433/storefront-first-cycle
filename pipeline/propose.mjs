@@ -26,9 +26,10 @@ for (const item of map.items) {
     const located = checkClaim(page, claim);
     const entry = { id: claim.id, product: item.handle, sources: located };
     if (claim.blocked) {
-      blocked.push({ ...entry, intended: claim.intended, reason: claim.reason });
+      if (!claim.withheld) throw new Error(`${claim.id} is withheld and does not say so in one sentence`);
+      blocked.push({ ...entry, intended: claim.intended, withheld: claim.withheld, reason: claim.reason });
     } else {
-      proposed.push({ ...entry, text: claim.text });
+      proposed.push({ ...entry, text: claim.text, reserve: claim.reserve || null });
     }
   }
   proposals.push({

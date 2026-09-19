@@ -1,13 +1,13 @@
 [
   {
     "step": "read",
-    "label": "Reading {batch_pages} product pages and {comparable_addresses} comparable addresses, one request at a time",
+    "label": "Reading {batch_pages} product URLs and {comparable_addresses} comparison URLs, one request at a time",
     "seconds": 93,
     "display": "2 min"
   },
   {
     "step": "compare",
-    "label": "Comparing each page with the pattern on comparable pages",
+    "label": "Comparing each page with the pattern on the comparison pages",
     "seconds": 1,
     "display": "under 1 s"
   },

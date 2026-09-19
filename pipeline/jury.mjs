@@ -7,6 +7,7 @@ import { spawn } from 'node:child_process';
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { dirname, join } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { draftBlock, materialBlock } from './lib/review.mjs';
 
 /** The prompt goes in on stdin: passed as an argument, the command does not start. */
 function readReview(args, prompt) {
@@ -34,17 +35,8 @@ await mkdir(juryDir, { recursive: true });
 const list = (values) => (values.length ? values.map((value) => `  - ${value}`).join('\n') : '  (none on this page)');
 
 function buildPrompt(page, entry) {
-  const material = [
-    `Description text: ${page.description.text || '(none)'}`,
-    `Description bullet points:\n${list(page.description.bullets)}`,
-    `Badges shown under the product title:\n${list(page.badges.map((badge) => badge.text))}`,
-    `Items listed on the page as included:\n${list(page.bundle_components)}`,
-    `Attribute table:\n${list(page.specifics.map((row) => `${row.label}: ${row.value}`))}`,
-  ].join('\n\n');
-
-  const lines = entry.claims
-    .map((claim, index) => `${index + 1}. id "${claim.id}": "${claim.text}"`)
-    .join('\n');
+  const material = materialBlock(page);
+  const lines = draftBlock(entry.claims);
 
   const questions = entry.blocked
     .map(
