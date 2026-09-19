@@ -12,7 +12,7 @@
     "propose": "node pipeline/propose.mjs",
     "jury": "node pipeline/jury.mjs",
     "decide": "node pipeline/decide.mjs",
-    "test": "node --test tests/",
+    "test": "node --test tests/*.test.mjs",
     "dev": "next dev",
     "build": "next build",
     "start": "next start"
