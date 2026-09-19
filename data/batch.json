@@ -144,7 +144,7 @@
   "timings": [
     {
       "step": "read",
-      "label": "Reading 14 product pages and 10 comparable pages, one request at a time",
+      "label": "Reading 14 product pages and 10 comparable addresses, one request at a time",
       "seconds": 93,
       "display": "2 min"
     },

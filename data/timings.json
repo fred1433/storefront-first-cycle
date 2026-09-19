@@ -1,7 +1,7 @@
 [
   {
     "step": "read",
-    "label": "Reading 14 product pages and 10 comparable pages, one request at a time",
+    "label": "Reading {batch_pages} product pages and {comparable_addresses} comparable addresses, one request at a time",
     "seconds": 93,
     "display": "2 min"
   },

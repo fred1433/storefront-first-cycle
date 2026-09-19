@@ -35,6 +35,30 @@ test('the measured pattern matches the comparable pages that were read', async (
   assert.equal(observed.lines_per_page.max, Math.max(...counts));
 });
 
+// How many pages were read is measured once. Every place that states it reads that
+// measure, so two parts of the page cannot give two different counts, as they did.
+test('how many pages were read is stated from the measure, never typed in', async () => {
+  const page = await readFile(join(root, 'app', 'page.tsx'), 'utf8');
+  assert.ok(!/\b\d+ comparable\b/.test(page), 'the page types a count of comparable pages');
+  assert.ok(!/\b\d+ product pages\b/.test(page), 'the page types a count of product pages');
+
+  const stored = JSON.parse(await readFile(join(root, 'data', 'timings.json'), 'utf8'));
+  for (const entry of stored) {
+    assert.ok(!/\d/.test(entry.label), `the stored label of "${entry.step}" carries a count typed by hand`);
+  }
+
+  const read = batch.timings.find((entry) => entry.step === 'read');
+  assert.ok(!read.label.includes('{'), 'a count the label asks for was never filled in');
+  assert.ok(
+    read.label.includes(` ${batch.counts.pages_read} `),
+    'the machine time does not state the number of pages the batch itself counts',
+  );
+  assert.ok(
+    read.label.includes(` ${batch.research.observed.pages_read} `),
+    'the machine time does not state the number of comparable addresses that were measured',
+  );
+});
+
 test('a measured pattern is presented as a reading, not as a rule of the shop', async () => {
   const page = await readFile(join(root, 'app', 'page.tsx'), 'utf8');
   assert.ok(page.includes('not a rule you'), 'the page presents a measured pattern as a stated rule');

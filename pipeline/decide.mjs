@@ -101,17 +101,31 @@ const items = map.items.map((item) => {
   return { ...base, lines: lines.filter((line) => line.outcome !== 'withdrawn'), withdrawn: lines.filter((line) => line.outcome === 'withdrawn'), blocked };
 });
 
-const timings = JSON.parse(await readFile(join(root, 'data', 'timings.json'), 'utf8'));
+const counts = {
+  pages_read: map.items.length,
+  ...map.counts,
+  distinct_texts: proposals.totals.distinct_texts,
+};
+
+// How many pages were read is counted once, here, and every label that states it is
+// filled from that count. No label carries a number typed by hand.
+const numbers = {
+  batch_pages: counts.pages_read,
+  comparable_addresses: research.observed.pages_read,
+};
+const timings = JSON.parse(await readFile(join(root, 'data', 'timings.json'), 'utf8')).map((entry) => {
+  const label = entry.label.replace(/\{(\w+)\}/g, (_, name) => {
+    if (!(name in numbers)) throw new Error(`the timing "${entry.step}" asks for a count that is not measured: ${name}`);
+    return String(numbers[name]);
+  });
+  return { ...entry, label };
+});
 
 const batch = {
   market: config.market,
   read_on: config.snapshotDate,
   selection: config.selection,
-  counts: {
-    pages_read: map.items.length,
-    ...map.counts,
-    distinct_texts: proposals.totals.distinct_texts,
-  },
+  counts,
   review: {
     lines_reviewed: Object.values(verdictTally).reduce((sum, count) => sum + count, 0),
     lines_on_pages: linesOnPages,
